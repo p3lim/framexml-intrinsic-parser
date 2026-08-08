@@ -156,22 +156,27 @@ def parse_table_field(table: Table, field: astnodes.Field) -> None:
   if hasattr(field.key, "id"):
     name = field.key.id
   elif hasattr(field.key, "idx"):
-    if isinstance(field.key, astnodes.Index):
-      if field.key.notation == ast.IndexNotation.DOT:
-        name = f"{field.key.value.id}.{field.key.idx.id}"
+    if hasattr(field.key.value, "id"):
+      name = f"{field.key.value.id}.{field.key.idx.id}"
+    elif hasattr(field.key.value, "idx"):
+      if hasattr(field.key.value.value, "id"):
+        name = f"{field.key.value.value.id}.{field.key.value.idx.id}.{field.key.idx.id}"
+
+  if name is None:
+    # TODO: we should error here
+    return
 
   value = None
   kind = None
   if isinstance(field.value, astnodes.Index):
     if hasattr(field.value, "idx"):
-      if hasattr(field.value.value, "idx"):
-        if hasattr(field.value.value.value, "id"):
-          # value = f"{field.value.value.id}.{field.value.idx.id}"
-          value = f"{field.value.value.value.id}.{field.value.value.idx.id}.{field.value.idx.id}"
-          kind = f"{field.value.value.value.id}.{field.value.value.idx.id}"
-      elif hasattr(field.value.value, "id"):
+      if hasattr(field.value.value, "id"):
         value = f"{field.value.value.id}.{field.value.idx.id}"
         kind = field.value.value.id
+      elif hasattr(field.value.value, "idx"):
+        if hasattr(field.value.value.value, "id"):
+          value = f"{field.value.value.value.id}.{field.value.value.idx.id}.{field.value.idx.id}"
+          kind = f"{field.value.value.value.id}.{field.value.value.idx.id}"
   elif isinstance(field.value, astnodes.Call):
     if hasattr(field.value, "func"):
       if hasattr(field.value.func, "value") and field.value.func.value.id == "bit":
