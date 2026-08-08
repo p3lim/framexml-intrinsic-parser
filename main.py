@@ -120,9 +120,6 @@ def main() -> None:
       for template in intrinsics_dict[intrinsic]["templates"]:
         referenced_mixins[intrinsic].extend(templates_dict[template]["mixins"])
 
-    # TODO: ^ do something similar for structure tables?
-    #       i.e. the ones from Blizzard_AuraContainerShared.lua
-
   # build unique pages for the mixins' methods
   api_pages = {}
   for intrinsic, mixins in referenced_mixins.items():
