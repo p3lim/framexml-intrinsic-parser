@@ -1,0 +1,98 @@
+{{intrinsic}} {{tocright}}
+{| {{apitable}}}
+{{apirow | Instantiation | <code>{{api|CreateFrame}}("[[name]]")</code>}}
+|}
+
+This is an [% raw %][[intrinsic frame]][% endraw %]. It has all the methods from {{api|t=o|[[ data.type ]]}} and these mixins:
+[%- for mixin in data.mixins | sort %]
+* {{tlygo|[[ mixin ]]}}
+[%- endfor %]
+[% for template in data.templates %]
+[%- if templates[template].mixins | length > 0 %]
+If {{tlygo|[[ template ]]}} is inherited the methods from these mixins are also available:
+[%- for mixin in templates[template].mixins | sort %]
+* {{tlygo|[[ mixin ]]}}
+[%- endfor %]
+[%- endif %]
+[%- endfor %]
+
+[%- if data.aspects | length > 0 %]
+
+==Forbidden Aspects==
+This data object has these [% raw %][[ forbidden aspect]]s[% endraw %] attached to it, which will restrict which methods and script types it can access.
+[%- for aspect in data.aspects %]
+* [[ aspect ]]
+[%- endfor %]
+[%- endif %]
+
+==Methods==
+{| class="darktable zebra"
+| <onlyinclude>{{#switch:{{{1|method}}}|method=
+[%- set included_mixins = [] %]
+[%- for mixin_name in data.mixins %]
+[%- do included_mixins.append(mixin_name) %]
+[%- for method in tables[mixin_name].methods %]
+[%- if tables[mixin_name].methods[method].signature | length > 0 %]
+[%- if tables[mixin_name].methods[method].returns | length > 0 %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}
+[%- else %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]}}
+[%- endif %]
+[%- elif tables[mixin_name].methods[method].returns | length > 0 %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}
+[%- else %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]}}
+[%- endif %]
+[%- endfor %]
+[%- endfor %]
+[%- for template in data.templates %]
+[%- if templates[template].mixins | length > 0 %]
+------ <span style="font-size: 110%;">Methods inherited from {{tlygo|[[ template ]]}}:</span>
+[%- for mixin_name in templates[template].mixins %]
+[%- if mixin_name not in included_mixins %]
+[%- for method in tables[mixin_name].methods %]
+[%- if tables[mixin_name].methods[method].signature | length > 0 %]
+[%- if tables[mixin_name].methods[method].returns | length > 0 %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}
+[%- else %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]}}
+[%- endif %]
+[%- elif tables[mixin_name].methods[method].returns | length > 0 %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}
+[%- else %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]}}
+[%- endif %]
+[%- endfor %]
+[%- endif %]
+[%- endfor %]
+[%- endif %]
+[%- endfor %]
+}}</onlyinclude>
+|-
+[%- if data.type == 'Button' %]
+| {{:UIOBJECT_Button|method}}
+[%- else %]
+|
+[%- endif %]
+|- class="mw-customtoggle-methods"
+| Collapse
+|- class="mw-collapsible" id="mw-customcollapsible-methods"
+|
+{{:UIOBJECT_Frame|method}}
+{{:UIOBJECT_Region|method}}
+{{:UIOBJECT_ScriptRegion|method}}
+{{:UIOBJECT_ScriptRegionResizing|method}}
+{{:UIOBJECT_AnimatableObject|method}}
+{{:UIOBJECT_Object|method}}
+{{:UIOBJECT_FrameScriptObject|method}}
+|}
+
+==Script Types==
+{| class="darktable zebra"
+|
+[%- if data.type == 'Button' %]
+{{:UIOBJECT_Button|script}}
+[%- endif %]
+{{:UIOBJECT_Frame|script}}
+{{:UIOBJECT_ScriptRegion|script}}
+|}

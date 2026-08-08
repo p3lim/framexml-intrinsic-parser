@@ -1,0 +1,45 @@
+[%- macro inline_object(ref) -%]
+[%- if ref.startswith('Structure:') -%]
+{{:Structure_[[ ref[10:] ]]|nocaption=1}}
+[%- elif ref.startswith('Type:') -%]
+{{:API_types/[[ ref[5:] ]]|nocaption=1}}
+[%- elif ref.startswith('FType:') -%]
+{{:FrameXML_types/[[ ref[6:] ]]}}
+[%- do referenced_types.add(ref[6:]) -%]
+[%- elif ref.startswith('Page:') -%]
+{{:[[ ref[5:] ]]}}
+[%- endif -%]
+[%- endmacro -%]
+
+{{intrinsicmethod|mixin=[[ mixin ]]}}
+&nbsp;
+[%- if data.signature | length > 0 %]
+[%- if data.returns | length > 0 %]
+{{apisig|[[ data.returns | map(attribute='name') | join(', ') ]] {{=}} [[ intrinsic ]]:[[ name ]]([[ data.signature | map(attribute='name') | join(', ') ]])}}
+[%- else %]
+{{apisig|[[ intrinsic ]]:[[ name ]]([[ data.signature | map(attribute='name') | join(', ') ]])}}
+[%- endif %]
+[%- elif data.returns | length > 0 %]
+{{apisig|[[ data.returns | map(attribute='name') | join(', ') ]] {{=}} [[ intrinsic ]]:[[ name ]]()}}
+[%- else %]
+{{apisig|[[ intrinsic ]]:[[ name ]]()}}
+[%- endif %]
+
+[%- if data.signature | length > 0 %]
+
+==Arguments==
+[%- for argument in data.signature %]
+:;[[ argument.name ]]:{{apitype|[[ argument.type.split(':')[-1] ]]}}
+[%- if ':' in argument.type -%]
+[[ inline_object(argument.type) ]]
+[%- endif %]
+[%- endfor %]
+[%- endif %]
+
+[%- if data.returns | length > 0 %]
+
+==Returns==
+[%- for ret in data.returns %]
+:;[[ ret.name ]]:{{apitype|[[ ret.type.split(':')[-1] ]]}}
+[%- endfor %]
+[%- endif %]

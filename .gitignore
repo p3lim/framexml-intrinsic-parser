@@ -1,0 +1,12 @@
+# python/nix env
+.direnv/
+.venv/
+__pycache__/
+
+# external source
+wow-ui-source/
+
+# pywikibot cache
+apicache/
+pywikibot.lwp
+throttle.ctrl

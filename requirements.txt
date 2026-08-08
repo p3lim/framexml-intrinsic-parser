@@ -1,0 +1,3 @@
+luaparser==4.1.*
+jinja2==3.*
+pywikibot==11.*
