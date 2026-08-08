@@ -254,7 +254,8 @@ def parse_lua_tables(tables: dict[str, Table], file: Path) -> None:
         if isinstance(node.values[0], astnodes.Table):
           if hasattr(node.targets[0], "id"):
             name = node.targets[0].id
-            tables[name] = Table(name)
+            if name not in tables:
+              tables[name] = Table(name)
 
             # parse comments
             if hasattr(node, "comments"):
@@ -269,7 +270,8 @@ def parse_lua_tables(tables: dict[str, Table], file: Path) -> None:
           if func == "CreateFromMixins" or func == "CreateFromMixinsPrivate" or func == "CreateProxyMixin":
             if hasattr(node.targets[0], "id"):
               name = node.targets[0].id
-              tables[name] = Table(name)
+              if name not in tables:
+                tables[name] = Table(name)
 
               # check for inheritance
               if hasattr(node.values[0], "args") and len(node.values[0].args) > 0:
@@ -280,9 +282,11 @@ def parse_lua_tables(tables: dict[str, Table], file: Path) -> None:
                     # inherits from another table, we'll just reference it
                     tables[name].add_inheritance(f"{arg.value.id}.{arg.idx.id}")
     elif isinstance(node, astnodes.Method) and hasattr(node.source, "id"):
-      table = node.source.id
-      if table in tables: # TODO: error if not
-        parse_table_method(tables[table], node.name.id, node.args, node.body) # TODO: consider node.body.body instead?
+      name = node.source.id
+      if name not in tables:
+        tables[name] = Table(name)
+
+      parse_table_method(tables[name], node.name.id, node.args, node.body) # TODO: consider node.body.body instead?
 
 def get_lua_tables(sources: list[Path]) -> dict[str, Table]:
   tables: dict[str, Table] = {}
