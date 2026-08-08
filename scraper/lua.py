@@ -3,6 +3,17 @@ from pathlib import Path
 
 from luaparser import ast, astnodes # not particularly fast
 
+INVALID_PATHS = {
+  "WoWHack",
+  "WoWLabs",
+  "Vanilla",
+  "TBC",
+  "Wrath",
+  "Cata",
+  "Mists",
+  "Classic",
+}
+
 class Method:
   def __init__(self, name: str) -> None:
     self.name = name
@@ -278,6 +289,9 @@ def get_lua_tables(sources: list[Path]) -> dict[str, Table]:
 
   for path in sources:
     for file in path.rglob("*.lua"):
+      if INVALID_PATHS.intersection(file.parts):
+        continue
+
       print(f"Parsing {Path(*file.parts[3:])}...", file=sys.stderr)
       parse_lua_tables(tables, file)
 

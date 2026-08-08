@@ -7,6 +7,17 @@ XML_NAMESPACES: Final[dict[str, str]] = {
   "ns": "http://www.blizzard.com/wow/ui/"
 }
 
+INVALID_PATHS = {
+  "WoWHack",
+  "WoWLabs",
+  "Vanilla",
+  "TBC",
+  "Wrath",
+  "Cata",
+  "Mists",
+  "Classic",
+}
+
 class Template:
   def __init__(self, element: ET.Element, namespace: dict[str, str]) -> None:
     self.name: str = element.attrib.get("name")
@@ -53,6 +64,9 @@ def get_xml_intrinsics(source: Path) -> tuple[list[Intrinsic], list[Path]]:
   paths: list[Path] = []
 
   for file in source.rglob("*.xml"):
+    if INVALID_PATHS.intersection(file.parts):
+      continue
+
     print(f"Parsing {Path(*file.parts[3:])}...", file=sys.stderr)
 
     try:
@@ -73,6 +87,9 @@ def get_xml_templates(sources: list[Path]) -> list[Template]:
 
   for path in sources:
     for file in path.rglob("*.xml"):
+      if INVALID_PATHS.intersection(file.parts):
+        continue
+
       print(f"Parsing {Path(*file.parts[3:])}...", file=sys.stderr)
 
       try:
