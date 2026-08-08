@@ -13,6 +13,7 @@ PAGES_DIR = Path("pages")
 jinja = Environment(
   loader=FileSystemLoader("templates"),
   extensions=["jinja2.ext.do", "jinja2.ext.loopcontrols"],
+  keep_trailing_newline=True, # just good hygiene
   # wiki pages use { and } extensively, so we'll use something else for jinja
   block_start_string="[%",
   block_end_string="%]",
