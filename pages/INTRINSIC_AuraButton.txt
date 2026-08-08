@@ -12,7 +12,7 @@ If {{tlygo|CustomAuraButtonTemplate}} is inherited the methods from these mixins
 * {{tlygo|CustomAuraButtonSharedMixin}}
 
 ==Forbidden Aspects==
-This data object has these [[ forbidden aspect]]s attached to it, which will restrict which methods and script types it can access.
+This data object has these [[forbidden aspect]]s attached to it, which will restrict which methods and script types it can access.
 * UntrustedScriptExecution
 * UntrustedLayoutScriptExecution
 * ScriptedInput
