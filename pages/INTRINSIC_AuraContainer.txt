@@ -26,18 +26,6 @@ If {{tlygo|CustomAuraContainerTemplate}} is inherited the methods from these mix
 : {{apilink|t=Function|AuraContainer:SetUnit|arg=unitToken}}
 : {{apilink|t=Function|AuraContainer:UpdateAllAuras}}
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|CustomAuraContainerTemplate}}:</span>
-: {{apilink|t=Function|AuraContainer:UpdateAllAuras}}
-: {{apilink|t=Function|AuraContainer:GetFlowLayoutAxis|ret=flowLayoutAxis}}
-: {{apilink|t=Function|AuraContainer:SetFlowLayoutAxis|arg=layoutAxis}}
-: {{apilink|t=Function|AuraContainer:GetFlowLayoutAnchorPoint|ret=flowLayoutAnchorPoint}}
-: {{apilink|t=Function|AuraContainer:SetFlowLayoutAnchorPoint|arg=anchorPoint}}
-: {{apilink|t=Function|AuraContainer:GetFlowLayoutGrowthDirection|ret=flowLayoutGrowthDirection}}
-: {{apilink|t=Function|AuraContainer:SetFlowLayoutGrowthDirection|arg=horizontalDirection, verticalDirection}}
-: {{apilink|t=Function|AuraContainer:GetFlowLayoutPadding|ret=flowLayoutPadding}}
-: {{apilink|t=Function|AuraContainer:SetFlowLayoutPadding|arg=left, right, top, bottom}}
-: {{apilink|t=Function|AuraContainer:GetFlowLayoutMaximumLineSize|ret=flowLayoutMaximumLineSize}}
-: {{apilink|t=Function|AuraContainer:SetFlowLayoutMaximumLineSize|arg=maximumLineSize}}
-: {{apilink|t=Function|AuraContainer:ResetFlowLayoutOptions}}
 : {{apilink|t=Function|AuraContainer:AddAuraGroup|arg=groupKey, filterString, options}}
 : {{apilink|t=Function|AuraContainer:HasAuraGroup|arg=groupKey|ret=hasAuraGroup}}
 : {{apilink|t=Function|AuraContainer:GetAuraGroupFrame|arg=groupKey, frameIndex|ret=auraFrame}}
@@ -57,6 +45,18 @@ If {{tlygo|CustomAuraContainerTemplate}} is inherited the methods from these mix
 : {{apilink|t=Function|AuraContainer:ResetItemEnchantmentLayout}}
 : {{apilink|t=Function|AuraContainer:GetAuraProcessingPolicy|ret=auraProcessingPolicy}}
 : {{apilink|t=Function|AuraContainer:SetAuraProcessingPolicy|arg=policy, options}}
+: {{apilink|t=Function|AuraContainer:UpdateAllAuras}}
+: {{apilink|t=Function|AuraContainer:GetFlowLayoutAxis|ret=flowLayoutAxis}}
+: {{apilink|t=Function|AuraContainer:SetFlowLayoutAxis|arg=layoutAxis}}
+: {{apilink|t=Function|AuraContainer:GetFlowLayoutAnchorPoint|ret=flowLayoutAnchorPoint}}
+: {{apilink|t=Function|AuraContainer:SetFlowLayoutAnchorPoint|arg=anchorPoint}}
+: {{apilink|t=Function|AuraContainer:GetFlowLayoutGrowthDirection|ret=flowLayoutGrowthDirection}}
+: {{apilink|t=Function|AuraContainer:SetFlowLayoutGrowthDirection|arg=horizontalDirection, verticalDirection}}
+: {{apilink|t=Function|AuraContainer:GetFlowLayoutPadding|ret=flowLayoutPadding}}
+: {{apilink|t=Function|AuraContainer:SetFlowLayoutPadding|arg=left, right, top, bottom}}
+: {{apilink|t=Function|AuraContainer:GetFlowLayoutMaximumLineSize|ret=flowLayoutMaximumLineSize}}
+: {{apilink|t=Function|AuraContainer:SetFlowLayoutMaximumLineSize|arg=maximumLineSize}}
+: {{apilink|t=Function|AuraContainer:ResetFlowLayoutOptions}}
 }}</onlyinclude>
 |-
 |

@@ -1,4 +1,4 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
 &nbsp;
 {{apisig|EventFrame:SetScrollAllowed(allowScroll)}}
 

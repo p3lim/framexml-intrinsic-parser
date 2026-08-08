@@ -1,3 +1,3 @@
-{{intrinsicmethod|mixin=WowStyle1FilterDropdownMixin}}
+{{intrinsicmethod|mixin=ButtonStateBehaviorMixin}}
 &nbsp;
 {{apisig|DropdownButton:OnDisable()}}

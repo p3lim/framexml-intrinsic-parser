@@ -11,6 +11,12 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|ScrollFram
 ==Methods==
 {| class="darktable zebra"
 | <onlyinclude>{{#switch:{{{1|method}}}|method=
+: {{apilink|t=Function|EventScrollFrame:OnLoad_Intrinsic}}
+: {{apilink|t=Function|EventScrollFrame:OnHorizontalScroll_Intrinsic|arg=offset}}
+: {{apilink|t=Function|EventScrollFrame:OnVerticalScroll_Intrinsic|arg=offset}}
+: {{apilink|t=Function|EventScrollFrame:OnScrollRangeChanged_Intrinsic|arg=xrange, yrange}}
+: {{apilink|t=Function|EventScrollFrame:OnMouseWheel_Intrinsic|arg=direction}}
+: {{apilink|t=Function|EventScrollFrame:OnSizeChanged_Intrinsic|arg=width, height}}
 : {{apilink|t=Function|EventScrollFrame:OnLoad}}
 : {{apilink|t=Function|EventScrollFrame:SetUndefinedEventsAllowed|arg=allowed}}
 : {{apilink|t=Function|EventScrollFrame:GetCallbackTables|ret=callbackTables}}
@@ -28,12 +34,6 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|ScrollFram
 : {{apilink|t=Function|EventScrollFrame:UnregisterEvents}}
 : {{apilink|t=Function|EventScrollFrame:UnregisterEventsByEventTable|arg=eventTable}}
 : {{apilink|t=Function|EventScrollFrame:GenerateCallbackEvents|arg=eventTable}}
-: {{apilink|t=Function|EventScrollFrame:OnLoad_Intrinsic}}
-: {{apilink|t=Function|EventScrollFrame:OnHorizontalScroll_Intrinsic|arg=offset}}
-: {{apilink|t=Function|EventScrollFrame:OnVerticalScroll_Intrinsic|arg=offset}}
-: {{apilink|t=Function|EventScrollFrame:OnScrollRangeChanged_Intrinsic|arg=xrange, yrange}}
-: {{apilink|t=Function|EventScrollFrame:OnMouseWheel_Intrinsic|arg=direction}}
-: {{apilink|t=Function|EventScrollFrame:OnSizeChanged_Intrinsic|arg=width, height}}
 }}</onlyinclude>
 |-
 |

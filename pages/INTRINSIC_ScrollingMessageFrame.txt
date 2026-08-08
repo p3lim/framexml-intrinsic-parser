@@ -11,28 +11,6 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 ==Methods==
 {| class="darktable zebra"
 | <onlyinclude>{{#switch:{{{1|method}}}|method=
-: {{apilink|t=Function|ScrollingMessageFrame:SetFontObject|arg=fontObject}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetFontObject|ret=fontObject}}
-: {{apilink|t=Function|ScrollingMessageFrame:HasFontObject|ret=hasFontObject}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetFont|arg=font, fontHeight, fontFlags}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetFont|ret=font}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetTextColor|arg=r, g, b, a}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetTextColor|ret=textColor}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetShadowColor|arg=r, g, b, a}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetShadowColor|ret=shadowColor}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetShadowOffset|arg=offsetX, offsetY}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetShadowOffset|ret=shadowOffset}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetSpacing|arg=spacing}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetSpacing|ret=spacing}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyH|arg=justifyH}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyH|ret=justifyH}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyV|arg=justifyV}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyV|ret=justifyV}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetIndentedWordWrap|arg=indentWordWrap}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetIndentedWordWrap|ret=indentedWordWrap}}
-: {{apilink|t=Function|ScrollingMessageFrame:InitializeFontableFrame|arg=name}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnFontObjectUpdated}}
-: {{apilink|t=Function|ScrollingMessageFrame:MakeFontObjectCustom}}
 : {{apilink|t=Function|ScrollingMessageFrame:AddMessage|arg=message, r, g, b, ...}}
 : {{apilink|t=Function|ScrollingMessageFrame:BackFillMessage|arg=message, r, g, b, ...}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetNumMessages|ret=numMessages}}
@@ -113,6 +91,28 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 : {{apilink|t=Function|ScrollingMessageFrame:CanEffectivelyFade|ret=unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:UpdateFading}}
 : {{apilink|t=Function|ScrollingMessageFrame:OnFontObjectUpdated}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetFontObject|arg=fontObject}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetFontObject|ret=fontObject}}
+: {{apilink|t=Function|ScrollingMessageFrame:HasFontObject|ret=hasFontObject}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetFont|arg=font, fontHeight, fontFlags}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetFont|ret=font}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetTextColor|arg=r, g, b, a}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetTextColor|ret=textColor}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetShadowColor|arg=r, g, b, a}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetShadowColor|ret=shadowColor}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetShadowOffset|arg=offsetX, offsetY}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetShadowOffset|ret=shadowOffset}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetSpacing|arg=spacing}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetSpacing|ret=spacing}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyH|arg=justifyH}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyH|ret=justifyH}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyV|arg=justifyV}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyV|ret=justifyV}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetIndentedWordWrap|arg=indentWordWrap}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetIndentedWordWrap|ret=indentedWordWrap}}
+: {{apilink|t=Function|ScrollingMessageFrame:InitializeFontableFrame|arg=name}}
+: {{apilink|t=Function|ScrollingMessageFrame:OnFontObjectUpdated}}
+: {{apilink|t=Function|ScrollingMessageFrame:MakeFontObjectCustom}}
 }}</onlyinclude>
 |-
 |

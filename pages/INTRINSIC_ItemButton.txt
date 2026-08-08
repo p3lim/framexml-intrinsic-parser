@@ -10,6 +10,11 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 ==Methods==
 {| class="darktable zebra"
 | <onlyinclude>{{#switch:{{{1|method}}}|method=
+: {{apilink|t=Function|ItemButton:SetItemButtonTexture|arg=texture}}
+: {{apilink|t=Function|ItemButton:SetItemButtonTextureVertexColor|arg=r, g, b}}
+: {{apilink|t=Function|ItemButton:SetItemButtonQuality|arg=quality, itemIDOrLink, suppressOverlays, isBound, ignoreColorOverrides}}
+: {{apilink|t=Function|ItemButton:SetItemButtonBorderVertexColor|arg=r, g, b}}
+: {{apilink|t=Function|ItemButton:GetItemButtonBackgroundTexture|ret=itemButtonBackgroundTexture}}
 : {{apilink|t=Function|ItemButton:OnItemContextChanged}}
 : {{apilink|t=Function|ItemButton:PostOnShow}}
 : {{apilink|t=Function|ItemButton:PostOnHide}}
@@ -42,11 +47,6 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 : {{apilink|t=Function|ItemButton:OnUpdateItemContextMatching|arg=bagID}}
 : {{apilink|t=Function|ItemButton:RegisterBagButtonUpdateItemContextMatching}}
 : {{apilink|t=Function|ItemButton:GetItemButtonIconTexture|ret=itemButtonIconTexture}}
-: {{apilink|t=Function|ItemButton:SetItemButtonTexture|arg=texture}}
-: {{apilink|t=Function|ItemButton:SetItemButtonTextureVertexColor|arg=r, g, b}}
-: {{apilink|t=Function|ItemButton:SetItemButtonQuality|arg=quality, itemIDOrLink, suppressOverlays, isBound, ignoreColorOverrides}}
-: {{apilink|t=Function|ItemButton:SetItemButtonBorderVertexColor|arg=r, g, b}}
-: {{apilink|t=Function|ItemButton:GetItemButtonBackgroundTexture|ret=itemButtonBackgroundTexture}}
 }}</onlyinclude>
 |-
 | {{:UIOBJECT_Button|method}}

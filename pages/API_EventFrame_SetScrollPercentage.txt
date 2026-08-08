@@ -1,7 +1,6 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
 &nbsp;
-{{apisig|EventFrame:SetScrollPercentage(scrollPercentage, forceImmediate)}}
+{{apisig|EventFrame:SetScrollPercentage(scrollPercentage)}}
 
 ==Arguments==
 :;scrollPercentage:{{apitype|unknown}}
-:;forceImmediate:{{apitype|unknown}}

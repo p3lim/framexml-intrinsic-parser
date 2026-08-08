@@ -55,34 +55,6 @@ If {{tlygo|WowTrimHorizontalScrollBar}} is inherited the methods from these mixi
 : {{apilink|t=Function|EventFrame:UnregisterEventsByEventTable|arg=eventTable}}
 : {{apilink|t=Function|EventFrame:GenerateCallbackEvents|arg=eventTable}}
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|ScrollBarBaseTemplate}}:</span>
-: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
-: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
-: {{apilink|t=Function|EventFrame:GetFrameExtent|arg=frame|ret=frameExtent}}
-: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
-: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
-: {{apilink|t=Function|EventFrame:GetLower|arg=frame|ret=lower}}
-: {{apilink|t=Function|EventFrame:SelectCursorComponent|arg=parent|ret=unknown}}
-: {{apilink|t=Function|EventFrame:SelectPointComponent|arg=frame|ret=unknown}}
-: {{apilink|t=Function|EventFrame:OnLoad}}
-: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
-: {{apilink|t=Function|EventFrame:EnableSnapToInterval}}
-: {{apilink|t=Function|EventFrame:GetIntervalRange|ret=intervalRange, intervalRange}}
-: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
-: {{apilink|t=Function|EventFrame:GetPanExtentPercentage|ret=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
-: {{apilink|t=Function|EventFrame:GetScrollPercentage|ret=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:IsAtBegin|ret=isAtBegin}}
-: {{apilink|t=Function|EventFrame:IsAtEnd|ret=isAtEnd}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
-: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
-: {{apilink|t=Function|EventFrame:IsScrollAllowed|ret=allowScroll}}
-: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
 : {{apilink|t=Function|EventFrame:OnLoad}}
 : {{apilink|t=Function|EventFrame:InitializeNarration|ret=NARRATION_OBJECT_SCROLL_UP_BUTTON, NARRATION_OBJECT_SCROLL_DOWN_BUTTON}}
 : {{apilink|t=Function|EventFrame:Init|arg=visibleExtentPercentage, panExtentPercentage}}
@@ -119,35 +91,35 @@ If {{tlygo|WowTrimHorizontalScrollBar}} is inherited the methods from these mixi
 : {{apilink|t=Function|EventFrame:OnStepperMouseDown|arg=stepper}}
 : {{apilink|t=Function|EventFrame:OnTrackMouseDown|arg=button, buttonName}}
 : {{apilink|t=Function|EventFrame:OnThumbMouseDown|arg=button, buttonName}}
+: {{apilink|t=Function|EventFrame:OnLoad}}
+: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
+: {{apilink|t=Function|EventFrame:EnableSnapToInterval}}
+: {{apilink|t=Function|EventFrame:GetIntervalRange|ret=intervalRange, intervalRange}}
+: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
+: {{apilink|t=Function|EventFrame:GetPanExtentPercentage|ret=panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
+: {{apilink|t=Function|EventFrame:GetScrollPercentage|ret=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:IsAtBegin|ret=isAtBegin}}
+: {{apilink|t=Function|EventFrame:IsAtEnd|ret=isAtEnd}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
+: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
+: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
+: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
+: {{apilink|t=Function|EventFrame:IsScrollAllowed|ret=allowScroll}}
+: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
+: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
+: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
+: {{apilink|t=Function|EventFrame:GetFrameExtent|arg=frame|ret=frameExtent}}
+: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
+: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
+: {{apilink|t=Function|EventFrame:GetLower|arg=frame|ret=lower}}
+: {{apilink|t=Function|EventFrame:SelectCursorComponent|arg=parent|ret=unknown}}
+: {{apilink|t=Function|EventFrame:SelectPointComponent|arg=frame|ret=unknown}}
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|VerticalScrollBarTemplate}}:</span>
-: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
-: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
-: {{apilink|t=Function|EventFrame:GetFrameExtent|arg=frame|ret=frameExtent}}
-: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
-: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
-: {{apilink|t=Function|EventFrame:GetLower|arg=frame|ret=lower}}
-: {{apilink|t=Function|EventFrame:SelectCursorComponent|arg=parent|ret=unknown}}
-: {{apilink|t=Function|EventFrame:SelectPointComponent|arg=frame|ret=unknown}}
-: {{apilink|t=Function|EventFrame:OnLoad}}
-: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
-: {{apilink|t=Function|EventFrame:EnableSnapToInterval}}
-: {{apilink|t=Function|EventFrame:GetIntervalRange|ret=intervalRange, intervalRange}}
-: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
-: {{apilink|t=Function|EventFrame:GetPanExtentPercentage|ret=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
-: {{apilink|t=Function|EventFrame:GetScrollPercentage|ret=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:IsAtBegin|ret=isAtBegin}}
-: {{apilink|t=Function|EventFrame:IsAtEnd|ret=isAtEnd}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
-: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
-: {{apilink|t=Function|EventFrame:IsScrollAllowed|ret=allowScroll}}
-: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
 : {{apilink|t=Function|EventFrame:OnLoad}}
 : {{apilink|t=Function|EventFrame:InitializeNarration|ret=NARRATION_OBJECT_SCROLL_UP_BUTTON, NARRATION_OBJECT_SCROLL_DOWN_BUTTON}}
 : {{apilink|t=Function|EventFrame:Init|arg=visibleExtentPercentage, panExtentPercentage}}
@@ -184,35 +156,35 @@ If {{tlygo|WowTrimHorizontalScrollBar}} is inherited the methods from these mixi
 : {{apilink|t=Function|EventFrame:OnStepperMouseDown|arg=stepper}}
 : {{apilink|t=Function|EventFrame:OnTrackMouseDown|arg=button, buttonName}}
 : {{apilink|t=Function|EventFrame:OnThumbMouseDown|arg=button, buttonName}}
+: {{apilink|t=Function|EventFrame:OnLoad}}
+: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
+: {{apilink|t=Function|EventFrame:EnableSnapToInterval}}
+: {{apilink|t=Function|EventFrame:GetIntervalRange|ret=intervalRange, intervalRange}}
+: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
+: {{apilink|t=Function|EventFrame:GetPanExtentPercentage|ret=panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
+: {{apilink|t=Function|EventFrame:GetScrollPercentage|ret=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:IsAtBegin|ret=isAtBegin}}
+: {{apilink|t=Function|EventFrame:IsAtEnd|ret=isAtEnd}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
+: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
+: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
+: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
+: {{apilink|t=Function|EventFrame:IsScrollAllowed|ret=allowScroll}}
+: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
+: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
+: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
+: {{apilink|t=Function|EventFrame:GetFrameExtent|arg=frame|ret=frameExtent}}
+: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
+: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
+: {{apilink|t=Function|EventFrame:GetLower|arg=frame|ret=lower}}
+: {{apilink|t=Function|EventFrame:SelectCursorComponent|arg=parent|ret=unknown}}
+: {{apilink|t=Function|EventFrame:SelectPointComponent|arg=frame|ret=unknown}}
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|HorizontalScrollBarTemplate}}:</span>
-: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
-: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
-: {{apilink|t=Function|EventFrame:GetFrameExtent|arg=frame|ret=frameExtent}}
-: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
-: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
-: {{apilink|t=Function|EventFrame:GetLower|arg=frame|ret=lower}}
-: {{apilink|t=Function|EventFrame:SelectCursorComponent|arg=parent|ret=unknown}}
-: {{apilink|t=Function|EventFrame:SelectPointComponent|arg=frame|ret=unknown}}
-: {{apilink|t=Function|EventFrame:OnLoad}}
-: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
-: {{apilink|t=Function|EventFrame:EnableSnapToInterval}}
-: {{apilink|t=Function|EventFrame:GetIntervalRange|ret=intervalRange, intervalRange}}
-: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
-: {{apilink|t=Function|EventFrame:GetPanExtentPercentage|ret=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
-: {{apilink|t=Function|EventFrame:GetScrollPercentage|ret=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:IsAtBegin|ret=isAtBegin}}
-: {{apilink|t=Function|EventFrame:IsAtEnd|ret=isAtEnd}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
-: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
-: {{apilink|t=Function|EventFrame:IsScrollAllowed|ret=allowScroll}}
-: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
 : {{apilink|t=Function|EventFrame:OnLoad}}
 : {{apilink|t=Function|EventFrame:InitializeNarration|ret=NARRATION_OBJECT_SCROLL_UP_BUTTON, NARRATION_OBJECT_SCROLL_DOWN_BUTTON}}
 : {{apilink|t=Function|EventFrame:Init|arg=visibleExtentPercentage, panExtentPercentage}}
@@ -249,6 +221,34 @@ If {{tlygo|WowTrimHorizontalScrollBar}} is inherited the methods from these mixi
 : {{apilink|t=Function|EventFrame:OnStepperMouseDown|arg=stepper}}
 : {{apilink|t=Function|EventFrame:OnTrackMouseDown|arg=button, buttonName}}
 : {{apilink|t=Function|EventFrame:OnThumbMouseDown|arg=button, buttonName}}
+: {{apilink|t=Function|EventFrame:OnLoad}}
+: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
+: {{apilink|t=Function|EventFrame:EnableSnapToInterval}}
+: {{apilink|t=Function|EventFrame:GetIntervalRange|ret=intervalRange, intervalRange}}
+: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
+: {{apilink|t=Function|EventFrame:GetPanExtentPercentage|ret=panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
+: {{apilink|t=Function|EventFrame:GetScrollPercentage|ret=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:IsAtBegin|ret=isAtBegin}}
+: {{apilink|t=Function|EventFrame:IsAtEnd|ret=isAtEnd}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
+: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
+: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
+: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
+: {{apilink|t=Function|EventFrame:IsScrollAllowed|ret=allowScroll}}
+: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
+: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
+: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
+: {{apilink|t=Function|EventFrame:GetFrameExtent|arg=frame|ret=frameExtent}}
+: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
+: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
+: {{apilink|t=Function|EventFrame:GetLower|arg=frame|ret=lower}}
+: {{apilink|t=Function|EventFrame:SelectCursorComponent|arg=parent|ret=unknown}}
+: {{apilink|t=Function|EventFrame:SelectPointComponent|arg=frame|ret=unknown}}
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|WowTrimScrollBar}}:</span>
 : {{apilink|t=Function|EventFrame:OnLoad}}
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|WowTrimHorizontalScrollBar}}:</span>
