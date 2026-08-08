@@ -1,4 +1,5 @@
 # python/nix env
+.env
 .direnv/
 .venv/
 __pycache__/
