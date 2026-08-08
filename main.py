@@ -7,7 +7,7 @@ from jinja2 import Environment, FileSystemLoader
 
 from scraper import get_xml_templates, get_xml_intrinsics, get_lua_tables, Table
 
-SOURCE_DIR = Path("/home/p3lim/wow-ui-source/Interface/AddOns")
+SOURCE_DIR = Path("wow-ui-source/Interface/AddOns")
 PAGES_DIR = Path("pages")
 
 jinja = Environment(
