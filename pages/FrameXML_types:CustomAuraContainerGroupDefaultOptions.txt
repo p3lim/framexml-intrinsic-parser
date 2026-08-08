@@ -1,4 +1,4 @@
-{{framexmltype|CustomAuraContainerGroupDefaultOptions}}
+{{framexmltype}}
 
 <onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
 |+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerGroupDefaultOptions}}

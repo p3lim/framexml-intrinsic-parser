@@ -1,4 +1,4 @@
-{{framexmltype|AuraContainerItemEnchantmentSortMethod}}
+{{framexmltype}}
 
 <onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
 |+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||AuraContainerItemEnchantmentSortMethod}}
