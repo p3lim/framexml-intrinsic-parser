@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
+&nbsp;
+{{apisig|wheelPanPercentage {{=}} EventFrame:GetWheelPanPercentage()}}
+
+==Returns==
+:;wheelPanPercentage:{{apitype|unknown}}

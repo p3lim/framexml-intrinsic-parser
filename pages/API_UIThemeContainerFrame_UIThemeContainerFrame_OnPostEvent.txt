@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=UIThemeContainerMixin}}
+&nbsp;
+{{apisig|UIThemeContainerFrame:UIThemeContainerFrame_OnPostEvent(event, ...)}}
+
+==Arguments==
+:;event:{{apitype|unknown}}
+:;...:{{apitype|unknown}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|icon {{=}} AuraButton:GetIcon()}}
+
+==Returns==
+:;icon:{{apitype|Texture}}

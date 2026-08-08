@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
+&nbsp;
+{{apisig|DropdownButton:OnMouseWheel_Intrinsic(delta)}}
+
+==Arguments==
+:;delta:{{apitype|unknown}}

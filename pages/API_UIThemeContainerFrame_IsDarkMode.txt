@@ -1,0 +1,9 @@
+{{intrinsicmethod|mixin=UIThemeContainerMixin}}
+&nbsp;
+{{apisig|isDarkMode {{=}} UIThemeContainerFrame:IsDarkMode(cvarValue)}}
+
+==Arguments==
+:;cvarValue:{{apitype|unknown}}
+
+==Returns==
+:;isDarkMode:{{apitype|unknown}}

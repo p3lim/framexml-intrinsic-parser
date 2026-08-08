@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|itemLocation {{=}} ItemButton:GetItemLocation()}}
+
+==Returns==
+:;itemLocation:{{apitype|unknown}}

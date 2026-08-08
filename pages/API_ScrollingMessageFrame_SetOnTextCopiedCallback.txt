@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:SetOnTextCopiedCallback(onTextCopiedCallback)}}
+
+==Arguments==
+:;onTextCopiedCallback:{{apitype|unknown}}

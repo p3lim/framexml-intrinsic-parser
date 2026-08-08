@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
+&nbsp;
+{{apisig|interpolator {{=}} EventFrame:GetScrollInterpolator()}}
+
+==Returns==
+:;interpolator:{{apitype|unknown}}

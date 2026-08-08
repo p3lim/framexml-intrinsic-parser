@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
+&nbsp;
+{{apisig|hasStickyFocus {{=}} DropdownButton:HasStickyFocus()}}
+
+==Returns==
+:;hasStickyFocus:{{apitype|boolean}}

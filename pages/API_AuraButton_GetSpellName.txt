@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|spellName {{=}} AuraButton:GetSpellName()}}
+
+==Returns==
+:;spellName:{{apitype|FontString}}

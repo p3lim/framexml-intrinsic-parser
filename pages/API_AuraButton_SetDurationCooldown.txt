@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|AuraButton:SetDurationCooldown(cooldown)}}
+
+==Arguments==
+:;cooldown:{{apitype|Cooldown}}

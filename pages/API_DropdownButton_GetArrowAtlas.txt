@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=WowStyle1DropdownMixin}}
+&nbsp;
+{{apisig|arrowAtlas {{=}} DropdownButton:GetArrowAtlas()}}
+
+==Returns==
+:;arrowAtlas:{{apitype|unknown}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:SetMaxLines(maxLines)}}
+
+==Arguments==
+:;maxLines:{{apitype|unknown}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:OnPostUpdate(elapsed)}}
+
+==Arguments==
+:;elapsed:{{apitype|unknown}}

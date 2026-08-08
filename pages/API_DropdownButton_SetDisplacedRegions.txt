@@ -1,0 +1,8 @@
+{{intrinsicmethod|mixin=ButtonStateBehaviorMixin}}
+&nbsp;
+{{apisig|DropdownButton:SetDisplacedRegions(x, y, ...)}}
+
+==Arguments==
+:;x:{{apitype|number}}
+:;y:{{apitype|unknown}}
+:;...:{{apitype|unknown}}

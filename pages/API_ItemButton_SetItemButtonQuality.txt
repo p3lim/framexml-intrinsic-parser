@@ -1,0 +1,10 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|ItemButton:SetItemButtonQuality(quality, itemIDOrLink, suppressOverlays, isBound, ignoreColorOverrides)}}
+
+==Arguments==
+:;quality:{{apitype|unknown}}
+:;itemIDOrLink:{{apitype|unknown}}
+:;suppressOverlays:{{apitype|unknown}}
+:;isBound:{{apitype|unknown}}
+:;ignoreColorOverrides:{{apitype|unknown}}

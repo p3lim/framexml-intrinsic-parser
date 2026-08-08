@@ -1,0 +1,10 @@
+{{framexmltype|AuraContainerSortDirection}}
+
+<onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||AuraContainerSortDirection}}
+! Value !! Field !! Description
+|-
+| 0 || {{apiname|Normal}} || 
+|-
+| 1 || {{apiname|Reverse}} || 
+|}</onlyinclude>

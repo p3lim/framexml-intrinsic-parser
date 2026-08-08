@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|unknown {{=}} ScrollingMessageFrame:AtBottom()}}
+
+==Returns==
+:;unknown:{{apitype|boolean}}

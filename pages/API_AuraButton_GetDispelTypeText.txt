@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|dispelTypeText {{=}} AuraButton:GetDispelTypeText()}}
+
+==Returns==
+:;dispelTypeText:{{apitype|FontString}}

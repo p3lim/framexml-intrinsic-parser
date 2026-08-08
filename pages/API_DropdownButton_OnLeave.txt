@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=ButtonStateBehaviorMixin}}
+&nbsp;
+{{apisig|unknown, unknown {{=}} DropdownButton:OnLeave()}}
+
+==Returns==
+:;unknown:{{apitype|boolean}}
+:;unknown:{{apitype|boolean}}

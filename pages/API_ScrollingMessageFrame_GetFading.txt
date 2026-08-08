@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|shouldFadeAfterInactivity {{=}} ScrollingMessageFrame:GetFading()}}
+
+==Returns==
+:;shouldFadeAfterInactivity:{{apitype|unknown}}

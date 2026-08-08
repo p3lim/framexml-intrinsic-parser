@@ -1,0 +1,11 @@
+{{framexmltype|AuraContainerItemEnchantmentSortMethod}}
+
+<onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||AuraContainerItemEnchantmentSortMethod}}
+! Value !! Field !! Description
+|-
+| 0 || {{apiname|Slot}} || Sort by internal enchantment slot ordering.
+|-
+| 1 || {{apiname|Duration}} || Sort by remaining duration. Permanent enchantments sort last in normal
+direction and first in reverse direction.
+|}</onlyinclude>

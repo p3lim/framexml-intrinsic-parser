@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
+&nbsp;
+{{apisig|DropdownButton:Rotate(forward)}}
+
+==Arguments==
+:;forward:{{apitype|unknown}}

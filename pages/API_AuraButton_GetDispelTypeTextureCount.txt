@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|dispelTypeTextureCount {{=}} AuraButton:GetDispelTypeTextureCount()}}
+
+==Returns==
+:;dispelTypeTextureCount:{{apitype|number}}

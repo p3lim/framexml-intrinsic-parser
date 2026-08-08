@@ -1,0 +1,11 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|itemLink, itemQuality, itemIcon, itemLink, itemQuality, itemIcon {{=}} ItemButton:GetItemInfo()}}
+
+==Returns==
+:;itemLink:{{apitype|unknown}}
+:;itemQuality:{{apitype|unknown}}
+:;itemIcon:{{apitype|unknown}}
+:;itemLink:{{apitype|unknown}}
+:;itemQuality:{{apitype|unknown}}
+:;itemIcon:{{apitype|unknown}}

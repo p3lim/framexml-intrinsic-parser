@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollBarMixin}}
+&nbsp;
+{{apisig|visibleExtentPercentage {{=}} EventFrame:GetVisibleExtentPercentage()}}
+
+==Returns==
+:;visibleExtentPercentage:{{apitype|boolean}}

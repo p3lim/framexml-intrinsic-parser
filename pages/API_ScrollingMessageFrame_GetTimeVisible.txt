@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|timeVisibleSecs {{=}} ScrollingMessageFrame:GetTimeVisible()}}
+
+==Returns==
+:;timeVisibleSecs:{{apitype|unknown}}

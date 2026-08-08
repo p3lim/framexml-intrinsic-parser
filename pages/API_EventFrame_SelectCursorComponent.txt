@@ -1,0 +1,9 @@
+{{intrinsicmethod|mixin=ScrollDirectionMixin}}
+&nbsp;
+{{apisig|unknown {{=}} EventFrame:SelectCursorComponent(parent)}}
+
+==Arguments==
+:;parent:{{apitype|unknown}}
+
+==Returns==
+:;unknown:{{apitype|unknown}}

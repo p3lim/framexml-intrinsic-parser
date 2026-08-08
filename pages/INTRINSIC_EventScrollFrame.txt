@@ -1,0 +1,58 @@
+{{intrinsic}} {{tocright}}
+{| {{apitable}}}
+{{apirow | Instantiation | <code>{{api|CreateFrame}}("EventScrollFrame")</code>}}
+|}
+
+This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|ScrollFrame}} and these mixins:
+* {{tlygo|CallbackRegistryMixin}}
+* {{tlygo|EventScrollFrameMixin}}
+
+
+==Methods==
+{| class="darktable zebra"
+| <onlyinclude>{{#switch:{{{1|method}}}|method=
+: {{apilink|t=Function|EventScrollFrame:OnLoad}}
+: {{apilink|t=Function|EventScrollFrame:SetUndefinedEventsAllowed|arg=allowed}}
+: {{apilink|t=Function|EventScrollFrame:GetCallbackTables|ret=callbackTables}}
+: {{apilink|t=Function|EventScrollFrame:GetCallbackTable|arg=callbackType|ret=callbackType}}
+: {{apilink|t=Function|EventScrollFrame:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
+: {{apilink|t=Function|EventScrollFrame:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent, mutableCallbacksByEvent}}
+: {{apilink|t=Function|EventScrollFrame:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent, hasRegistrantsForEvent}}
+: {{apilink|t=Function|EventScrollFrame:SecureInsertEvent|arg=event}}
+: {{apilink|t=Function|EventScrollFrame:RegisterCallback|arg=event, func, owner, ...|ret=owner}}
+: {{apilink|t=Function|EventScrollFrame:RegisterCallbackWithHandle|arg=event, func, owner, ...|ret=unknown}}
+: {{apilink|t=Function|EventScrollFrame:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
+: {{apilink|t=Function|EventScrollFrame:CopyDeferredCallbacks|arg=callbackType, event, target}}
+: {{apilink|t=Function|EventScrollFrame:TriggerEvent|arg=event, ...}}
+: {{apilink|t=Function|EventScrollFrame:UnregisterCallback|arg=event, owner}}
+: {{apilink|t=Function|EventScrollFrame:UnregisterEvents}}
+: {{apilink|t=Function|EventScrollFrame:UnregisterEventsByEventTable|arg=eventTable}}
+: {{apilink|t=Function|EventScrollFrame:GenerateCallbackEvents|arg=eventTable}}
+: {{apilink|t=Function|EventScrollFrame:OnLoad_Intrinsic}}
+: {{apilink|t=Function|EventScrollFrame:OnHorizontalScroll_Intrinsic|arg=offset}}
+: {{apilink|t=Function|EventScrollFrame:OnVerticalScroll_Intrinsic|arg=offset}}
+: {{apilink|t=Function|EventScrollFrame:OnScrollRangeChanged_Intrinsic|arg=xrange, yrange}}
+: {{apilink|t=Function|EventScrollFrame:OnMouseWheel_Intrinsic|arg=direction}}
+: {{apilink|t=Function|EventScrollFrame:OnSizeChanged_Intrinsic|arg=width, height}}
+}}</onlyinclude>
+|-
+|
+|- class="mw-customtoggle-methods"
+| Collapse
+|- class="mw-collapsible" id="mw-customcollapsible-methods"
+|
+{{:UIOBJECT_Frame|method}}
+{{:UIOBJECT_Region|method}}
+{{:UIOBJECT_ScriptRegion|method}}
+{{:UIOBJECT_ScriptRegionResizing|method}}
+{{:UIOBJECT_AnimatableObject|method}}
+{{:UIOBJECT_Object|method}}
+{{:UIOBJECT_FrameScriptObject|method}}
+|}
+
+==Script Types==
+{| class="darktable zebra"
+|
+{{:UIOBJECT_Frame|script}}
+{{:UIOBJECT_ScriptRegion|script}}
+|}

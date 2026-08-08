@@ -1,0 +1,9 @@
+{{intrinsicmethod|mixin=ScrollDirectionMixin}}
+&nbsp;
+{{apisig|unknown {{=}} EventFrame:SelectPointComponent(frame)}}
+
+==Arguments==
+:;frame:{{apitype|unknown}}
+
+==Returns==
+:;unknown:{{apitype|unknown}}

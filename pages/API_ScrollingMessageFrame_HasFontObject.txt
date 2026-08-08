@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=FontableFrameMixin}}
+&nbsp;
+{{apisig|hasFontObject {{=}} ScrollingMessageFrame:HasFontObject()}}
+
+==Returns==
+:;hasFontObject:{{apitype|number}}

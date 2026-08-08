@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=AuraContainerFlowLayoutSharedMixin}}
+&nbsp;
+{{apisig|flowLayoutAnchorPoint {{=}} AuraContainer:GetFlowLayoutAnchorPoint()}}
+
+==Returns==
+:;flowLayoutAnchorPoint:{{apitype|FramePoint}}

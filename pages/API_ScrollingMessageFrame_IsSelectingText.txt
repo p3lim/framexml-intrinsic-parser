@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|isSelectingText {{=}} ScrollingMessageFrame:IsSelectingText()}}
+
+==Returns==
+:;isSelectingText:{{apitype|boolean}}

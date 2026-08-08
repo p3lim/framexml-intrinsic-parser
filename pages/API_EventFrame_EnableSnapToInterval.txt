@@ -1,0 +1,3 @@
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
+&nbsp;
+{{apisig|EventFrame:EnableSnapToInterval()}}

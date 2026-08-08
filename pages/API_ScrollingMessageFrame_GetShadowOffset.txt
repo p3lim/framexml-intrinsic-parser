@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=FontableFrameMixin}}
+&nbsp;
+{{apisig|shadowOffset {{=}} ScrollingMessageFrame:GetShadowOffset()}}
+
+==Returns==
+:;shadowOffset:{{apitype|unknown}}

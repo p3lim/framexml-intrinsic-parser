@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ButtonStateBehaviorMixin}}
+&nbsp;
+{{apisig|isDownOver {{=}} DropdownButton:IsDownOver()}}
+
+==Returns==
+:;isDownOver:{{apitype|boolean}}

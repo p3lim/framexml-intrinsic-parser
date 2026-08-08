@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
+&nbsp;
+{{apisig|EventFrame:SetInterpolateScroll(canInterpolateScroll)}}
+
+==Arguments==
+:;canInterpolateScroll:{{apitype|unknown}}

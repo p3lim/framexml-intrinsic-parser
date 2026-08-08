@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|unknown, unknown {{=}} EventEditBox:ExpectedHasFocus()}}
+
+==Returns==
+:;unknown:{{apitype|boolean}}
+:;unknown:{{apitype|unknown}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:SetOnLineRightClickedCallback(onLineRightClickedCallback)}}
+
+==Arguments==
+:;onLineRightClickedCallback:{{apitype|unknown}}

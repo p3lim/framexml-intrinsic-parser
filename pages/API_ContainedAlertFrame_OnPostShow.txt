@@ -1,0 +1,3 @@
+{{intrinsicmethod|mixin=ContainedAlertFrameMixin}}
+&nbsp;
+{{apisig|ContainedAlertFrame:OnPostShow()}}

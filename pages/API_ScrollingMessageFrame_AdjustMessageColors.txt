@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:AdjustMessageColors(transformFunction)}}
+
+==Arguments==
+:;transformFunction:{{apitype|unknown}}

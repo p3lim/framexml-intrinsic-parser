@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|EventEditBox:SetDefaultTextEnabled(enabled)}}
+
+==Arguments==
+:;enabled:{{apitype|boolean}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:ForEachMessageInfoText(op)}}
+
+==Arguments==
+:;op:{{apitype|unknown}}

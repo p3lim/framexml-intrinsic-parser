@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=FontableFrameMixin}}
+&nbsp;
+{{apisig|justifyV {{=}} ScrollingMessageFrame:GetJustifyV()}}
+
+==Returns==
+:;justifyV:{{apitype|unknown}}

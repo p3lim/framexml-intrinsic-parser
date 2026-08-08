@@ -1,0 +1,9 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|unknown {{=}} ScrollingMessageFrame:RemoveMessagesByPredicate(predicate)}}
+
+==Arguments==
+:;predicate:{{apitype|unknown}}
+
+==Returns==
+:;unknown:{{apitype|unknown}}

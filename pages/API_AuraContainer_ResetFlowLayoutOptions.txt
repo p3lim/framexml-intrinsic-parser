@@ -1,0 +1,3 @@
+{{intrinsicmethod|mixin=AuraContainerFlowLayoutSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:ResetFlowLayoutOptions()}}

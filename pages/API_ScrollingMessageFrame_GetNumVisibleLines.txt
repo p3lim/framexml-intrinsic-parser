@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|numVisibleLines {{=}} ScrollingMessageFrame:GetNumVisibleLines()}}
+
+==Returns==
+:;numVisibleLines:{{apitype|number}}

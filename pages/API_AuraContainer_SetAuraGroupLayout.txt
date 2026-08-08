@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:SetAuraGroupLayout(groupKey, layoutOptions)}}
+
+==Arguments==
+:;groupKey:{{apitype|string}}
+:;layoutOptions:{{apitype|CustomAuraContainerGroupLayoutDefaultOptions}}{{:FrameXML_types/CustomAuraContainerGroupLayoutDefaultOptions}}

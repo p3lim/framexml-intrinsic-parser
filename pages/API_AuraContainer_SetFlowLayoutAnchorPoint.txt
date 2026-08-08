@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=AuraContainerFlowLayoutSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:SetFlowLayoutAnchorPoint(anchorPoint)}}
+
+==Arguments==
+:;anchorPoint:{{apitype|FramePoint}}{{:FramePoint}}

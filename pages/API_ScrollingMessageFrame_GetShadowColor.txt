@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=FontableFrameMixin}}
+&nbsp;
+{{apisig|shadowColor {{=}} ScrollingMessageFrame:GetShadowColor()}}
+
+==Returns==
+:;shadowColor:{{apitype|unknown}}

@@ -1,0 +1,3 @@
+{{intrinsicmethod|mixin=ScrollBarMixin}}
+&nbsp;
+{{apisig|EventFrame:UnregisterUpdate()}}

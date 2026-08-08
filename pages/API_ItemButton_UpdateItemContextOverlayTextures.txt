@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|ItemButton:UpdateItemContextOverlayTextures(contextMode)}}
+
+==Arguments==
+:;contextMode:{{apitype|unknown}}

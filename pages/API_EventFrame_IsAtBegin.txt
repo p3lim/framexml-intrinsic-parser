@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
+&nbsp;
+{{apisig|isAtBegin {{=}} EventFrame:IsAtBegin()}}
+
+==Returns==
+:;isAtBegin:{{apitype|unknown}}

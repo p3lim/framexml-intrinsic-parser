@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=AuraContainerFlowLayoutSharedMixin}}
+&nbsp;
+{{apisig|flowLayoutPadding {{=}} AuraContainer:GetFlowLayoutPadding()}}
+
+==Returns==
+:;flowLayoutPadding:{{apitype|number}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CallbackRegistryMixin}}
+&nbsp;
+{{apisig|EventScrollFrame:SetUndefinedEventsAllowed(allowed)}}
+
+==Arguments==
+:;allowed:{{apitype|unknown}}

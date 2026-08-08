@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CallbackRegistryMixin}}
+&nbsp;
+{{apisig|EventEditBox:UnregisterEventsByEventTable(eventTable)}}
+
+==Arguments==
+:;eventTable:{{apitype|unknown}}

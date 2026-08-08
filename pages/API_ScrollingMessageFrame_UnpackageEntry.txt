@@ -1,0 +1,17 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|message, r, g, b, unknown, message, r, g, b {{=}} ScrollingMessageFrame:UnpackageEntry(entry)}}
+
+==Arguments==
+:;entry:{{apitype|unknown}}
+
+==Returns==
+:;message:{{apitype|unknown}}
+:;r:{{apitype|unknown}}
+:;g:{{apitype|unknown}}
+:;b:{{apitype|unknown}}
+:;unknown:{{apitype|unknown}}
+:;message:{{apitype|unknown}}
+:;r:{{apitype|unknown}}
+:;g:{{apitype|unknown}}
+:;b:{{apitype|unknown}}

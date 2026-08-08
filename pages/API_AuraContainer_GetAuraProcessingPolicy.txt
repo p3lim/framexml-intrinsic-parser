@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|auraProcessingPolicy {{=}} AuraContainer:GetAuraProcessingPolicy()}}
+
+==Returns==
+:;auraProcessingPolicy:{{apitype|CustomAuraContainerAuraProcessingPolicy}}

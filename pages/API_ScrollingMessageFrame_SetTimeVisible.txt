@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:SetTimeVisible(timeVisibleSecs)}}
+
+==Arguments==
+:;timeVisibleSecs:{{apitype|unknown}}

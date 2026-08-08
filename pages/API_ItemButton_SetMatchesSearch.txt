@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|ItemButton:SetMatchesSearch(matchesSearch)}}
+
+==Arguments==
+:;matchesSearch:{{apitype|unknown}}

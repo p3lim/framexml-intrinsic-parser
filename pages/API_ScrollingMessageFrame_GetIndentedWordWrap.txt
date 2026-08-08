@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=FontableFrameMixin}}
+&nbsp;
+{{apisig|indentedWordWrap {{=}} ScrollingMessageFrame:GetIndentedWordWrap()}}
+
+==Returns==
+:;indentedWordWrap:{{apitype|unknown}}

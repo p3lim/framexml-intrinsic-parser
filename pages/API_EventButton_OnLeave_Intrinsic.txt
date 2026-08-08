@@ -1,0 +1,3 @@
+{{intrinsicmethod|mixin=EventButtonMixin}}
+&nbsp;
+{{apisig|EventButton:OnLeave_Intrinsic()}}

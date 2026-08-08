@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|AuraButton:RemovePandemicRegion(index)}}
+
+==Arguments==
+:;index:{{apitype|number}}

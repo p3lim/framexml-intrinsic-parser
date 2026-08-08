@@ -1,0 +1,10 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|auraFrame {{=}} AuraContainer:AddItemEnchantment(itemEnchantmentSlot, options)}}
+
+==Arguments==
+:;itemEnchantmentSlot:{{apitype|AuraContainerItemEnchantmentSlot}}{{:Structure_AuraContainerItemEnchantmentSlot|nocaption=1}}
+:;options:{{apitype|CustomAuraContainerItemEnchantmentDefaultOptions}}{{:Structure_CustomAuraContainerItemEnchantmentDefaultOptions|nocaption=1}}
+
+==Returns==
+:;auraFrame:{{apitype|unknown}}

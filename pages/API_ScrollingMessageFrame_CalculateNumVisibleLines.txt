@@ -1,0 +1,8 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|unknown, unknown, unknown {{=}} ScrollingMessageFrame:CalculateNumVisibleLines()}}
+
+==Returns==
+:;unknown:{{apitype|unknown}}
+:;unknown:{{apitype|unknown}}
+:;unknown:{{apitype|unknown}}

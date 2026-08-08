@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=UIThemeContainerMixin}}
+&nbsp;
+{{apisig|UIThemeContainerFrame:CheckUpdateTheme(cvar, value)}}
+
+==Arguments==
+:;cvar:{{apitype|unknown}}
+:;value:{{apitype|unknown}}

@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=EventButtonMixin}}
+&nbsp;
+{{apisig|EventButton:OnMouseUp_Intrinsic(buttonName, upInside)}}
+
+==Arguments==
+:;buttonName:{{apitype|unknown}}
+:;upInside:{{apitype|unknown}}

@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:SetAuraGroupMaxFrameCount(groupKey, maxFrameCount)}}
+
+==Arguments==
+:;groupKey:{{apitype|string}}
+:;maxFrameCount:{{apitype|number}}

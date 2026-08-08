@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:SetItemEnchantmentLayout(layoutOptions)}}
+
+==Arguments==
+:;layoutOptions:{{apitype|CustomAuraContainerItemEnchantmentLayoutDefaultOptions}}{{:FrameXML_types/CustomAuraContainerItemEnchantmentLayoutDefaultOptions}}

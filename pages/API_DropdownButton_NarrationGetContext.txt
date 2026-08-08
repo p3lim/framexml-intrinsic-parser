@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=DropdownSelectionTextMixin}}
+&nbsp;
+{{apisig|NARRATION_OBJECT_DROPDOWN, unknown {{=}} DropdownButton:NarrationGetContext()}}
+
+==Returns==
+:;NARRATION_OBJECT_DROPDOWN:{{apitype|unknown}}
+:;unknown:{{apitype|unknown}}

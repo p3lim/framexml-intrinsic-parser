@@ -1,0 +1,9 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|dispelTypeTexture {{=}} AuraButton:GetDispelTypeTexture(index)}}
+
+==Arguments==
+:;index:{{apitype|number}}
+
+==Returns==
+:;dispelTypeTexture:{{apitype|Texture}}

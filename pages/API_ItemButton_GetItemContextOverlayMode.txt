@@ -1,0 +1,8 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|Standard, RuneForging, itemContextOverlayMode {{=}} ItemButton:GetItemContextOverlayMode()}}
+
+==Returns==
+:;Standard:{{apitype|unknown}}
+:;RuneForging:{{apitype|unknown}}
+:;itemContextOverlayMode:{{apitype|unknown}}

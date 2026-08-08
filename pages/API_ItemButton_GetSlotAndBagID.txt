@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|slotAndBagID, slotAndBagID {{=}} ItemButton:GetSlotAndBagID()}}
+
+==Returns==
+:;slotAndBagID:{{apitype|unknown}}
+:;slotAndBagID:{{apitype|unknown}}

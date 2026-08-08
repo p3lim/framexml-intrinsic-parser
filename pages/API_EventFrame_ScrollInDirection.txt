@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=ScrollBarMixin}}
+&nbsp;
+{{apisig|EventFrame:ScrollInDirection(percentage, direction)}}
+
+==Arguments==
+:;percentage:{{apitype|unknown}}
+:;direction:{{apitype|unknown}}

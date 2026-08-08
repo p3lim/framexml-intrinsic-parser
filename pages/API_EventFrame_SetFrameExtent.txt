@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=ScrollDirectionMixin}}
+&nbsp;
+{{apisig|EventFrame:SetFrameExtent(frame, value)}}
+
+==Arguments==
+:;frame:{{apitype|unknown}}
+:;value:{{apitype|unknown}}

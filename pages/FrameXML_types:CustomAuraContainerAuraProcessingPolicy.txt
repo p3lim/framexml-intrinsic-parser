@@ -1,0 +1,11 @@
+{{framexmltype|CustomAuraContainerAuraProcessingPolicy}}
+
+<onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerAuraProcessingPolicy}}
+! Value !! Field !! Description
+|-
+| 0 || {{apiname|None}} || Do not add container-specific aura processing metadata.
+|-
+| 1 || {{apiname|ProcessAura}} || Store AuraUtil.ProcessAura's classification result on aura data before
+candidate filters are evaluated.
+|}</onlyinclude>

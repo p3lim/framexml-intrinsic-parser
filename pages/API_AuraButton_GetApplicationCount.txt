@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|applicationCount {{=}} AuraButton:GetApplicationCount()}}
+
+==Returns==
+:;applicationCount:{{apitype|FontString}}

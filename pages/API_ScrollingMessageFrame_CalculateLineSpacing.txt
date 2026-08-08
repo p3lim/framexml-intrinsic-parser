@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|lineSpacing {{=}} ScrollingMessageFrame:CalculateLineSpacing()}}
+
+==Returns==
+:;lineSpacing:{{apitype|unknown}}

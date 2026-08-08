@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|isScrollAllowed {{=}} ScrollingMessageFrame:IsScrollAllowed()}}
+
+==Returns==
+:;isScrollAllowed:{{apitype|number}}

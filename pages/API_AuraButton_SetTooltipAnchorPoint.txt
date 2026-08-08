@@ -1,0 +1,8 @@
+{{intrinsicmethod|mixin=AuraButtonSharedMixin}}
+&nbsp;
+{{apisig|AuraButton:SetTooltipAnchorPoint(point, offsetX, offsetY)}}
+
+==Arguments==
+:;point:{{apitype|TooltipAnchor}}{{:API_types/TooltipAnchor|nocaption=1}}
+:;offsetX:{{apitype|number}}
+:;offsetY:{{apitype|number}}

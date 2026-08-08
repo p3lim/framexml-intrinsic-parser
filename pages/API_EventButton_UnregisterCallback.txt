@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=CallbackRegistryMixin}}
+&nbsp;
+{{apisig|EventButton:UnregisterCallback(event, owner)}}
+
+==Arguments==
+:;event:{{apitype|unknown}}
+:;owner:{{apitype|unknown}}

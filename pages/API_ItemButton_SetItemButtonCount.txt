@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|ItemButton:SetItemButtonCount(count)}}
+
+==Arguments==
+:;count:{{apitype|unknown}}

@@ -1,0 +1,42 @@
+{{intrinsic}} {{tocright}}
+{| {{apitable}}}
+{{apirow | Instantiation | <code>{{api|CreateFrame}}("ContainedAlertFrame")</code>}}
+|}
+
+This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} and these mixins:
+* {{tlygo|ContainedAlertFrameMixin}}
+
+
+==Methods==
+{| class="darktable zebra"
+| <onlyinclude>{{#switch:{{{1|method}}}|method=
+: {{apilink|t=Function|ContainedAlertFrame:OnPostShow}}
+: {{apilink|t=Function|ContainedAlertFrame:OnPostHide}}
+: {{apilink|t=Function|ContainedAlertFrame:SetAlertContainer|arg=container}}
+: {{apilink|t=Function|ContainedAlertFrame:GetAlertContainer|ret=alertContainer}}
+: {{apilink|t=Function|ContainedAlertFrame:OnManagedAlertFrameVisibilityChanged}}
+: {{apilink|t=Function|ContainedAlertFrame:ManagesOwnOutroAnimation|ret=unknown}}
+: {{apilink|t=Function|ContainedAlertFrame:SetExternallyManagedOutroAnimation|arg=externallyManagedAnimation}}
+}}</onlyinclude>
+|-
+| {{:UIOBJECT_Button|method}}
+|- class="mw-customtoggle-methods"
+| Collapse
+|- class="mw-collapsible" id="mw-customcollapsible-methods"
+|
+{{:UIOBJECT_Frame|method}}
+{{:UIOBJECT_Region|method}}
+{{:UIOBJECT_ScriptRegion|method}}
+{{:UIOBJECT_ScriptRegionResizing|method}}
+{{:UIOBJECT_AnimatableObject|method}}
+{{:UIOBJECT_Object|method}}
+{{:UIOBJECT_FrameScriptObject|method}}
+|}
+
+==Script Types==
+{| class="darktable zebra"
+|
+{{:UIOBJECT_Button|script}}
+{{:UIOBJECT_Frame|script}}
+{{:UIOBJECT_ScriptRegion|script}}
+|}

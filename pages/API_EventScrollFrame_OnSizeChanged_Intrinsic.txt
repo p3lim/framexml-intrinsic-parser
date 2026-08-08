@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=EventScrollFrameMixin}}
+&nbsp;
+{{apisig|EventScrollFrame:OnSizeChanged_Intrinsic(width, height)}}
+
+==Arguments==
+:;width:{{apitype|unknown}}
+:;height:{{apitype|unknown}}

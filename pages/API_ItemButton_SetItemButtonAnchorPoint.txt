@@ -1,0 +1,8 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|ItemButton:SetItemButtonAnchorPoint(point, x, y)}}
+
+==Arguments==
+:;point:{{apitype|unknown}}
+:;x:{{apitype|number}}
+:;y:{{apitype|unknown}}

@@ -1,0 +1,52 @@
+{{intrinsic}} {{tocright}}
+{| {{apitable}}}
+{{apirow | Instantiation | <code>{{api|CreateFrame}}("UIThemeContainerFrame")</code>}}
+|}
+
+This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} and these mixins:
+* {{tlygo|UIThemeContainerMixin}}
+
+
+==Methods==
+{| class="darktable zebra"
+| <onlyinclude>{{#switch:{{{1|method}}}|method=
+: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPreLoad}}
+: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPreShow}}
+: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPostHide}}
+: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPostEvent|arg=event, ...}}
+: {{apilink|t=Function|UIThemeContainerFrame:UpdateTheme|arg=cvarValue}}
+: {{apilink|t=Function|UIThemeContainerFrame:CheckUpdateTheme|arg=cvar, value}}
+: {{apilink|t=Function|UIThemeContainerFrame:GetCVarValue|ret=cVarValue}}
+: {{apilink|t=Function|UIThemeContainerFrame:IsDarkMode|arg=cvarValue|ret=isDarkMode}}
+: {{apilink|t=Function|UIThemeContainerFrame:UpdateFontStrings|arg=cvarValue}}
+: {{apilink|t=Function|UIThemeContainerFrame:UpdateFrames|arg=cvarValue}}
+: {{apilink|t=Function|UIThemeContainerFrame:UpdateBackground|arg=cvarValue}}
+: {{apilink|t=Function|UIThemeContainerFrame:RegisterObject|arg=container, object}}
+: {{apilink|t=Function|UIThemeContainerFrame:RegisterObjects|arg=container, ...}}
+: {{apilink|t=Function|UIThemeContainerFrame:RegisterFontString|arg=fontString}}
+: {{apilink|t=Function|UIThemeContainerFrame:RegisterFontStrings|arg=...}}
+: {{apilink|t=Function|UIThemeContainerFrame:RegisterFrame|arg=frame}}
+: {{apilink|t=Function|UIThemeContainerFrame:RegisterFrames|arg=...}}
+: {{apilink|t=Function|UIThemeContainerFrame:RegisterBackgroundTexture|arg=texture, textureKit}}
+}}</onlyinclude>
+|-
+|
+|- class="mw-customtoggle-methods"
+| Collapse
+|- class="mw-collapsible" id="mw-customcollapsible-methods"
+|
+{{:UIOBJECT_Frame|method}}
+{{:UIOBJECT_Region|method}}
+{{:UIOBJECT_ScriptRegion|method}}
+{{:UIOBJECT_ScriptRegionResizing|method}}
+{{:UIOBJECT_AnimatableObject|method}}
+{{:UIOBJECT_Object|method}}
+{{:UIOBJECT_FrameScriptObject|method}}
+|}
+
+==Script Types==
+{| class="darktable zebra"
+|
+{{:UIOBJECT_Frame|script}}
+{{:UIOBJECT_ScriptRegion|script}}
+|}

@@ -1,0 +1,9 @@
+{{intrinsicmethod|mixin=AuraContainerFlowLayoutSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:SetFlowLayoutPadding(left, right, top, bottom)}}
+
+==Arguments==
+:;left:{{apitype|number}}
+:;right:{{apitype|number}}
+:;top:{{apitype|number}}
+:;bottom:{{apitype|number}}

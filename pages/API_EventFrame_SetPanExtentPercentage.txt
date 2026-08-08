@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
+&nbsp;
+{{apisig|EventFrame:SetPanExtentPercentage(panExtentPercentage)}}
+
+==Arguments==
+:;panExtentPercentage:{{apitype|unknown}}

@@ -1,0 +1,26 @@
+{{framexmltype|CustomAuraContainerGroupLayoutDefaultOptions}}
+
+<onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerGroupLayoutDefaultOptions}}
+! Field !! Type !! Default !! Description
+|-
+| {{apiname|elementSpacing}} || {{apitype|number}} || {{apitype|0}} || 
+|-
+| {{apiname|lineSpacing}} || {{apitype|number}} || {{apitype|0}} || 
+|-
+| {{apiname|groupSpacing}} || {{apitype|number}} || {{apitype|0}} || 
+|-
+| {{apiname|groupLineSpacing}} || {{apitype|number}} || {{apitype|0}} || 
+|-
+| {{apiname|forceNewLine}} || {{apitype|boolean}} || {{apitype|false}} || 
+|-
+| {{apiname|elementWidth}} || {{apitype|number}} || {{apitype|nil}} || 
+|-
+| {{apiname|elementHeight}} || {{apitype|number}} || {{apitype|nil}} || 
+|-
+| {{apiname|layoutIndex}} || {{apitype|number}} || {{apitype|nil}} || 
+|}</onlyinclude>
+==Details==
+Default per-filter layout settings for a group's contribution to the shared
+flow layout. These control spacing, gaps, row breaks, and optional element
+size overrides for that filter's visible frames.

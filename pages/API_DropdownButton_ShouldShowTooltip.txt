@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownSelectionTextMixin}}
+&nbsp;
+{{apisig|shouldShowTooltip {{=}} DropdownButton:ShouldShowTooltip()}}
+
+==Returns==
+:;shouldShowTooltip:{{apitype|boolean}}

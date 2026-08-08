@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|inputText, inputText {{=}} EventEditBox:GetInputText()}}
+
+==Returns==
+:;inputText:{{apitype|unknown}}
+:;inputText:{{apitype|unknown}}

@@ -1,0 +1,12 @@
+{{intrinsicmethod|mixin=ScrollBarMixin}}
+&nbsp;
+{{apisig|unknown, unknown, unknown, unknown {{=}} EventFrame:CanCursorStepInDirection(direction)}}
+
+==Arguments==
+:;direction:{{apitype|unknown}}
+
+==Returns==
+:;unknown:{{apitype|boolean}}
+:;unknown:{{apitype|boolean}}
+:;unknown:{{apitype|boolean}}
+:;unknown:{{apitype|boolean}}

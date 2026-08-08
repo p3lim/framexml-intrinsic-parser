@@ -1,0 +1,13 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|characterIndex, lineIndex, closestCharacterIndex, closestLineIndex {{=}} ScrollingMessageFrame:FindCharacterAndLineIndexAtCoordinate(x, y)}}
+
+==Arguments==
+:;x:{{apitype|number}}
+:;y:{{apitype|unknown}}
+
+==Returns==
+:;characterIndex:{{apitype|unknown}}
+:;lineIndex:{{apitype|unknown}}
+:;closestCharacterIndex:{{apitype|unknown}}
+:;closestLineIndex:{{apitype|unknown}}

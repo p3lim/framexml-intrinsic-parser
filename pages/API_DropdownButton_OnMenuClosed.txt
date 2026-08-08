@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=WowStyle2DropdownMixin}}
+&nbsp;
+{{apisig|DropdownButton:OnMenuClosed(menu, closeReason)}}
+
+==Arguments==
+:;menu:{{apitype|unknown}}
+:;closeReason:{{apitype|unknown}}

@@ -1,0 +1,10 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:AddMessage(message, r, g, b, ...)}}
+
+==Arguments==
+:;message:{{apitype|unknown}}
+:;r:{{apitype|unknown}}
+:;g:{{apitype|unknown}}
+:;b:{{apitype|unknown}}
+:;...:{{apitype|unknown}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|maxLines {{=}} ScrollingMessageFrame:GetMaxLines()}}
+
+==Returns==
+:;maxLines:{{apitype|unknown}}

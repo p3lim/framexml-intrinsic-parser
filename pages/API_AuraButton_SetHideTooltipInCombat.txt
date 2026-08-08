@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=AuraButtonSharedMixin}}
+&nbsp;
+{{apisig|AuraButton:SetHideTooltipInCombat(hideInCombat)}}
+
+==Arguments==
+:;hideInCombat:{{apitype|boolean}}
