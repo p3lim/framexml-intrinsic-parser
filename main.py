@@ -51,7 +51,7 @@ def main() -> None:
 
   # use the list of intrinsics files to get their upper directories,
   # stripping the base prefix for easier manipulation and appending
-  intrinsic_paths = [Path(*path.parts[3:4]) for path in intrinsic_files]
+  intrinsic_paths = [Path(*Path(*path.parts[path.parts.index("wow-ui-source"):]).parts[3:4]) for path in intrinsic_files]
 
   # add extra paths we'll need for building inheritance
   intrinsic_paths.append(Path('Blizzard_SharedXMLBase'))
@@ -60,7 +60,7 @@ def main() -> None:
 
   # add prefix the prefix back to all the paths
   for index, path in enumerate(intrinsic_paths):
-    intrinsic_paths[index] = Path(*SOURCE_DIR.parts[:3]) / path
+    intrinsic_paths[index] = SOURCE_DIR / path
 
   # ensure we have unique paths
   intrinsic_paths = set(intrinsic_paths)
