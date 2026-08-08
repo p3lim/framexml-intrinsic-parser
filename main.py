@@ -23,19 +23,19 @@ jinja = Environment(
 )
 
 def get_inherited_mixins(tables: dict[str, Table], origins: list[str]) -> list[str]:
-  mixins = set()
-  stack = list(origins)
+  mixins = []
+  stack = origins.copy()
 
   while stack:
     mixin = stack.pop()
     if mixin not in mixins:
-      mixins.add(mixin)
+      mixins.append(mixin)
 
       for inherit in tables[mixin].inherits:
         if inherit not in mixins:
           stack.append(inherit)
 
-  return list(mixins)
+  return mixins
 
 def main() -> None:
   if not SOURCE_DIR.exists() or not SOURCE_DIR.is_dir():
