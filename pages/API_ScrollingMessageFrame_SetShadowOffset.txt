@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=FontableFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:SetShadowOffset(offsetX, offsetY)}}
+
+==Arguments==
+:;offsetX:{{apitype|unknown}}
+:;offsetY:{{apitype|unknown}}

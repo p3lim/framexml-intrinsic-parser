@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownSelectionTextMixin}}
+&nbsp;
+{{apisig|DropdownButton:SetSelectionText(selectionFunc)}}
+
+==Arguments==
+:;selectionFunc:{{apitype|unknown}}

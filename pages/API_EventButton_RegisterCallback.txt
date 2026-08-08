@@ -1,0 +1,12 @@
+{{intrinsicmethod|mixin=CallbackRegistryMixin}}
+&nbsp;
+{{apisig|owner {{=}} EventButton:RegisterCallback(event, func, owner, ...)}}
+
+==Arguments==
+:;event:{{apitype|unknown}}
+:;func:{{apitype|unknown}}
+:;owner:{{apitype|unknown}}
+:;...:{{apitype|unknown}}
+
+==Returns==
+:;owner:{{apitype|unknown}}

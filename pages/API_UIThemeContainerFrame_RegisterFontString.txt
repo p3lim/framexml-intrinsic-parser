@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=UIThemeContainerMixin}}
+&nbsp;
+{{apisig|UIThemeContainerFrame:RegisterFontString(fontString)}}
+
+==Arguments==
+:;fontString:{{apitype|unknown}}

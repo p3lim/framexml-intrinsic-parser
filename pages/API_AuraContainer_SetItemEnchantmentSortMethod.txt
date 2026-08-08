@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:SetItemEnchantmentSortMethod(sortMethod, sortDirection)}}
+
+==Arguments==
+:;sortMethod:{{apitype|AuraContainerItemEnchantmentSortMethod}}{{:FrameXML_types/AuraContainerItemEnchantmentSortMethod}}
+:;sortDirection:{{apitype|AuraContainerSortDirection}}{{:FrameXML_types/AuraContainerSortDirection}}

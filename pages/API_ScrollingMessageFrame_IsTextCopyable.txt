@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|textIsCopyable {{=}} ScrollingMessageFrame:IsTextCopyable()}}
+
+==Returns==
+:;textIsCopyable:{{apitype|unknown}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollBarMixin}}
+&nbsp;
+{{apisig|hasScrollableExtent {{=}} EventFrame:HasScrollableExtent()}}
+
+==Returns==
+:;hasScrollableExtent:{{apitype|unknown}}

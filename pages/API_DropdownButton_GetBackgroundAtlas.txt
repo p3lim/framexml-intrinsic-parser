@@ -1,0 +1,11 @@
+{{intrinsicmethod|mixin=WowStyle1FilterDropdownMixin}}
+&nbsp;
+{{apisig|WowStyle1FilterDropdownStateDownOver, WowStyle1FilterDropdownStateOver, WowStyle1FilterDropdownStateDown, WowStyle1FilterDropdownStateOpen, WowStyle1FilterDropdownStateEnabled, WowStyle1FilterDropdownStateDisabled {{=}} DropdownButton:GetBackgroundAtlas()}}
+
+==Returns==
+:;WowStyle1FilterDropdownStateDownOver:{{apitype|unknown}}
+:;WowStyle1FilterDropdownStateOver:{{apitype|unknown}}
+:;WowStyle1FilterDropdownStateDown:{{apitype|unknown}}
+:;WowStyle1FilterDropdownStateOpen:{{apitype|unknown}}
+:;WowStyle1FilterDropdownStateEnabled:{{apitype|unknown}}
+:;WowStyle1FilterDropdownStateDisabled:{{apitype|unknown}}

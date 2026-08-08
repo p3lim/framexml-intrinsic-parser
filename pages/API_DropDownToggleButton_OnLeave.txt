@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropDownMenuButtonMixin}}
+&nbsp;
+{{apisig|DropDownToggleButton:OnLeave(...)}}
+
+==Arguments==
+:;...:{{apitype|unknown}}

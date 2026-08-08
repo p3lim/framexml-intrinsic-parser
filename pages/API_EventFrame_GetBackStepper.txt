@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollBarMixin}}
+&nbsp;
+{{apisig|Back {{=}} EventFrame:GetBackStepper()}}
+
+==Returns==
+:;Back:{{apitype|unknown}}

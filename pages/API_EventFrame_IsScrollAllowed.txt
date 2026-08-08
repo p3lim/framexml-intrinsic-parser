@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
+&nbsp;
+{{apisig|allowScroll {{=}} EventFrame:IsScrollAllowed()}}
+
+==Returns==
+:;allowScroll:{{apitype|unknown}}

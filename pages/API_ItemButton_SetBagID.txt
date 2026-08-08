@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|ItemButton:SetBagID(bagID)}}
+
+==Arguments==
+:;bagID:{{apitype|unknown}}

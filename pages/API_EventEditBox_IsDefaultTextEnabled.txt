@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|isDefaultTextEnabled {{=}} EventEditBox:IsDefaultTextEnabled()}}
+
+==Returns==
+:;isDefaultTextEnabled:{{apitype|boolean}}

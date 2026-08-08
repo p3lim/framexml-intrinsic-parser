@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:OnPostEvent(event, ...)}}
+
+==Arguments==
+:;event:{{apitype|unknown}}
+:;...:{{apitype|unknown}}

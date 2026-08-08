@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollBarMixin}}
+&nbsp;
+{{apisig|EventFrame:SetVisibleExtentPercentage(visibleExtentPercentage)}}
+
+==Arguments==
+:;visibleExtentPercentage:{{apitype|unknown}}

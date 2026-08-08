@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=FontableFrameMixin}}
+&nbsp;
+{{apisig|fontObject {{=}} ScrollingMessageFrame:GetFontObject()}}
+
+==Returns==
+:;fontObject:{{apitype|unknown}}

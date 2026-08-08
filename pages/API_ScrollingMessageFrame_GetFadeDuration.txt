@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|fadeDurationSecs {{=}} ScrollingMessageFrame:GetFadeDuration()}}
+
+==Returns==
+:;fadeDurationSecs:{{apitype|unknown}}

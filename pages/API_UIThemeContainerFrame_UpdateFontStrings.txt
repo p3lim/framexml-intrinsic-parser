@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=UIThemeContainerMixin}}
+&nbsp;
+{{apisig|UIThemeContainerFrame:UpdateFontStrings(cvarValue)}}
+
+==Arguments==
+:;cvarValue:{{apitype|unknown}}

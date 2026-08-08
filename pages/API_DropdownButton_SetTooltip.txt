@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownSelectionTextMixin}}
+&nbsp;
+{{apisig|DropdownButton:SetTooltip(tooltipFunc)}}
+
+==Arguments==
+:;tooltipFunc:{{apitype|unknown}}

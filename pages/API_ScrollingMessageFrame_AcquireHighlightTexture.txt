@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|texture {{=}} ScrollingMessageFrame:AcquireHighlightTexture()}}
+
+==Returns==
+:;texture:{{apitype|unknown}}

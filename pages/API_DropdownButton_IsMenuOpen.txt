@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
+&nbsp;
+{{apisig|isMenuOpen {{=}} DropdownButton:IsMenuOpen()}}
+
+==Returns==
+:;isMenuOpen:{{apitype|boolean}}

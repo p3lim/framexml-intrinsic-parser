@@ -1,0 +1,10 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|auraFrame {{=}} AuraContainer:GetAuraGroupFrame(groupKey, frameIndex)}}
+
+==Arguments==
+:;groupKey:{{apitype|string}}
+:;frameIndex:{{apitype|number}}
+
+==Returns==
+:;auraFrame:{{apitype|AuraButton}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=AuraButtonSharedMixin}}
+&nbsp;
+{{apisig|AuraButton:SetCancelAuraButtons(cancelAuraButtons)}}
+
+==Arguments==
+:;cancelAuraButtons:{{apitype|string}}

@@ -1,0 +1,72 @@
+{{intrinsic}} {{tocright}}
+{| {{apitable}}}
+{{apirow | Instantiation | <code>{{api|CreateFrame}}("ItemButton")</code>}}
+|}
+
+This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} and these mixins:
+* {{tlygo|ItemButtonMixin}}
+
+
+==Methods==
+{| class="darktable zebra"
+| <onlyinclude>{{#switch:{{{1|method}}}|method=
+: {{apilink|t=Function|ItemButton:OnItemContextChanged}}
+: {{apilink|t=Function|ItemButton:PostOnShow}}
+: {{apilink|t=Function|ItemButton:PostOnHide}}
+: {{apilink|t=Function|ItemButton:PostOnEvent|arg=event, ...}}
+: {{apilink|t=Function|ItemButton:SetMatchesSearch|arg=matchesSearch}}
+: {{apilink|t=Function|ItemButton:GetMatchesSearch|ret=matchesSearch}}
+: {{apilink|t=Function|ItemButton:UpdateItemContextMatching}}
+: {{apilink|t=Function|ItemButton:UpdateCraftedProfessionsQualityShown}}
+: {{apilink|t=Function|ItemButton:GetItemContextOverlayMode|ret=Standard, RuneForging, itemContextOverlayMode}}
+: {{apilink|t=Function|ItemButton:UpdateItemContextOverlay}}
+: {{apilink|t=Function|ItemButton:UpdateItemContextOverlayTextures|arg=contextMode}}
+: {{apilink|t=Function|ItemButton:Reset}}
+: {{apilink|t=Function|ItemButton:SetItemSource|arg=itemLocation}}
+: {{apilink|t=Function|ItemButton:SetItemLocation|arg=itemLocation|ret=unknown, unknown}}
+: {{apilink|t=Function|ItemButton:SetItem|arg=item|ret=unknown}}
+: {{apilink|t=Function|ItemButton:SetItemInternal|arg=item|ret=unknown, unknown, unknown}}
+: {{apilink|t=Function|ItemButton:GetItemInfo|ret=itemLink, itemQuality, itemIcon, itemLink, itemQuality, itemIcon}}
+: {{apilink|t=Function|ItemButton:GetItemID|ret=itemID, itemID}}
+: {{apilink|t=Function|ItemButton:GetItem|ret=item}}
+: {{apilink|t=Function|ItemButton:GetItemLink|ret=itemLink}}
+: {{apilink|t=Function|ItemButton:GetItemLocation|ret=itemLocation}}
+: {{apilink|t=Function|ItemButton:SetItemButtonCount|arg=count}}
+: {{apilink|t=Function|ItemButton:SetItemButtonAnchorPoint|arg=point, x, y}}
+: {{apilink|t=Function|ItemButton:SetItemButtonScale|arg=scale}}
+: {{apilink|t=Function|ItemButton:GetItemButtonCount|ret=itemButtonCount}}
+: {{apilink|t=Function|ItemButton:SetAlpha|arg=alpha}}
+: {{apilink|t=Function|ItemButton:SetBagID|arg=bagID}}
+: {{apilink|t=Function|ItemButton:GetBagID|ret=bagID}}
+: {{apilink|t=Function|ItemButton:GetSlotAndBagID|ret=slotAndBagID, slotAndBagID}}
+: {{apilink|t=Function|ItemButton:OnUpdateItemContextMatching|arg=bagID}}
+: {{apilink|t=Function|ItemButton:RegisterBagButtonUpdateItemContextMatching}}
+: {{apilink|t=Function|ItemButton:GetItemButtonIconTexture|ret=itemButtonIconTexture}}
+: {{apilink|t=Function|ItemButton:SetItemButtonTexture|arg=texture}}
+: {{apilink|t=Function|ItemButton:SetItemButtonTextureVertexColor|arg=r, g, b}}
+: {{apilink|t=Function|ItemButton:SetItemButtonQuality|arg=quality, itemIDOrLink, suppressOverlays, isBound, ignoreColorOverrides}}
+: {{apilink|t=Function|ItemButton:SetItemButtonBorderVertexColor|arg=r, g, b}}
+: {{apilink|t=Function|ItemButton:GetItemButtonBackgroundTexture|ret=itemButtonBackgroundTexture}}
+}}</onlyinclude>
+|-
+| {{:UIOBJECT_Button|method}}
+|- class="mw-customtoggle-methods"
+| Collapse
+|- class="mw-collapsible" id="mw-customcollapsible-methods"
+|
+{{:UIOBJECT_Frame|method}}
+{{:UIOBJECT_Region|method}}
+{{:UIOBJECT_ScriptRegion|method}}
+{{:UIOBJECT_ScriptRegionResizing|method}}
+{{:UIOBJECT_AnimatableObject|method}}
+{{:UIOBJECT_Object|method}}
+{{:UIOBJECT_FrameScriptObject|method}}
+|}
+
+==Script Types==
+{| class="darktable zebra"
+|
+{{:UIOBJECT_Button|script}}
+{{:UIOBJECT_Frame|script}}
+{{:UIOBJECT_ScriptRegion|script}}
+|}

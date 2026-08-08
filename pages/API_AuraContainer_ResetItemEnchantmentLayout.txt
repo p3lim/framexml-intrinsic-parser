@@ -1,0 +1,3 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:ResetItemEnchantmentLayout()}}

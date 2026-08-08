@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|cursorOffset {{=}} EventEditBox:GetCursorOffset()}}
+
+==Returns==
+:;cursorOffset:{{apitype|boolean}}

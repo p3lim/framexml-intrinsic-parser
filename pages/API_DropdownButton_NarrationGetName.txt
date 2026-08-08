@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=DropdownSelectionTextMixin}}
+&nbsp;
+{{apisig|text, narrationLabel {{=}} DropdownButton:NarrationGetName()}}
+
+==Returns==
+:;text:{{apitype|unknown}}
+:;narrationLabel:{{apitype|unknown}}

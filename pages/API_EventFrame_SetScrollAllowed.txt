@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollBarMixin}}
+&nbsp;
+{{apisig|EventFrame:SetScrollAllowed(allowScroll)}}
+
+==Arguments==
+:;allowScroll:{{apitype|unknown}}

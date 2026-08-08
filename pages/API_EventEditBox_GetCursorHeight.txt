@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|cursorHeight {{=}} EventEditBox:GetCursorHeight()}}
+
+==Returns==
+:;cursorHeight:{{apitype|boolean}}

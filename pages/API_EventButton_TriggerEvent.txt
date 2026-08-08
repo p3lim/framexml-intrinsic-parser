@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=CallbackRegistryMixin}}
+&nbsp;
+{{apisig|EventButton:TriggerEvent(event, ...)}}
+
+==Arguments==
+:;event:{{apitype|unknown}}
+:;...:{{apitype|unknown}}

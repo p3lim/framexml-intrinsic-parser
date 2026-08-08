@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|AuraButton:SetDurationBar(statusBar, options)}}
+
+==Arguments==
+:;statusBar:{{apitype|StatusBar}}
+:;options:{{apitype|CustomAuraButtonDurationBarOptions}}{{:Structure_CustomAuraButtonDurationBarOptions|nocaption=1}}

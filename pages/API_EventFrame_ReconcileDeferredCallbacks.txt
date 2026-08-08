@@ -1,0 +1,8 @@
+{{intrinsicmethod|mixin=CallbackRegistryMixin}}
+&nbsp;
+{{apisig|EventFrame:ReconcileDeferredCallbacks(event, closures, funcs)}}
+
+==Arguments==
+:;event:{{apitype|unknown}}
+:;closures:{{apitype|unknown}}
+:;funcs:{{apitype|unknown}}

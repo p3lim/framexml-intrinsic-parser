@@ -1,0 +1,23 @@
+{{framexmltype|CustomAuraContainerSlotDefaultOptions}}
+
+<onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerSlotDefaultOptions}}
+! Field !! Type !! Default !! Description
+|-
+| {{apiname|templateNames}} || {{apitype|string}} || {{apitype|nil}} || Additional templates inherited by the slot frame after CustomAuraButtonTemplate.
+|-
+| {{apiname|initializeFrame}} || {{apitype|function}} || {{apitype|nil}} || Optional callback invoked after the slot frame is created.
+|-
+| {{apiname|candidateFilters}} || {{apitype|table}} || {{apitype|nil}} || Optional candidate filters applied after the aura filter string.
+|-
+| {{apiname|sortMethod}} || {{apitype|AuraContainerSortMethod}} || {{apitype|AuraContainerSortMethod.Default}} || Sort method used to choose the preferred aura for this slot.
+|-
+| {{apiname|sortDirection}} || {{apitype|AuraContainerSortDirection}} || {{apitype|AuraContainerSortDirection.Normal}} || Sort direction applied to the selected sort method.
+|}</onlyinclude>
+==Details==
+Default options for aura slot displays. An aura slot renders a single aura
+at the front of a priority list. They do not take part in dynamic layout
+and must be manually anchored.
+
+This can be used to replicate "big defensive" style displays, dispel
+type indicators, or indicators for specific spells by ID.

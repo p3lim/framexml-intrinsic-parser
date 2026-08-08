@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=AuraContainerFlowLayoutSharedMixin}}
+&nbsp;
+{{apisig|flowLayoutAxis {{=}} AuraContainer:GetFlowLayoutAxis()}}
+
+==Returns==
+:;flowLayoutAxis:{{apitype|AnchorUtil.FlowLayoutAxis}}

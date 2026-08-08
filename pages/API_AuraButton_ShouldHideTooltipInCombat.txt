@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=AuraButtonSharedMixin}}
+&nbsp;
+{{apisig|tooltipHideInCombat {{=}} AuraButton:ShouldHideTooltipInCombat()}}
+
+==Returns==
+:;tooltipHideInCombat:{{apitype|unknown}}

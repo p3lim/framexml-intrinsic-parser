@@ -1,0 +1,21 @@
+{{framexmltype|CustomAuraContainerGroupDefaultOptions}}
+
+<onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerGroupDefaultOptions}}
+! Field !! Type !! Default !! Description
+|-
+| {{apiname|maxFrameCount}} || {{apitype|math}} || {{apitype|math.huge}} || Maximum number of aura frames this filter group may display.
+|-
+| {{apiname|templateNames}} || {{apitype|string}} || {{apitype|nil}} || Additional templates inherited by frames created for this filter group.
+CustomAuraButtonTemplate is always inherited first.
+|-
+| {{apiname|initializeFrame}} || {{apitype|function}} || {{apitype|nil}} || Optional callback invoked after each frame is created.
+|-
+| {{apiname|candidateFilters}} || {{apitype|table}} || {{apitype|nil}} || Optional candidate filters applied after the aura filter string.
+|-
+| {{apiname|sortMethod}} || {{apitype|AuraContainerSortMethod}} || {{apitype|AuraContainerSortMethod.Default}} || Sort method used to order auras accepted by this filter group.
+|-
+| {{apiname|sortDirection}} || {{apitype|AuraContainerSortDirection}} || {{apitype|AuraContainerSortDirection.Normal}} || Sort direction applied to the selected sort method.
+|-
+| {{apiname|layout}} || {{apitype|unknown}} || {{apitype|nil}} || Optional flow layout settings for this filter group's visible frames.
+|}</onlyinclude>

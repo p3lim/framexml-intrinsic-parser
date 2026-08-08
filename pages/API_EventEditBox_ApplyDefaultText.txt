@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|EventEditBox:ApplyDefaultText(defaultText)}}
+
+==Arguments==
+:;defaultText:{{apitype|unknown}}

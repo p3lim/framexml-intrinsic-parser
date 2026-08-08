@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=WowStyle2DropdownMixin}}
+&nbsp;
+{{apisig|DropdownButton:OnMenuOpened(menu)}}
+
+==Arguments==
+:;menu:{{apitype|unknown}}

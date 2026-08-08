@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=AuraContainerFlowLayoutSharedMixin}}
+&nbsp;
+{{apisig|flowLayoutMaximumLineSize {{=}} AuraContainer:GetFlowLayoutMaximumLineSize()}}
+
+==Returns==
+:;flowLayoutMaximumLineSize:{{apitype|number}}

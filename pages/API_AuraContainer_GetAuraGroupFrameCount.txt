@@ -1,0 +1,9 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|auraFrameCount {{=}} AuraContainer:GetAuraGroupFrameCount(groupKey)}}
+
+==Arguments==
+:;groupKey:{{apitype|string}}
+
+==Returns==
+:;auraFrameCount:{{apitype|number}}

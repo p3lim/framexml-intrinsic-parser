@@ -1,0 +1,3 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|AuraButton:ClearSpellName()}}

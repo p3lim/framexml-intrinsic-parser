@@ -1,0 +1,3 @@
+{{intrinsicmethod|mixin=EventFrameMixin}}
+&nbsp;
+{{apisig|EventFrame:OnShow_Intrinsic()}}

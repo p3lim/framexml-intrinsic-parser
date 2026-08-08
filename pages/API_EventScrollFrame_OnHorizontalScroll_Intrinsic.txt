@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=EventScrollFrameMixin}}
+&nbsp;
+{{apisig|EventScrollFrame:OnHorizontalScroll_Intrinsic(offset)}}
+
+==Arguments==
+:;offset:{{apitype|unknown}}

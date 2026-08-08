@@ -1,0 +1,10 @@
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
+&nbsp;
+{{apisig|unknown {{=}} DropdownButton:HandlesGlobalMouseEvent(buttonName, event)}}
+
+==Arguments==
+:;buttonName:{{apitype|unknown}}
+:;event:{{apitype|unknown}}
+
+==Returns==
+:;unknown:{{apitype|boolean}}

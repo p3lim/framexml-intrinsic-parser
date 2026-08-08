@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ButtonStateBehaviorMixin}}
+&nbsp;
+{{apisig|over {{=}} DropdownButton:IsOver()}}
+
+==Returns==
+:;over:{{apitype|unknown}}

@@ -1,0 +1,24 @@
+{{framexmltype|AuraContainerSortMethod}}
+
+<onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||AuraContainerSortMethod}}
+! Value !! Field !! Description
+|-
+| 0 || {{apiname|Default}} || 
+|-
+| 1 || {{apiname|BigDefensive}} || 
+|-
+| 2 || {{apiname|UnitFrameDebuff}} || 
+|-
+| 3 || {{apiname|ImportantOnly}} || 
+|-
+| 4 || {{apiname|Expiration}} || 
+|-
+| 5 || {{apiname|ExpirationOnly}} || 
+|-
+| 6 || {{apiname|Name}} || 
+|-
+| 7 || {{apiname|NameOnly}} || 
+|-
+| 8 || {{apiname|AuraInstanceIDOnly}} || 
+|}</onlyinclude>

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=AuraContainerFlowLayoutSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:SetFlowLayoutMaximumLineSize(maximumLineSize)}}
+
+==Arguments==
+:;maximumLineSize:{{apitype|number}}

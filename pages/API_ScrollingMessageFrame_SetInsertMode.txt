@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:SetInsertMode(insertMode)}}
+
+==Arguments==
+:;insertMode:{{apitype|unknown}}

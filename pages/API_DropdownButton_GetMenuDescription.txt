@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
+&nbsp;
+{{apisig|menuDescription {{=}} DropdownButton:GetMenuDescription()}}
+
+==Returns==
+:;menuDescription:{{apitype|unknown}}

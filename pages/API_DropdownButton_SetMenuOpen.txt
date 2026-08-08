@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
+&nbsp;
+{{apisig|DropdownButton:SetMenuOpen(open)}}
+
+==Arguments==
+:;open:{{apitype|unknown}}

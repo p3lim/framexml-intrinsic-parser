@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|auraBorder {{=}} AuraButton:GetAuraBorder()}}
+
+==Returns==
+:;auraBorder:{{apitype|Texture}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=AuraContainerSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:SetEnabled(enabled)}}
+
+==Arguments==
+:;enabled:{{apitype|boolean}}

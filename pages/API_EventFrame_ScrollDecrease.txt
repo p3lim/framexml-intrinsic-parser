@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
+&nbsp;
+{{apisig|EventFrame:ScrollDecrease(panFactor)}}
+
+==Arguments==
+:;panFactor:{{apitype|unknown}}

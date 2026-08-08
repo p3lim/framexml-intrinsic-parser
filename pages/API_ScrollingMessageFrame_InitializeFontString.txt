@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:InitializeFontString(fontString)}}
+
+==Arguments==
+:;fontString:{{apitype|unknown}}

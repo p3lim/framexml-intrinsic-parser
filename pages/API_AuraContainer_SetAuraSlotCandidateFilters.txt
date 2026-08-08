@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:SetAuraSlotCandidateFilters(slotKey, candidateFilters)}}
+
+==Arguments==
+:;slotKey:{{apitype|string}}
+:;candidateFilters:{{apitype|unknown}}

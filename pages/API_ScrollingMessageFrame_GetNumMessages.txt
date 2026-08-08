@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|numMessages {{=}} ScrollingMessageFrame:GetNumMessages()}}
+
+==Returns==
+:;numMessages:{{apitype|unknown}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|insertMode {{=}} ScrollingMessageFrame:GetInsertMode()}}
+
+==Returns==
+:;insertMode:{{apitype|unknown}}

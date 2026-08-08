@@ -1,0 +1,8 @@
+{{intrinsicmethod|mixin=CallbackRegistryMixin}}
+&nbsp;
+{{apisig|DropdownButton:CopyDeferredCallbacks(callbackType, event, target)}}
+
+==Arguments==
+:;callbackType:{{apitype|unknown}}
+:;event:{{apitype|unknown}}
+:;target:{{apitype|unknown}}

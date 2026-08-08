@@ -1,0 +1,11 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|auraFrame {{=}} AuraContainer:AddAuraSlot(slotKey, filterString, options)}}
+
+==Arguments==
+:;slotKey:{{apitype|string}}
+:;filterString:{{apitype|AuraFilters}}{{:API_types/AuraFilters|nocaption=1}}
+:;options:{{apitype|CustomAuraContainerSlotDefaultOptions}}{{:FrameXML_types/CustomAuraContainerSlotDefaultOptions}}
+
+==Returns==
+:;auraFrame:{{apitype|unknown}}

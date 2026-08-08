@@ -1,0 +1,3 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|EventEditBox:TryApplyDefaultText()}}

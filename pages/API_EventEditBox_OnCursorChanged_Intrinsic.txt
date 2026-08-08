@@ -1,0 +1,10 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|EventEditBox:OnCursorChanged_Intrinsic(x, y, width, height, context)}}
+
+==Arguments==
+:;x:{{apitype|number}}
+:;y:{{apitype|unknown}}
+:;width:{{apitype|unknown}}
+:;height:{{apitype|unknown}}
+:;context:{{apitype|unknown}}

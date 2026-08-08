@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
+&nbsp;
+{{apisig|hasElements {{=}} DropdownButton:HasElements()}}
+
+==Returns==
+:;hasElements:{{apitype|boolean}}

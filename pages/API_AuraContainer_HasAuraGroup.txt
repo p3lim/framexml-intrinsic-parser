@@ -1,0 +1,9 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|hasAuraGroup {{=}} AuraContainer:HasAuraGroup(groupKey)}}
+
+==Arguments==
+:;groupKey:{{apitype|string}}
+
+==Returns==
+:;hasAuraGroup:{{apitype|unknown}}

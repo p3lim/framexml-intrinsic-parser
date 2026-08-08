@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=WowDropdownFilterBehaviorMixin}}
+&nbsp;
+{{apisig|DropdownButton:NotifyUpdate(description)}}
+
+==Arguments==
+:;description:{{apitype|unknown}}

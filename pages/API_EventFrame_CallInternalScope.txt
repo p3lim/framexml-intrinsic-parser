@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=ScrollBarMixin}}
+&nbsp;
+{{apisig|EventFrame:CallInternalScope(func, ...)}}
+
+==Arguments==
+:;func:{{apitype|unknown}}
+:;...:{{apitype|unknown}}

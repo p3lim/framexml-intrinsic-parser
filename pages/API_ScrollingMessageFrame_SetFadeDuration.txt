@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:SetFadeDuration(fadeDurationSecs)}}
+
+==Arguments==
+:;fadeDurationSecs:{{apitype|unknown}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
+&nbsp;
+{{apisig|scrollPercentage {{=}} EventFrame:GetScrollPercentage()}}
+
+==Returns==
+:;scrollPercentage:{{apitype|boolean}}

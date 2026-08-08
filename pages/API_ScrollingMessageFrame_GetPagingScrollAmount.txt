@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|pagingScrollAmount {{=}} ScrollingMessageFrame:GetPagingScrollAmount()}}
+
+==Returns==
+:;pagingScrollAmount:{{apitype|unknown}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CallbackRegistryMixin}}
+&nbsp;
+{{apisig|EventFrame:SecureInsertEvent(event)}}
+
+==Arguments==
+:;event:{{apitype|unknown}}

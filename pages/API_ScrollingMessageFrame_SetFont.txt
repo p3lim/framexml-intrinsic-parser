@@ -1,0 +1,8 @@
+{{intrinsicmethod|mixin=FontableFrameMixin}}
+&nbsp;
+{{apisig|ScrollingMessageFrame:SetFont(font, fontHeight, fontFlags)}}
+
+==Arguments==
+:;font:{{apitype|unknown}}
+:;fontHeight:{{apitype|unknown}}
+:;fontFlags:{{apitype|unknown}}

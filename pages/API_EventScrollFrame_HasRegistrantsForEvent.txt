@@ -1,0 +1,10 @@
+{{intrinsicmethod|mixin=CallbackRegistryMixin}}
+&nbsp;
+{{apisig|hasRegistrantsForEvent, hasRegistrantsForEvent {{=}} EventScrollFrame:HasRegistrantsForEvent(event)}}
+
+==Arguments==
+:;event:{{apitype|unknown}}
+
+==Returns==
+:;hasRegistrantsForEvent:{{apitype|boolean}}
+:;hasRegistrantsForEvent:{{apitype|boolean}}

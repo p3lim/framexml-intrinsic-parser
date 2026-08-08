@@ -1,0 +1,8 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:SetAuraGroupSortMethod(groupKey, sortMethod, sortDirection)}}
+
+==Arguments==
+:;groupKey:{{apitype|string}}
+:;sortMethod:{{apitype|AuraContainerSortMethod}}{{:FrameXML_types/AuraContainerSortMethod}}
+:;sortDirection:{{apitype|AuraContainerSortDirection}}{{:FrameXML_types/AuraContainerSortDirection}}

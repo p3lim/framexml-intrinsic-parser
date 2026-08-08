@@ -1,0 +1,9 @@
+{{intrinsicmethod|mixin=ScrollDirectionMixin}}
+&nbsp;
+{{apisig|lower {{=}} EventFrame:GetLower(frame)}}
+
+==Arguments==
+:;frame:{{apitype|unknown}}
+
+==Returns==
+:;lower:{{apitype|unknown}}

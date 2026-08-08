@@ -1,0 +1,266 @@
+{{intrinsic}} {{tocright}}
+{| {{apitable}}}
+{{apirow | Instantiation | <code>{{api|CreateFrame}}("DropdownButton")</code>}}
+|}
+
+This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} and these mixins:
+* {{tlygo|CallbackRegistryMixin}}
+* {{tlygo|DropdownButtonMixin}}
+
+If {{tlygo|UIPanelIconDropdownButtonTemplate}} is inherited the methods from these mixins are also available:
+* {{tlygo|UIPanelIconDropdownButtonMixin}}
+If {{tlygo|WowStyle2DropdownTemplate}} is inherited the methods from these mixins are also available:
+* {{tlygo|ButtonStateBehaviorMixin}}
+* {{tlygo|DropdownSelectionTextMixin}}
+* {{tlygo|DropdownTextMixin}}
+* {{tlygo|WowDropdownFilterBehaviorMixin}}
+* {{tlygo|WowFilterButtonMixin}}
+* {{tlygo|WowStyle2DropdownMixin}}
+If {{tlygo|WowStyle1DropdownTemplate}} is inherited the methods from these mixins are also available:
+* {{tlygo|ButtonStateBehaviorMixin}}
+* {{tlygo|DropdownSelectionTextMixin}}
+* {{tlygo|DropdownTextMixin}}
+* {{tlygo|WowStyle1DropdownMixin}}
+If {{tlygo|WowStyle1ArrowDropdownTemplate}} is inherited the methods from these mixins are also available:
+* {{tlygo|ButtonStateBehaviorMixin}}
+* {{tlygo|WowStyle1ArrowDropdownMixin}}
+If {{tlygo|WowStyle1FilterDropdownTemplate}} is inherited the methods from these mixins are also available:
+* {{tlygo|ButtonStateBehaviorMixin}}
+* {{tlygo|DropdownTextMixin}}
+* {{tlygo|WowDropdownFilterBehaviorMixin}}
+* {{tlygo|WowFilterButtonMixin}}
+* {{tlygo|WowStyle1FilterDropdownMixin}}
+
+==Methods==
+{| class="darktable zebra"
+| <onlyinclude>{{#switch:{{{1|method}}}|method=
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:SetUndefinedEventsAllowed|arg=allowed}}
+: {{apilink|t=Function|DropdownButton:GetCallbackTables|ret=callbackTables}}
+: {{apilink|t=Function|DropdownButton:GetCallbackTable|arg=callbackType|ret=callbackType}}
+: {{apilink|t=Function|DropdownButton:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
+: {{apilink|t=Function|DropdownButton:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent, mutableCallbacksByEvent}}
+: {{apilink|t=Function|DropdownButton:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent, hasRegistrantsForEvent}}
+: {{apilink|t=Function|DropdownButton:SecureInsertEvent|arg=event}}
+: {{apilink|t=Function|DropdownButton:RegisterCallback|arg=event, func, owner, ...|ret=owner}}
+: {{apilink|t=Function|DropdownButton:RegisterCallbackWithHandle|arg=event, func, owner, ...|ret=unknown}}
+: {{apilink|t=Function|DropdownButton:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
+: {{apilink|t=Function|DropdownButton:CopyDeferredCallbacks|arg=callbackType, event, target}}
+: {{apilink|t=Function|DropdownButton:TriggerEvent|arg=event, ...}}
+: {{apilink|t=Function|DropdownButton:UnregisterCallback|arg=event, owner}}
+: {{apilink|t=Function|DropdownButton:UnregisterEvents}}
+: {{apilink|t=Function|DropdownButton:UnregisterEventsByEventTable|arg=eventTable}}
+: {{apilink|t=Function|DropdownButton:GenerateCallbackEvents|arg=eventTable}}
+: {{apilink|t=Function|DropdownButton:OnLoad_Intrinsic}}
+: {{apilink|t=Function|DropdownButton:OnEnter_Intrinsic}}
+: {{apilink|t=Function|DropdownButton:OnMouseDown_Intrinsic}}
+: {{apilink|t=Function|DropdownButton:OpenMenu}}
+: {{apilink|t=Function|DropdownButton:CloseMenu}}
+: {{apilink|t=Function|DropdownButton:SetMenuOpen|arg=open}}
+: {{apilink|t=Function|DropdownButton:OnMouseWheel_Intrinsic|arg=delta}}
+: {{apilink|t=Function|DropdownButton:SetMenuAnchor|arg=anchor}}
+: {{apilink|t=Function|DropdownButton:HandlesGlobalMouseEvent|arg=buttonName, event|ret=unknown}}
+: {{apilink|t=Function|DropdownButton:RegisterMenu|arg=menuDescription}}
+: {{apilink|t=Function|DropdownButton:ClearMenuState}}
+: {{apilink|t=Function|DropdownButton:GetMenuDescription|ret=menuDescription}}
+: {{apilink|t=Function|DropdownButton:HasElements|ret=hasElements}}
+: {{apilink|t=Function|DropdownButton:SetupMenu|arg=generator}}
+: {{apilink|t=Function|DropdownButton:GenerateMenu}}
+: {{apilink|t=Function|DropdownButton:CreateDefaultRootMenuDescription|ret=unknown}}
+: {{apilink|t=Function|DropdownButton:CreateRootDescription|arg=menuMixin|ret=unknown}}
+: {{apilink|t=Function|DropdownButton:IsMenuOpen|ret=isMenuOpen}}
+: {{apilink|t=Function|DropdownButton:SignalUpdate}}
+: {{apilink|t=Function|DropdownButton:OnMenuResponse|arg=menu, description}}
+: {{apilink|t=Function|DropdownButton:EnableRegenerateOnResponse}}
+: {{apilink|t=Function|DropdownButton:OnMenuAssigned}}
+: {{apilink|t=Function|DropdownButton:OnMenuChanged}}
+: {{apilink|t=Function|DropdownButton:OnMenuOpened|arg=menu}}
+: {{apilink|t=Function|DropdownButton:OnMenuClosed|arg=menu, closeReason}}
+: {{apilink|t=Function|DropdownButton:UpdateSelections|arg=selections}}
+: {{apilink|t=Function|DropdownButton:Update}}
+: {{apilink|t=Function|DropdownButton:UpdateToMenuSelections|arg=menuDescription, selections}}
+: {{apilink|t=Function|DropdownButton:Pick|arg=description, menuInputContext, menuInputButtonName|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:Rotate|arg=forward}}
+: {{apilink|t=Function|DropdownButton:HasAnyRadioDescriptions|ret=hasAnyRadioDescriptions, hasAnyRadioDescriptions}}
+: {{apilink|t=Function|DropdownButton:Increment}}
+: {{apilink|t=Function|DropdownButton:Decrement}}
+: {{apilink|t=Function|DropdownButton:CollectSelectionData|ret=unknown}}
+: {{apilink|t=Function|DropdownButton:GetSelectionData|ret=selectionData}}
+: {{apilink|t=Function|DropdownButton:HasStickyFocus|ret=hasStickyFocus}}
+------ <span style="font-size: 110%;">Methods inherited from {{tlygo|UIPanelIconDropdownButtonTemplate}}:</span>
+: {{apilink|t=Function|DropdownButton:OnMouseDown}}
+: {{apilink|t=Function|DropdownButton:OnMouseUp|arg=button, upInside}}
+------ <span style="font-size: 110%;">Methods inherited from {{tlygo|WowStyle2DropdownTemplate}}:</span>
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:OnShow}}
+: {{apilink|t=Function|DropdownButton:SetDisplacedRegions|arg=x, y, ...}}
+: {{apilink|t=Function|DropdownButton:DesaturateIfDisabled}}
+: {{apilink|t=Function|DropdownButton:OnButtonStateChanged}}
+: {{apilink|t=Function|DropdownButton:IsDownOver|ret=isDownOver}}
+: {{apilink|t=Function|DropdownButton:IsDown|ret=down}}
+: {{apilink|t=Function|DropdownButton:IsOver|ret=over}}
+: {{apilink|t=Function|DropdownButton:OnEnter|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnLeave|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnMouseDown|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnMouseUp|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnEnable}}
+: {{apilink|t=Function|DropdownButton:OnDisable}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:OnShow}}
+: {{apilink|t=Function|DropdownButton:GetBackgroundAtlas|ret=backgroundAtlas, backgroundAtlas, backgroundAtlas, backgroundAtlas, backgroundAtlas, backgroundAtlas}}
+: {{apilink|t=Function|DropdownButton:OnButtonStateChanged}}
+: {{apilink|t=Function|DropdownButton:OnMenuOpened|arg=menu}}
+: {{apilink|t=Function|DropdownButton:OnMenuClosed|arg=menu, closeReason}}
+: {{apilink|t=Function|DropdownButton:OnMenuResponse|arg=menu, description}}
+: {{apilink|t=Function|DropdownButton:OnMenuAssigned}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:GetUpdateText|ret=updateText}}
+: {{apilink|t=Function|DropdownButton:GetDefaultText|ret=defaultText}}
+: {{apilink|t=Function|DropdownButton:SetDefaultText|arg=text}}
+: {{apilink|t=Function|DropdownButton:SetSelectionTranslator|arg=translator}}
+: {{apilink|t=Function|DropdownButton:SetSelectionText|arg=selectionFunc}}
+: {{apilink|t=Function|DropdownButton:OverrideText|arg=text}}
+: {{apilink|t=Function|DropdownButton:UpdateToMenuSelections|arg=menuDescription, currentSelections}}
+: {{apilink|t=Function|DropdownButton:NarrationGetName|ret=text, narrationLabel}}
+: {{apilink|t=Function|DropdownButton:NarrationGetContext|ret=NARRATION_OBJECT_DROPDOWN, unknown}}
+: {{apilink|t=Function|DropdownButton:OnShow}}
+: {{apilink|t=Function|DropdownButton:OnEnter}}
+: {{apilink|t=Function|DropdownButton:ShouldShowTooltip|ret=shouldShowTooltip}}
+: {{apilink|t=Function|DropdownButton:SetTooltip|arg=tooltipFunc}}
+: {{apilink|t=Function|DropdownButton:ShowTooltip}}
+: {{apilink|t=Function|DropdownButton:OnLeave}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:OnShow}}
+: {{apilink|t=Function|DropdownButton:SetDefaultCallback|arg=callback}}
+: {{apilink|t=Function|DropdownButton:SetIsDefaultCallback|arg=callback}}
+: {{apilink|t=Function|DropdownButton:SetUpdateCallback|arg=callback}}
+: {{apilink|t=Function|DropdownButton:NotifyUpdate|arg=description}}
+: {{apilink|t=Function|DropdownButton:Reset}}
+: {{apilink|t=Function|DropdownButton:ValidateResetState}}
+: {{apilink|t=Function|DropdownButton:OnMenuResponse|arg=menu, description}}
+: {{apilink|t=Function|DropdownButton:OnMenuAssigned}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:GetText|ret=text}}
+: {{apilink|t=Function|DropdownButton:SetText|arg=text}}
+: {{apilink|t=Function|DropdownButton:GetUpdateText|ret=text}}
+: {{apilink|t=Function|DropdownButton:UpdateText}}
+: {{apilink|t=Function|DropdownButton:UpdateToMenuSelections|arg=menuDescription, currentSelections}}
+------ <span style="font-size: 110%;">Methods inherited from {{tlygo|WowStyle1DropdownTemplate}}:</span>
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:OnButtonStateChanged}}
+: {{apilink|t=Function|DropdownButton:GetArrowAtlas|ret=arrowAtlas}}
+: {{apilink|t=Function|DropdownButton:OnSizeChanged|arg=width, height}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:OnShow}}
+: {{apilink|t=Function|DropdownButton:SetDisplacedRegions|arg=x, y, ...}}
+: {{apilink|t=Function|DropdownButton:DesaturateIfDisabled}}
+: {{apilink|t=Function|DropdownButton:OnButtonStateChanged}}
+: {{apilink|t=Function|DropdownButton:IsDownOver|ret=isDownOver}}
+: {{apilink|t=Function|DropdownButton:IsDown|ret=down}}
+: {{apilink|t=Function|DropdownButton:IsOver|ret=over}}
+: {{apilink|t=Function|DropdownButton:OnEnter|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnLeave|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnMouseDown|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnMouseUp|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnEnable}}
+: {{apilink|t=Function|DropdownButton:OnDisable}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:GetText|ret=text}}
+: {{apilink|t=Function|DropdownButton:SetText|arg=text}}
+: {{apilink|t=Function|DropdownButton:GetUpdateText|ret=text}}
+: {{apilink|t=Function|DropdownButton:UpdateText}}
+: {{apilink|t=Function|DropdownButton:UpdateToMenuSelections|arg=menuDescription, currentSelections}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:GetUpdateText|ret=updateText}}
+: {{apilink|t=Function|DropdownButton:GetDefaultText|ret=defaultText}}
+: {{apilink|t=Function|DropdownButton:SetDefaultText|arg=text}}
+: {{apilink|t=Function|DropdownButton:SetSelectionTranslator|arg=translator}}
+: {{apilink|t=Function|DropdownButton:SetSelectionText|arg=selectionFunc}}
+: {{apilink|t=Function|DropdownButton:OverrideText|arg=text}}
+: {{apilink|t=Function|DropdownButton:UpdateToMenuSelections|arg=menuDescription, currentSelections}}
+: {{apilink|t=Function|DropdownButton:NarrationGetName|ret=text, narrationLabel}}
+: {{apilink|t=Function|DropdownButton:NarrationGetContext|ret=NARRATION_OBJECT_DROPDOWN, unknown}}
+: {{apilink|t=Function|DropdownButton:OnShow}}
+: {{apilink|t=Function|DropdownButton:OnEnter}}
+: {{apilink|t=Function|DropdownButton:ShouldShowTooltip|ret=shouldShowTooltip}}
+: {{apilink|t=Function|DropdownButton:SetTooltip|arg=tooltipFunc}}
+: {{apilink|t=Function|DropdownButton:ShowTooltip}}
+: {{apilink|t=Function|DropdownButton:OnLeave}}
+------ <span style="font-size: 110%;">Methods inherited from {{tlygo|WowStyle1ArrowDropdownTemplate}}:</span>
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:OnButtonStateChanged}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:OnShow}}
+: {{apilink|t=Function|DropdownButton:SetDisplacedRegions|arg=x, y, ...}}
+: {{apilink|t=Function|DropdownButton:DesaturateIfDisabled}}
+: {{apilink|t=Function|DropdownButton:OnButtonStateChanged}}
+: {{apilink|t=Function|DropdownButton:IsDownOver|ret=isDownOver}}
+: {{apilink|t=Function|DropdownButton:IsDown|ret=down}}
+: {{apilink|t=Function|DropdownButton:IsOver|ret=over}}
+: {{apilink|t=Function|DropdownButton:OnEnter|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnLeave|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnMouseDown|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnMouseUp|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnEnable}}
+: {{apilink|t=Function|DropdownButton:OnDisable}}
+------ <span style="font-size: 110%;">Methods inherited from {{tlygo|WowStyle1FilterDropdownTemplate}}:</span>
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:OnShow}}
+: {{apilink|t=Function|DropdownButton:SetDisplacedRegions|arg=x, y, ...}}
+: {{apilink|t=Function|DropdownButton:DesaturateIfDisabled}}
+: {{apilink|t=Function|DropdownButton:OnButtonStateChanged}}
+: {{apilink|t=Function|DropdownButton:IsDownOver|ret=isDownOver}}
+: {{apilink|t=Function|DropdownButton:IsDown|ret=down}}
+: {{apilink|t=Function|DropdownButton:IsOver|ret=over}}
+: {{apilink|t=Function|DropdownButton:OnEnter|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnLeave|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnMouseDown|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnMouseUp|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:OnEnable}}
+: {{apilink|t=Function|DropdownButton:OnDisable}}
+: {{apilink|t=Function|DropdownButton:OnMenuResponse|arg=menu, description}}
+: {{apilink|t=Function|DropdownButton:OnMenuAssigned}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:OnShow}}
+: {{apilink|t=Function|DropdownButton:SetDefaultCallback|arg=callback}}
+: {{apilink|t=Function|DropdownButton:SetIsDefaultCallback|arg=callback}}
+: {{apilink|t=Function|DropdownButton:SetUpdateCallback|arg=callback}}
+: {{apilink|t=Function|DropdownButton:NotifyUpdate|arg=description}}
+: {{apilink|t=Function|DropdownButton:Reset}}
+: {{apilink|t=Function|DropdownButton:ValidateResetState}}
+: {{apilink|t=Function|DropdownButton:OnMenuResponse|arg=menu, description}}
+: {{apilink|t=Function|DropdownButton:OnMenuAssigned}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:GetText|ret=text}}
+: {{apilink|t=Function|DropdownButton:SetText|arg=text}}
+: {{apilink|t=Function|DropdownButton:GetUpdateText|ret=text}}
+: {{apilink|t=Function|DropdownButton:UpdateText}}
+: {{apilink|t=Function|DropdownButton:UpdateToMenuSelections|arg=menuDescription, currentSelections}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
+: {{apilink|t=Function|DropdownButton:GetBackgroundAtlas|ret=WowStyle1FilterDropdownStateDownOver, WowStyle1FilterDropdownStateOver, WowStyle1FilterDropdownStateDown, WowStyle1FilterDropdownStateOpen, WowStyle1FilterDropdownStateEnabled, WowStyle1FilterDropdownStateDisabled}}
+: {{apilink|t=Function|DropdownButton:OnButtonStateChanged}}
+: {{apilink|t=Function|DropdownButton:OnEnable}}
+: {{apilink|t=Function|DropdownButton:OnDisable}}
+}}</onlyinclude>
+|-
+| {{:UIOBJECT_Button|method}}
+|- class="mw-customtoggle-methods"
+| Collapse
+|- class="mw-collapsible" id="mw-customcollapsible-methods"
+|
+{{:UIOBJECT_Frame|method}}
+{{:UIOBJECT_Region|method}}
+{{:UIOBJECT_ScriptRegion|method}}
+{{:UIOBJECT_ScriptRegionResizing|method}}
+{{:UIOBJECT_AnimatableObject|method}}
+{{:UIOBJECT_Object|method}}
+{{:UIOBJECT_FrameScriptObject|method}}
+|}
+
+==Script Types==
+{| class="darktable zebra"
+|
+{{:UIOBJECT_Button|script}}
+{{:UIOBJECT_Frame|script}}
+{{:UIOBJECT_ScriptRegion|script}}
+|}

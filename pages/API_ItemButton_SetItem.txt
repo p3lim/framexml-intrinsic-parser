@@ -1,0 +1,9 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|unknown {{=}} ItemButton:SetItem(item)}}
+
+==Arguments==
+:;item:{{apitype|unknown}}
+
+==Returns==
+:;unknown:{{apitype|unknown}}

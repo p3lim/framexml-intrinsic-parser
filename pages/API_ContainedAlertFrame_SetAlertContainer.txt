@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ContainedAlertFrameMixin}}
+&nbsp;
+{{apisig|ContainedAlertFrame:SetAlertContainer(container)}}
+
+==Arguments==
+:;container:{{apitype|unknown}}

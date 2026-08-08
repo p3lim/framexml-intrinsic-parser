@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+&nbsp;
+{{apisig|AuraContainer:SetAuraGroupCandidateFilters(groupKey, candidateFilters)}}
+
+==Arguments==
+:;groupKey:{{apitype|string}}
+:;candidateFilters:{{apitype|unknown}}

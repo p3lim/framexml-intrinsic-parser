@@ -1,0 +1,15 @@
+{{framexmltype|CustomAuraContainerProcessAuraPolicyDefaultOptions}}
+
+<onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerProcessAuraPolicyDefaultOptions}}
+! Field !! Type !! Default !! Description
+|-
+| {{apiname|ignoreBuffs}} || {{apitype|boolean}} || {{apitype|false}} || If true, suppresses helpful aura classification.
+|-
+| {{apiname|ignoreDebuffs}} || {{apitype|boolean}} || {{apitype|false}} || If true, suppresses non-dispel debuff classification.
+|-
+| {{apiname|ignoreDispelDebuffs}} || {{apitype|boolean}} || {{apitype|false}} || If true, suppresses dispellable raid debuff classification.
+|-
+| {{apiname|displayOnlyDispellableDebuffs}} || {{apitype|boolean}} || {{apitype|false}} || If true, narrows debuff classification to the dispellable-only paths used
+by AuraUtil.ProcessAura.
+|}</onlyinclude>

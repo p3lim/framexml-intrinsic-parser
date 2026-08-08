@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ItemButtonMixin}}
+&nbsp;
+{{apisig|itemButtonBackgroundTexture {{=}} ItemButton:GetItemButtonBackgroundTexture()}}
+
+==Returns==
+:;itemButtonBackgroundTexture:{{apitype|unknown}}

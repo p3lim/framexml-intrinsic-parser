@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
+&nbsp;
+{{apisig|selectionData {{=}} DropdownButton:GetSelectionData()}}
+
+==Returns==
+:;selectionData:{{apitype|boolean}}

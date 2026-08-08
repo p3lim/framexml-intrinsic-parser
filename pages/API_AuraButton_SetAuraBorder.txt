@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|AuraButton:SetAuraBorder(texture, options)}}
+
+==Arguments==
+:;texture:{{apitype|Texture}}
+:;options:{{apitype|CustomAuraButtonDispelTypeTextureOptions}}{{:Structure_CustomAuraButtonDispelTypeTextureOptions|nocaption=1}}

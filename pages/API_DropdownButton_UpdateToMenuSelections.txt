@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=DropdownTextMixin}}
+&nbsp;
+{{apisig|DropdownButton:UpdateToMenuSelections(menuDescription, currentSelections)}}
+
+==Arguments==
+:;menuDescription:{{apitype|unknown}}
+:;currentSelections:{{apitype|unknown}}

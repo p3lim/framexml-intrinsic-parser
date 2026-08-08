@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=UIThemeContainerMixin}}
+&nbsp;
+{{apisig|UIThemeContainerFrame:RegisterBackgroundTexture(texture, textureKit)}}
+
+==Arguments==
+:;texture:{{apitype|unknown}}
+:;textureKit:{{apitype|unknown}}

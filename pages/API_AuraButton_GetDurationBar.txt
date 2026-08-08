@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+&nbsp;
+{{apisig|durationBar {{=}} AuraButton:GetDurationBar()}}
+
+==Returns==
+:;durationBar:{{apitype|StatusBar}}

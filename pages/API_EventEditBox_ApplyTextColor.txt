@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|EventEditBox:ApplyTextColor(color)}}
+
+==Arguments==
+:;color:{{apitype|unknown}}

@@ -1,0 +1,3 @@
+{{intrinsicmethod|mixin=UIThemeContainerMixin}}
+&nbsp;
+{{apisig|UIThemeContainerFrame:UIThemeContainerFrame_OnPreShow()}}

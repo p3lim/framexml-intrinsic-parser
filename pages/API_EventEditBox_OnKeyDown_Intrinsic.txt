@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|EventEditBox:OnKeyDown_Intrinsic(key)}}
+
+==Arguments==
+:;key:{{apitype|unknown}}

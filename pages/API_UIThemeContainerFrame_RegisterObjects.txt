@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=UIThemeContainerMixin}}
+&nbsp;
+{{apisig|UIThemeContainerFrame:RegisterObjects(container, ...)}}
+
+==Arguments==
+:;container:{{apitype|unknown}}
+:;...:{{apitype|unknown}}

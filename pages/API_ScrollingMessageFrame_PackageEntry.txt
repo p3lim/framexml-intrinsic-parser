@@ -1,0 +1,13 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|unknown {{=}} ScrollingMessageFrame:PackageEntry(message, r, g, b, ...)}}
+
+==Arguments==
+:;message:{{apitype|unknown}}
+:;r:{{apitype|unknown}}
+:;g:{{apitype|unknown}}
+:;b:{{apitype|unknown}}
+:;...:{{apitype|unknown}}
+
+==Returns==
+:;unknown:{{apitype|unknown}}

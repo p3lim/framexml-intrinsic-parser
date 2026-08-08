@@ -1,0 +1,10 @@
+{{intrinsicmethod|mixin=ScrollBarMixin}}
+&nbsp;
+{{apisig|thumbExtent, clamped {{=}} EventFrame:SetThumbExtent(thumbExtent)}}
+
+==Arguments==
+:;thumbExtent:{{apitype|unknown}}
+
+==Returns==
+:;thumbExtent:{{apitype|unknown}}
+:;clamped:{{apitype|unknown}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|fontHeight {{=}} EventEditBox:GetFontHeight()}}
+
+==Returns==
+:;fontHeight:{{apitype|unknown}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=UIResettableDropdownButtonMixin}}
+&nbsp;
+{{apisig|DropDownToggleButton:OnMouseDownInternal(button)}}
+
+==Arguments==
+:;button:{{apitype|unknown}}

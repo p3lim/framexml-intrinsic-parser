@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ContainedAlertFrameMixin}}
+&nbsp;
+{{apisig|ContainedAlertFrame:SetExternallyManagedOutroAnimation(externallyManagedAnimation)}}
+
+==Arguments==
+:;externallyManagedAnimation:{{apitype|unknown}}

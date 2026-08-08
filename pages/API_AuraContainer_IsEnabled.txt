@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=AuraContainerSharedMixin}}
+&nbsp;
+{{apisig|isEnabled {{=}} AuraContainer:IsEnabled()}}
+
+==Returns==
+:;isEnabled:{{apitype|boolean}}

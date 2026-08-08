@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollBarMixin}}
+&nbsp;
+{{apisig|EventFrame:SetHideIfUnscrollable(hide)}}
+
+==Arguments==
+:;hide:{{apitype|unknown}}

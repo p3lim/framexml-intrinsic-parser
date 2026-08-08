@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=EventEditBoxMixin}}
+&nbsp;
+{{apisig|EventEditBox:ApplyText(text)}}
+
+==Arguments==
+:;text:{{apitype|unknown}}

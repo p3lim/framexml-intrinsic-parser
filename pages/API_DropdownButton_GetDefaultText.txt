@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=DropdownSelectionTextMixin}}
+&nbsp;
+{{apisig|defaultText {{=}} DropdownButton:GetDefaultText()}}
+
+==Returns==
+:;defaultText:{{apitype|unknown}}

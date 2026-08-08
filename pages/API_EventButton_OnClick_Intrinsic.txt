@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=EventButtonMixin}}
+&nbsp;
+{{apisig|EventButton:OnClick_Intrinsic(buttonName, down)}}
+
+==Arguments==
+:;buttonName:{{apitype|unknown}}
+:;down:{{apitype|unknown}}

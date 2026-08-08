@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=ScrollControllerMixin}}
+&nbsp;
+{{apisig|intervalRange, intervalRange {{=}} EventFrame:GetIntervalRange()}}
+
+==Returns==
+:;intervalRange:{{apitype|unknown}}
+:;intervalRange:{{apitype|unknown}}

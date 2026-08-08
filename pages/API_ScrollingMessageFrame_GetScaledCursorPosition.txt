@@ -1,0 +1,7 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|scaledCursorPosition, scaledCursorPosition {{=}} ScrollingMessageFrame:GetScaledCursorPosition()}}
+
+==Returns==
+:;scaledCursorPosition:{{apitype|unknown}}
+:;scaledCursorPosition:{{apitype|unknown}}

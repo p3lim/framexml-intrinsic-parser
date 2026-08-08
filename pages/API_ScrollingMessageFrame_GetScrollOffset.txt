@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
+&nbsp;
+{{apisig|scrollOffset {{=}} ScrollingMessageFrame:GetScrollOffset()}}
+
+==Returns==
+:;scrollOffset:{{apitype|unknown}}

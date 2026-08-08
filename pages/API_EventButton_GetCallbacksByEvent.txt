@@ -1,0 +1,10 @@
+{{intrinsicmethod|mixin=CallbackRegistryMixin}}
+&nbsp;
+{{apisig|event {{=}} EventButton:GetCallbacksByEvent(callbackType, event)}}
+
+==Arguments==
+:;callbackType:{{apitype|unknown}}
+:;event:{{apitype|unknown}}
+
+==Returns==
+:;event:{{apitype|unknown}}
