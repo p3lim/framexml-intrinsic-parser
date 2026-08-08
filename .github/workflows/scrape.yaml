@@ -1,0 +1,56 @@
+name: Scrape
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '**.py'
+      - '**.j2'
+      - '.github/workflows/scrape.yaml'
+  schedule:
+    - cron: '0 8 * * 3' # every wednesday morning
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone
+        uses: actions/checkout@v7
+
+      - name: Clone FrameXML
+        uses: actions/checkout@v7
+        with:
+          repository: gethe/wow-ui-source
+          ref: ptr # TODO: need to alternate ptr and ptr2
+          path: wow-ui-source
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Parse and build pages
+        run: |
+          python main.py
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          title: Update pages
+          commit-message: Update pages
+          body: ''
+          branch: update-pages
+          delete-branch: true
+          add-paths: |
+            pages/*
