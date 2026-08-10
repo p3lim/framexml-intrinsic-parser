@@ -10,6 +10,7 @@ from pywikibot.comms import http
 from pywikibot.xmlreader import XmlDump
 
 SUMMARY = "Automated upload"
+NAMESPACE = "API" # all API pages are namespaced
 CATEGORIES = [
   "Intrinsic frames",
   "Intrinsic methods",
@@ -81,7 +82,7 @@ def main() -> None:
   for category in CATEGORIES:
     cat = pywikibot.Category(site, category)
     for page in cat.members(member_type="page"):
-      pages[page.title(as_url=True)] = page
+      pages[page.title().replace(" ", "_")] = page
 
   print(f"Found {len(pages.keys())} pages to export, exporting...")
   res = http.request(
@@ -130,7 +131,9 @@ def main() -> None:
   print("Processing pages...", file=sys.stderr)
   for file in Path("pages").rglob("*.txt"):
     # get the name without the file extension suffix, and do replacements
-    name = file.relative_to(file.parts[0]).with_suffix("")
+    name = f"{NAMESPACE}:{file.relative_to(file.parts[0]).with_suffix('')}"
+
+    # track the page name
     page_names.add(name)
 
     # get (cached) page reference and call for an upload
