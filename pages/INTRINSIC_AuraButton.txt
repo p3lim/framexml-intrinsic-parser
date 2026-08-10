@@ -14,7 +14,7 @@ If {{tlygo|CustomAuraButtonTemplate}} is inherited the methods from these mixins
 ==Forbidden Aspects==
 This data object has these [[forbidden aspect]]s attached to it, which will restrict which methods and script types it can access.
 {| class="darktable zebra"
-! Enum !! Description
+! Enum.ForbiddenAspect !! Description
 {{api.enumsection|ForbiddenAspect|UntrustedScriptExecution}}
 {{api.enumsection|ForbiddenAspect|UntrustedLayoutScriptExecution}}
 {{api.enumsection|ForbiddenAspect|ScriptedInput}}
