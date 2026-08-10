@@ -4,10 +4,10 @@
 |+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||[[ name ]]}}
 [%- set non_number_types = data.fields | rejectattr('type', 'equalto', 'number') | list %]
 [%- if non_number_types | length > 0 %]
-! Field !! Type !! Default !! Description
+! Field !! Type !! Description
 [%- for field in data.fields %]
 |-
-| {{apiname|[[ field.name ]]}} || {{apitype|[[ field.type ]]}} || {{apitype|[[ field.value ]]}} || [[ field.comment ]]
+| {{apiname|[[ field.name ]]}} || {{apitype|[[ field.type ]][% if field.value %]?|default=[[ field.value ]][% endif %]}} || [[ field.comment ]]
 [%- endfor %]
 [%- else %]
 ! Value !! Field !! Description
