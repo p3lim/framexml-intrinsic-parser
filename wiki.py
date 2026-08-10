@@ -1,11 +1,21 @@
 import os
 import sys
+import difflib
 import tempfile
+import urllib
 from pathlib import Path
 
 import pywikibot
+from pywikibot.comms import http
+from pywikibot.xmlreader import XmlDump
 
 SUMMARY = "Automated upload"
+CATEGORIES = [
+  "Intrinsic frames",
+  "Intrinsic methods",
+  "FrameXML types",
+  "Structures",
+]
 
 # create family, as it's not supported in pywikibot
 class Family(pywikibot.family.FandomFamily):
@@ -14,35 +24,27 @@ class Family(pywikibot.family.FandomFamily):
   codes = {"en"}
 
 # track pages that won't be uploaded
-blocked = {}
 changed = []
 
-def upload(page, name: str, file: Path, username: str) -> None:
+def upload(page, name: str, file: Path) -> None:
+  # print(f"Processing {name}...", file=sys.stderr)
   with open(file) as f:
     content = f.read()
     content = content.rstrip('\r\n') # strip trailing newlines as the wiki does that too
 
-    if content == page.text:
+    if page.exists() and hasattr(page, "_text") and page._text == content:
       # there are no changes, bail
       return
 
-    # we could show the diff if we wanted to :)
-    # diff = difflib.unified_diff(page.text.splitlines(keepends=True), content.splitlines(keepends=True))
-    # print("".join(diff))
-
-    if page.exists():
-      # ensure someone else didn't alter the page first
-      last = None
-      for rev in page.revisions(total=1): # we have to iterate, ugh
-        if not (rev.user == username or rev.user == "P3lim"): # edits by my main account is fine too
-          # store the name of the last editor and bail
-          blocked[name] = rev.user
-          return
+    # check if there were actually any changes
+    diff = difflib.unified_diff(page.text.splitlines(keepends=True), content.splitlines(keepends=True))
+    if len("".join(diff)) == 0:
+      return
 
     # track changed pages
     changed.append(name)
 
-    print(f"Uploading '{name}'...")
+    print(f"Uploading {name}...", file=sys.stderr)
     page.text = content
     page.save(summary=SUMMARY, watch="nochange", bot=True)
 
@@ -74,15 +76,71 @@ def main() -> None:
     os.getenv("WIKI_BOTPASSWORD"), # the application password
   )
 
+  print("Fetching category pages...", file=sys.stderr)
+  pages = {}
+  for category in CATEGORIES:
+    cat = pywikibot.Category(site, category)
+    for page in cat.members(member_type="page"):
+      pages[page.title(as_url=True)] = page
+
+  print(f"Found {len(pages.keys())} pages to export, exporting...")
+  res = http.request(
+    site=site,
+    uri="/wiki/Special:Export",
+    method="POST",
+    headers={"Content-Type": "application/x-www-form-urlencoded"},
+    data={
+      "title": "Special:Export",
+      "catname": "",
+      "pages": "\n".join(pages),
+      "curonly": "1",
+      "wpDownload": "1",
+      "wpEditToken": site.tokens["csrf"]
+    },
+  )
+
+  if res.status_code != 200:
+    print(f"Error: failed to export pages (code {res.status_code})", file=sys.stderr)
+    # TODO: improve error output
+    sys.exit(1)
+
+  print("Storing and parsing export...")
+  blocked = {}
+  with tempfile.NamedTemporaryFile(mode="w", suffix=".xml") as f:
+    f.write(res.text)
+    f.flush()
+
+    dump = XmlDump(f.name, revisions="latest")
+    for entry in dump.parse():
+      title = urllib.parse.quote(entry.title.replace(" ", "_"))
+
+      # ensure someone else didn't alter the page
+      if entry.username != username and entry.username != "P3lim": # my user will do too
+        blocked[title] = entry.username
+        continue
+
+      # inject data from dump
+      page = pages.get(title)
+      if page:
+        page._text = entry.text
+
+  # keep a set of the names of pages we process
+  page_names = set()
+
   print("Processing pages...", file=sys.stderr)
   for file in Path("pages").rglob("*.txt"):
     # get the name without the file extension suffix, and do replacements
     path = file.with_suffix("")
     name = path.name.replace(":", "/")
+    page_names.add(name)
 
-    # get the page reference and call for an upload
-    page = pywikibot.Page(site, name)
-    upload(page, name, file, username)
+    # get (cached) page reference and call for an upload
+    if name in pages:
+      if name not in blocked:
+        upload(pages[name], name, file)
+    else:
+      page = pywikibot.Page(site, name)
+      upload(page, name, file)
 
   # delete temporary password file when done
   Path(pywikibot.config.password_file).unlink()
@@ -92,12 +150,19 @@ def main() -> None:
     for name in changed:
       print(f"- https://warcraft.wiki.gg/wiki/{name}", file=sys.stderr)
 
+  # prune blocked sites that we don't process (since categories are vast)
+  for name in list(blocked):
+    if name not in page_names:
+      del blocked[name]
+
   if blocked:
     # fail execution if there were any blocked pages, so we get alerted
     print("The following pages were modified by someone else, upload blocked:", file=sys.stderr)
     for page, user in blocked.items():
       print(f"- https://warcraft.wiki.gg/wiki/{page} last modified by '{user}'", file=sys.stderr)
     sys.exit(1)
+
+  print("Done!")
 
 if __name__ == "__main__":
   main()
