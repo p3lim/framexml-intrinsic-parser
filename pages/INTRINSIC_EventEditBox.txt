@@ -10,7 +10,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|EditBox}} 
 
 ==Methods==
 {| class="darktable zebra"
-| <onlyinclude>{{#switch:{{{1|method}}}|method=
+| <section begin=IntrinsicMethods/>
 : {{apilink|t=Function|EventEditBox:ApplyDefaultText|arg=defaultText}}
 : {{apilink|t=Function|EventEditBox:ApplyDefaultTextColor|arg=color}}
 : {{apilink|t=Function|EventEditBox:ApplyText|arg=text}}
@@ -52,8 +52,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|EditBox}} 
 : {{apilink|t=Function|EventEditBox:TryApplyDefaultText}}
 : {{apilink|t=Function|EventEditBox:UnregisterCallback|arg=event, owner}}
 : {{apilink|t=Function|EventEditBox:UnregisterEvents}}
-: {{apilink|t=Function|EventEditBox:UnregisterEventsByEventTable|arg=eventTable}}
-}}</onlyinclude>
+: {{apilink|t=Function|EventEditBox:UnregisterEventsByEventTable|arg=eventTable}}<section end=IntrinsicMethods/>
 |-
 |
 |- class="mw-customtoggle-methods"

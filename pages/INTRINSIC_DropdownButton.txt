@@ -10,7 +10,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 
 ==Methods==
 {| class="darktable zebra"
-| <onlyinclude>{{#switch:{{{1|method}}}|method=
+| <section begin=IntrinsicMethods/>
 : {{apilink|t=Function|DropdownButton:ClearMenuState}}
 : {{apilink|t=Function|DropdownButton:CloseMenu}}
 : {{apilink|t=Function|DropdownButton:CollectSelectionData|ret=unknown}}
@@ -63,8 +63,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 : {{apilink|t=Function|DropdownButton:UnregisterEventsByEventTable|arg=eventTable}}
 : {{apilink|t=Function|DropdownButton:Update}}
 : {{apilink|t=Function|DropdownButton:UpdateSelections|arg=selections}}
-: {{apilink|t=Function|DropdownButton:UpdateToMenuSelections|arg=menuDescription, selections}}
-}}</onlyinclude>
+: {{apilink|t=Function|DropdownButton:UpdateToMenuSelections|arg=menuDescription, selections}}<section end=IntrinsicMethods/>
 |-
 | {{:UIOBJECT_Button|method}}
 |- class="mw-customtoggle-methods"

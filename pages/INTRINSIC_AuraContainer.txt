@@ -19,12 +19,12 @@ If {{tlygo|CustomAuraContainerTemplate}} is inherited the methods from these mix
 
 ==Methods==
 {| class="darktable zebra"
-| <onlyinclude>{{#switch:{{{1|method}}}|method=
+| <section begin=IntrinsicMethods/>
 : {{apilink|t=Function|AuraContainer:GetUnit|ret=unitToken}}
 : {{apilink|t=Function|AuraContainer:IsEnabled|ret=isEnabled}}
 : {{apilink|t=Function|AuraContainer:SetEnabled|arg=enabled}}
 : {{apilink|t=Function|AuraContainer:SetUnit|arg=unitToken}}
-: {{apilink|t=Function|AuraContainer:UpdateAllAuras}}
+: {{apilink|t=Function|AuraContainer:UpdateAllAuras}}<section end=IntrinsicMethods/>
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|CustomAuraContainerTemplate}}:</span>
 : {{apilink|t=Function|AuraContainer:AddAuraGroup|arg=groupKey, filterString, options}}
 : {{apilink|t=Function|AuraContainer:AddAuraSlot|arg=slotKey, filterString, options|ret=auraFrame}}
@@ -61,7 +61,6 @@ If {{tlygo|CustomAuraContainerTemplate}} is inherited the methods from these mix
 : {{apilink|t=Function|AuraContainer:SetItemEnchantmentSortMethod|arg=sortMethod, sortDirection}}
 : {{apilink|t=Function|AuraContainer:SetUnit|arg=unitToken}}
 : {{apilink|t=Function|AuraContainer:UpdateAllAuras}}
-}}</onlyinclude>
 |-
 |
 |- class="mw-customtoggle-methods"
