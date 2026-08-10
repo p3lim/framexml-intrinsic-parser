@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=ButtonStateBehaviorMixin}}
-&nbsp;
-{{apisig|DropdownButton:OnButtonStateChanged()}}

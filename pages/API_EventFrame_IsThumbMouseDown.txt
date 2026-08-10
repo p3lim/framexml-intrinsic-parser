@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|isThumbMouseDown {{=}} EventFrame:IsThumbMouseDown()}}
-
-==Returns==
-:;isThumbMouseDown:{{apitype|boolean}}

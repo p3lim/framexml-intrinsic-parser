@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=UIResettableDropdownButtonMixin}}
-&nbsp;
-{{apisig|DropDownToggleButton:OnLoad()}}

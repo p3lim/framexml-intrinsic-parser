@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=DropdownSelectionTextMixin}}
-&nbsp;
-{{apisig|DropdownButton:OverrideText(text)}}
-
-==Arguments==
-:;text:{{apitype|unknown}}

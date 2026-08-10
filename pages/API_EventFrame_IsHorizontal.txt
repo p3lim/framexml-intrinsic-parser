@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollDirectionMixin}}
-&nbsp;
-{{apisig|isHorizontal {{=}} EventFrame:IsHorizontal()}}
-
-==Returns==
-:;isHorizontal:{{apitype|unknown}}

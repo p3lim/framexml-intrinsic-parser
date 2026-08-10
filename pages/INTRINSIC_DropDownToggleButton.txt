@@ -6,25 +6,12 @@
 This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} and these mixins:
 * {{tlygo|DropDownToggleButtonMixin}}
 
-If {{tlygo|UIResettableDropdownButtonTemplate}} is inherited the methods from these mixins are also available:
-* {{tlygo|UIResettableDropdownButtonMixin}}
-If {{tlygo|UIDropDownMenuButtonScriptTemplate}} is inherited the methods from these mixins are also available:
-* {{tlygo|DropDownMenuButtonMixin}}
 
 ==Methods==
 {| class="darktable zebra"
 | <onlyinclude>{{#switch:{{{1|method}}}|method=
 : {{apilink|t=Function|DropDownToggleButton:HandlesGlobalMouseEvent|arg=buttonName, event|ret=unknown}}
 : {{apilink|t=Function|DropDownToggleButton:OnLoad_Intrinsic}}
------- <span style="font-size: 110%;">Methods inherited from {{tlygo|UIResettableDropdownButtonTemplate}}:</span>
-: {{apilink|t=Function|DropDownToggleButton:OnLoad}}
-: {{apilink|t=Function|DropDownToggleButton:OnMouseDown|arg=button}}
-: {{apilink|t=Function|DropDownToggleButton:OnMouseDownInternal|arg=button}}
-: {{apilink|t=Function|DropDownToggleButton:SetResetFunction|arg=resetFunction}}
------- <span style="font-size: 110%;">Methods inherited from {{tlygo|UIDropDownMenuButtonScriptTemplate}}:</span>
-: {{apilink|t=Function|DropDownToggleButton:OnEnter|arg=...}}
-: {{apilink|t=Function|DropDownToggleButton:OnLeave|arg=...}}
-: {{apilink|t=Function|DropDownToggleButton:OnMouseDown|arg=button}}
 }}</onlyinclude>
 |-
 | {{:UIOBJECT_Button|method}}

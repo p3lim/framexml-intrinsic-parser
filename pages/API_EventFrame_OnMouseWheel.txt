@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollControllerMixin}}
-&nbsp;
-{{apisig|EventFrame:OnMouseWheel(value)}}
-
-==Arguments==
-:;value:{{apitype|unknown}}

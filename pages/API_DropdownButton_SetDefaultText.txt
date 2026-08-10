@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=DropdownSelectionTextMixin}}
-&nbsp;
-{{apisig|DropdownButton:SetDefaultText(text)}}
-
-==Arguments==
-:;text:{{apitype|unknown}}

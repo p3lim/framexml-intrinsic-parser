@@ -1,7 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|EventFrame:OnTrackMouseDown(button, buttonName)}}
-
-==Arguments==
-:;button:{{apitype|unknown}}
-:;buttonName:{{apitype|unknown}}

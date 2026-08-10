@@ -1,7 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|NARRATION_OBJECT_SCROLL_UP_BUTTON, NARRATION_OBJECT_SCROLL_DOWN_BUTTON {{=}} EventFrame:InitializeNarration()}}
-
-==Returns==
-:;NARRATION_OBJECT_SCROLL_UP_BUTTON:{{apitype|unknown}}
-:;NARRATION_OBJECT_SCROLL_DOWN_BUTTON:{{apitype|unknown}}

@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|panRepeatTime {{=}} EventFrame:GetPanRepeatTime()}}
-
-==Returns==
-:;panRepeatTime:{{apitype|unknown}}

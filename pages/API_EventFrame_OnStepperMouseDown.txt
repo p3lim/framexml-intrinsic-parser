@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|EventFrame:OnStepperMouseDown(stepper)}}
-
-==Arguments==
-:;stepper:{{apitype|unknown}}

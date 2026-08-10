@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=WowDropdownFilterBehaviorMixin}}
-&nbsp;
-{{apisig|DropdownButton:ValidateResetState()}}

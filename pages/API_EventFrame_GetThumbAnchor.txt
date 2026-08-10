@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|thumbAnchor {{=}} EventFrame:GetThumbAnchor()}}
-
-==Returns==
-:;thumbAnchor:{{apitype|unknown}}

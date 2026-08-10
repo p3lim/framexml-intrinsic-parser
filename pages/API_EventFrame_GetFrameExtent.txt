@@ -1,9 +1,0 @@
-{{intrinsicmethod|mixin=ScrollDirectionMixin}}
-&nbsp;
-{{apisig|frameExtent {{=}} EventFrame:GetFrameExtent(frame)}}
-
-==Arguments==
-:;frame:{{apitype|unknown}}
-
-==Returns==
-:;frameExtent:{{apitype|unknown}}

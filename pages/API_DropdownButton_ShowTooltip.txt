@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=DropdownSelectionTextMixin}}
-&nbsp;
-{{apisig|DropdownButton:ShowTooltip()}}

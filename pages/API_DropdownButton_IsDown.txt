@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ButtonStateBehaviorMixin}}
-&nbsp;
-{{apisig|down {{=}} DropdownButton:IsDown()}}
-
-==Returns==
-:;down:{{apitype|unknown}}

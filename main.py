@@ -10,6 +10,12 @@ from scraper import get_xml_templates, get_xml_intrinsics, get_lua_tables, Table
 SOURCE_DIR = Path("wow-ui-source/Interface/AddOns")
 PAGES_DIR = Path("pages")
 
+# there are a _lot_ of templates based on intrinsics, and most of them have little value
+TEMPLATES_TO_KEEP = [
+  "CustomAuraButtonTemplate",
+  "CustomAuraContainerTemplate",
+]
+
 jinja = Environment(
   loader=FileSystemLoader("templates"),
   extensions=["jinja2.ext.do", "jinja2.ext.loopcontrols"],
@@ -71,6 +77,7 @@ def main() -> None:
   templates_dict = {
     template["name"]: {k: v for k, v in template.items() if k != "name"}
     for template in [dict(template) for template in templates]
+    if template["name"] in TEMPLATES_TO_KEEP
   }
 
   # scrape Lua tables in the defined paths

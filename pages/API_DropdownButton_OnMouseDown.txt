@@ -1,7 +1,0 @@
-{{intrinsicmethod|mixin=ButtonStateBehaviorMixin}}
-&nbsp;
-{{apisig|unknown, unknown {{=}} DropdownButton:OnMouseDown()}}
-
-==Returns==
-:;unknown:{{apitype|boolean}}
-:;unknown:{{apitype|boolean}}

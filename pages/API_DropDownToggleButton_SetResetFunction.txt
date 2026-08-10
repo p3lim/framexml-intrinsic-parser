@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=UIResettableDropdownButtonMixin}}
-&nbsp;
-{{apisig|DropDownToggleButton:SetResetFunction(resetFunction)}}
-
-==Arguments==
-:;resetFunction:{{apitype|unknown}}

@@ -1,9 +1,0 @@
-{{intrinsicmethod|mixin=ScrollDirectionMixin}}
-&nbsp;
-{{apisig|upper {{=}} EventFrame:GetUpper(frame)}}
-
-==Arguments==
-:;frame:{{apitype|unknown}}
-
-==Returns==
-:;upper:{{apitype|unknown}}

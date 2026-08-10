@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|panDelay {{=}} EventFrame:GetPanRepeatDelay()}}
-
-==Returns==
-:;panDelay:{{apitype|unknown}}

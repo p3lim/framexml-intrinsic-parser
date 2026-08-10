@@ -1,7 +1,0 @@
-{{intrinsicmethod|mixin=ScrollControllerMixin}}
-&nbsp;
-{{apisig|EventFrame:Interpolate(scrollPercentage, setter)}}
-
-==Arguments==
-:;scrollPercentage:{{apitype|unknown}}
-:;setter:{{apitype|unknown}}

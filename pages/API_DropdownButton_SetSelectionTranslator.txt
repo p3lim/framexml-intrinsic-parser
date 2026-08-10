@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=DropdownSelectionTextMixin}}
-&nbsp;
-{{apisig|DropdownButton:SetSelectionTranslator(translator)}}
-
-==Arguments==
-:;translator:{{apitype|unknown}}

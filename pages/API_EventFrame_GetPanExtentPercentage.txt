@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollControllerMixin}}
-&nbsp;
-{{apisig|panExtentPercentage {{=}} EventFrame:GetPanExtentPercentage()}}
-
-==Returns==
-:;panExtentPercentage:{{apitype|unknown}}

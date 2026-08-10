@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|Forward {{=}} EventFrame:GetForwardStepper()}}
-
-==Returns==
-:;Forward:{{apitype|unknown}}

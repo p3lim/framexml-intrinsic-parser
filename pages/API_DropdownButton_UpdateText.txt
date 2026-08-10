@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=DropdownTextMixin}}
-&nbsp;
-{{apisig|DropdownButton:UpdateText()}}

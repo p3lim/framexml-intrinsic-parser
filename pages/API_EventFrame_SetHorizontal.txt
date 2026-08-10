@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollDirectionMixin}}
-&nbsp;
-{{apisig|EventFrame:SetHorizontal(isHorizontal)}}
-
-==Arguments==
-:;isHorizontal:{{apitype|unknown}}

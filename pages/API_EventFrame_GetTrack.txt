@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|Track {{=}} EventFrame:GetTrack()}}
-
-==Returns==
-:;Track:{{apitype|unknown}}

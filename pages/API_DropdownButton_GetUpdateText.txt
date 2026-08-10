@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=DropdownTextMixin}}
-&nbsp;
-{{apisig|text {{=}} DropdownButton:GetUpdateText()}}
-
-==Returns==
-:;text:{{apitype|unknown}}

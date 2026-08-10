@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=DropDownMenuButtonMixin}}
-&nbsp;
-{{apisig|DropDownToggleButton:OnEnter(...)}}
-
-==Arguments==
-:;...:{{apitype|unknown}}

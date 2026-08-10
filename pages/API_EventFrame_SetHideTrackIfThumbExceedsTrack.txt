@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|EventFrame:SetHideTrackIfThumbExceedsTrack(hide)}}
-
-==Arguments==
-:;hide:{{apitype|unknown}}

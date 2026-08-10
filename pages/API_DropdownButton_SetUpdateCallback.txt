@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=WowDropdownFilterBehaviorMixin}}
-&nbsp;
-{{apisig|DropdownButton:SetUpdateCallback(callback)}}
-
-==Arguments==
-:;callback:{{apitype|unknown}}

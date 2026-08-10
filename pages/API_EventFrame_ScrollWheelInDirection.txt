@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|EventFrame:ScrollWheelInDirection(direction)}}
-
-==Arguments==
-:;direction:{{apitype|unknown}}

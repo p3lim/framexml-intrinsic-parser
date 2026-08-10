@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=DropDownMenuButtonMixin}}
-&nbsp;
-{{apisig|DropDownToggleButton:OnMouseDown(button)}}
-
-==Arguments==
-:;button:{{apitype|unknown}}

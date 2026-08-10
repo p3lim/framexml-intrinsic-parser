@@ -1,7 +1,0 @@
-{{intrinsicmethod|mixin=ScrollBarMixin}}
-&nbsp;
-{{apisig|EventFrame:Init(visibleExtentPercentage, panExtentPercentage)}}
-
-==Arguments==
-:;visibleExtentPercentage:{{apitype|unknown}}
-:;panExtentPercentage:{{apitype|unknown}}
