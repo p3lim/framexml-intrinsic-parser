@@ -1,6 +1,7 @@
 [%- macro inline_object(ref) -%]
 [%- if ref.startswith('Structure:') -%]
 {{:Structure_[[ ref[10:] ]]|nocaption=1}}
+[%- do referenced_types.add(ref[10:]) -%]
 [%- elif ref.startswith('Type:') -%]
 {{:API_types/[[ ref[5:] ]]|nocaption=1}}
 [%- elif ref.startswith('FType:') -%]

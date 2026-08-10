@@ -1,0 +1,12 @@
+{{framexmltype}}
+
+<onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerItemEnchantmentDefaultOptions}}
+! Field !! Type !! Default !! Description
+|-
+| {{apiname|templateNames}} || {{apitype|string}} || {{apitype|nil}} || Additional templates inherited by the frame after CustomAuraButtonTemplate.
+|-
+| {{apiname|initializeFrame}} || {{apitype|function}} || {{apitype|nil}} || Optional callback invoked after the frame is created.
+|-
+| {{apiname|hidePermanent}} || {{apitype|boolean}} || {{apitype|false}} || If true, enchantments without expiration times are treated as inactive.
+|}</onlyinclude>

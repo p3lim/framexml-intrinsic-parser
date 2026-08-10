@@ -1,0 +1,12 @@
+{{framexmltype}}
+
+<onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||AuraContainerItemEnchantmentSlot}}
+! Value !! Field !! Description
+|-
+| 0 || {{apiname|MainHand}} || 
+|-
+| 1 || {{apiname|OffHand}} || 
+|-
+| 2 || {{apiname|Ranged}} || 
+|}</onlyinclude>
