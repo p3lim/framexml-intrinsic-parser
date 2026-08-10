@@ -1,3 +1,32 @@
+[#- keep a list of included mixins so they don't get repeated for templates #]
+[%- set included_mixins = [] -%]
+
+[%- macro render_mixins(src) -%]
+[#- store all methods in a list so we can properly sort them all #]
+[%- set methods = {} %]
+[%- for mixin_name in src %]
+[%- do included_mixins.append(mixin_name) %]
+[%- for method in tables[mixin_name].methods %]
+[%- do methods.update({method: mixin_name}) %]
+[%- endfor %]
+[%- endfor %]
+[#- render the sorted methods #]
+[%- for method in methods.keys() | sort %]
+[%- set mixin_name = methods[method] %]
+[%- if tables[mixin_name].methods[method].signature | length > 0 %]
+[%- if tables[mixin_name].methods[method].returns | length > 0 %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}
+[%- else %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]}}
+[%- endif %]
+[%- elif tables[mixin_name].methods[method].returns | length > 0 %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}
+[%- else %]
+: {{apilink|t=Function|[[ name ]]:[[ method ]]}}
+[%- endif %]
+[%- endfor %]
+[%- endmacro -%]
+
 {{intrinsic}} {{tocright}}
 {| {{apitable}}}
 {{apirow | Instantiation | <code>{{api|CreateFrame}}("[[name]]")</code>}}
@@ -31,43 +60,11 @@ This data object has these [% raw %][[forbidden aspect]]s[% endraw %] attached t
 ==Methods==
 {| class="darktable zebra"
 | <onlyinclude>{{#switch:{{{1|method}}}|method=
-[%- set included_mixins = [] %]
-[%- for mixin_name in data.mixins %]
-[%- do included_mixins.append(mixin_name) %]
-[%- for method in tables[mixin_name].methods | sort %]
-[%- if tables[mixin_name].methods[method].signature | length > 0 %]
-[%- if tables[mixin_name].methods[method].returns | length > 0 %]
-: {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}
-[%- else %]
-: {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]}}
-[%- endif %]
-[%- elif tables[mixin_name].methods[method].returns | length > 0 %]
-: {{apilink|t=Function|[[ name ]]:[[ method ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}
-[%- else %]
-: {{apilink|t=Function|[[ name ]]:[[ method ]]}}
-[%- endif %]
-[%- endfor %]
-[%- endfor %]
+[[- render_mixins(data.mixins) ]]
 [%- for template in data.templates %]
 [%- if templates[template].mixins | length > 0 %]
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|[[ template ]]}}:</span>
-[%- for mixin_name in templates[template].mixins %]
-[%- if mixin_name not in included_mixins %]
-[%- for method in tables[mixin_name].methods | sort %]
-[%- if tables[mixin_name].methods[method].signature | length > 0 %]
-[%- if tables[mixin_name].methods[method].returns | length > 0 %]
-: {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}
-[%- else %]
-: {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]}}
-[%- endif %]
-[%- elif tables[mixin_name].methods[method].returns | length > 0 %]
-: {{apilink|t=Function|[[ name ]]:[[ method ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}
-[%- else %]
-: {{apilink|t=Function|[[ name ]]:[[ method ]]}}
-[%- endif %]
-[%- endfor %]
-[%- endif %]
-[%- endfor %]
+[[- render_mixins(templates[template].mixins) ]]
 [%- endif %]
 [%- endfor %]
 }}</onlyinclude>

@@ -14,20 +14,28 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 : {{apilink|t=Function|DropdownButton:ClearMenuState}}
 : {{apilink|t=Function|DropdownButton:CloseMenu}}
 : {{apilink|t=Function|DropdownButton:CollectSelectionData|ret=unknown}}
+: {{apilink|t=Function|DropdownButton:CopyDeferredCallbacks|arg=callbackType, event, target}}
 : {{apilink|t=Function|DropdownButton:CreateDefaultRootMenuDescription|ret=unknown}}
 : {{apilink|t=Function|DropdownButton:CreateRootDescription|arg=menuMixin|ret=unknown}}
 : {{apilink|t=Function|DropdownButton:Decrement}}
 : {{apilink|t=Function|DropdownButton:EnableRegenerateOnResponse}}
+: {{apilink|t=Function|DropdownButton:GenerateCallbackEvents|arg=eventTable}}
 : {{apilink|t=Function|DropdownButton:GenerateMenu}}
+: {{apilink|t=Function|DropdownButton:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
+: {{apilink|t=Function|DropdownButton:GetCallbackTable|arg=callbackType|ret=callbackType}}
+: {{apilink|t=Function|DropdownButton:GetCallbackTables|ret=callbackTables}}
 : {{apilink|t=Function|DropdownButton:GetMenuDescription|ret=menuDescription}}
+: {{apilink|t=Function|DropdownButton:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent, mutableCallbacksByEvent}}
 : {{apilink|t=Function|DropdownButton:GetSelectionData|ret=selectionData}}
 : {{apilink|t=Function|DropdownButton:HandlesGlobalMouseEvent|arg=buttonName, event|ret=unknown}}
 : {{apilink|t=Function|DropdownButton:HasAnyRadioDescriptions|ret=hasAnyRadioDescriptions, hasAnyRadioDescriptions}}
 : {{apilink|t=Function|DropdownButton:HasElements|ret=hasElements}}
+: {{apilink|t=Function|DropdownButton:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent, hasRegistrantsForEvent}}
 : {{apilink|t=Function|DropdownButton:HasStickyFocus|ret=hasStickyFocus}}
 : {{apilink|t=Function|DropdownButton:Increment}}
 : {{apilink|t=Function|DropdownButton:IsMenuOpen|ret=isMenuOpen}}
 : {{apilink|t=Function|DropdownButton:OnEnter_Intrinsic}}
+: {{apilink|t=Function|DropdownButton:OnLoad}}
 : {{apilink|t=Function|DropdownButton:OnLoad_Intrinsic}}
 : {{apilink|t=Function|DropdownButton:OnMenuAssigned}}
 : {{apilink|t=Function|DropdownButton:OnMenuChanged}}
@@ -38,32 +46,24 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 : {{apilink|t=Function|DropdownButton:OnMouseWheel_Intrinsic|arg=delta}}
 : {{apilink|t=Function|DropdownButton:OpenMenu}}
 : {{apilink|t=Function|DropdownButton:Pick|arg=description, menuInputContext, menuInputButtonName|ret=unknown, unknown}}
-: {{apilink|t=Function|DropdownButton:RegisterMenu|arg=menuDescription}}
-: {{apilink|t=Function|DropdownButton:Rotate|arg=forward}}
-: {{apilink|t=Function|DropdownButton:SetMenuAnchor|arg=anchor}}
-: {{apilink|t=Function|DropdownButton:SetMenuOpen|arg=open}}
-: {{apilink|t=Function|DropdownButton:SetupMenu|arg=generator}}
-: {{apilink|t=Function|DropdownButton:SignalUpdate}}
-: {{apilink|t=Function|DropdownButton:Update}}
-: {{apilink|t=Function|DropdownButton:UpdateSelections|arg=selections}}
-: {{apilink|t=Function|DropdownButton:UpdateToMenuSelections|arg=menuDescription, selections}}
-: {{apilink|t=Function|DropdownButton:CopyDeferredCallbacks|arg=callbackType, event, target}}
-: {{apilink|t=Function|DropdownButton:GenerateCallbackEvents|arg=eventTable}}
-: {{apilink|t=Function|DropdownButton:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
-: {{apilink|t=Function|DropdownButton:GetCallbackTable|arg=callbackType|ret=callbackType}}
-: {{apilink|t=Function|DropdownButton:GetCallbackTables|ret=callbackTables}}
-: {{apilink|t=Function|DropdownButton:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent, mutableCallbacksByEvent}}
-: {{apilink|t=Function|DropdownButton:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent, hasRegistrantsForEvent}}
-: {{apilink|t=Function|DropdownButton:OnLoad}}
 : {{apilink|t=Function|DropdownButton:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
 : {{apilink|t=Function|DropdownButton:RegisterCallback|arg=event, func, owner, ...|ret=owner}}
 : {{apilink|t=Function|DropdownButton:RegisterCallbackWithHandle|arg=event, func, owner, ...|ret=unknown}}
+: {{apilink|t=Function|DropdownButton:RegisterMenu|arg=menuDescription}}
+: {{apilink|t=Function|DropdownButton:Rotate|arg=forward}}
 : {{apilink|t=Function|DropdownButton:SecureInsertEvent|arg=event}}
+: {{apilink|t=Function|DropdownButton:SetMenuAnchor|arg=anchor}}
+: {{apilink|t=Function|DropdownButton:SetMenuOpen|arg=open}}
 : {{apilink|t=Function|DropdownButton:SetUndefinedEventsAllowed|arg=allowed}}
+: {{apilink|t=Function|DropdownButton:SetupMenu|arg=generator}}
+: {{apilink|t=Function|DropdownButton:SignalUpdate}}
 : {{apilink|t=Function|DropdownButton:TriggerEvent|arg=event, ...}}
 : {{apilink|t=Function|DropdownButton:UnregisterCallback|arg=event, owner}}
 : {{apilink|t=Function|DropdownButton:UnregisterEvents}}
 : {{apilink|t=Function|DropdownButton:UnregisterEventsByEventTable|arg=eventTable}}
+: {{apilink|t=Function|DropdownButton:Update}}
+: {{apilink|t=Function|DropdownButton:UpdateSelections|arg=selections}}
+: {{apilink|t=Function|DropdownButton:UpdateToMenuSelections|arg=menuDescription, selections}}
 }}</onlyinclude>
 |-
 | {{:UIOBJECT_Button|method}}

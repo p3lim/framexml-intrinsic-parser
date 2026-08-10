@@ -11,12 +11,6 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|ScrollFram
 ==Methods==
 {| class="darktable zebra"
 | <onlyinclude>{{#switch:{{{1|method}}}|method=
-: {{apilink|t=Function|EventScrollFrame:OnHorizontalScroll_Intrinsic|arg=offset}}
-: {{apilink|t=Function|EventScrollFrame:OnLoad_Intrinsic}}
-: {{apilink|t=Function|EventScrollFrame:OnMouseWheel_Intrinsic|arg=direction}}
-: {{apilink|t=Function|EventScrollFrame:OnScrollRangeChanged_Intrinsic|arg=xrange, yrange}}
-: {{apilink|t=Function|EventScrollFrame:OnSizeChanged_Intrinsic|arg=width, height}}
-: {{apilink|t=Function|EventScrollFrame:OnVerticalScroll_Intrinsic|arg=offset}}
 : {{apilink|t=Function|EventScrollFrame:CopyDeferredCallbacks|arg=callbackType, event, target}}
 : {{apilink|t=Function|EventScrollFrame:GenerateCallbackEvents|arg=eventTable}}
 : {{apilink|t=Function|EventScrollFrame:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
@@ -24,7 +18,13 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|ScrollFram
 : {{apilink|t=Function|EventScrollFrame:GetCallbackTables|ret=callbackTables}}
 : {{apilink|t=Function|EventScrollFrame:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent, mutableCallbacksByEvent}}
 : {{apilink|t=Function|EventScrollFrame:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent, hasRegistrantsForEvent}}
+: {{apilink|t=Function|EventScrollFrame:OnHorizontalScroll_Intrinsic|arg=offset}}
 : {{apilink|t=Function|EventScrollFrame:OnLoad}}
+: {{apilink|t=Function|EventScrollFrame:OnLoad_Intrinsic}}
+: {{apilink|t=Function|EventScrollFrame:OnMouseWheel_Intrinsic|arg=direction}}
+: {{apilink|t=Function|EventScrollFrame:OnScrollRangeChanged_Intrinsic|arg=xrange, yrange}}
+: {{apilink|t=Function|EventScrollFrame:OnSizeChanged_Intrinsic|arg=width, height}}
+: {{apilink|t=Function|EventScrollFrame:OnVerticalScroll_Intrinsic|arg=offset}}
 : {{apilink|t=Function|EventScrollFrame:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
 : {{apilink|t=Function|EventScrollFrame:RegisterCallback|arg=event, func, owner, ...|ret=owner}}
 : {{apilink|t=Function|EventScrollFrame:RegisterCallbackWithHandle|arg=event, func, owner, ...|ret=unknown}}

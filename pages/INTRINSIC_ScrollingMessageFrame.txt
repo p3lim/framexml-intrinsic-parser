@@ -33,7 +33,12 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 : {{apilink|t=Function|ScrollingMessageFrame:GatherSelectedText|arg=x, y|ret=unknown, unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetFadeDuration|ret=fadeDurationSecs}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetFading|ret=shouldFadeAfterInactivity}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetFont|ret=font}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetFontObject|ret=fontObject}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetIndentedWordWrap|ret=indentedWordWrap}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetInsertMode|ret=insertMode}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyH|ret=justifyH}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyV|ret=justifyV}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetMaxLines|ret=maxLines}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetMaxScrollRange|ret=maxScrollRange, maxScrollRange}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetMessageInfo|arg=messageIndex|ret=messageInfo}}
@@ -45,11 +50,18 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 : {{apilink|t=Function|ScrollingMessageFrame:GetPagingScrollAmount|ret=pagingScrollAmount}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetScaledCursorPosition|ret=scaledCursorPosition, scaledCursorPosition}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetScrollOffset|ret=scrollOffset}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetShadowColor|ret=shadowColor}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetShadowOffset|ret=shadowOffset}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetSpacing|ret=spacing}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetTextColor|ret=textColor}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetTimeVisible|ret=timeVisibleSecs}}
+: {{apilink|t=Function|ScrollingMessageFrame:HasFontObject|ret=hasFontObject}}
+: {{apilink|t=Function|ScrollingMessageFrame:InitializeFontableFrame|arg=name}}
 : {{apilink|t=Function|ScrollingMessageFrame:InitializeFontString|arg=fontString}}
 : {{apilink|t=Function|ScrollingMessageFrame:IsScrollAllowed|ret=isScrollAllowed}}
 : {{apilink|t=Function|ScrollingMessageFrame:IsSelectingText|ret=isSelectingText}}
 : {{apilink|t=Function|ScrollingMessageFrame:IsTextCopyable|ret=textIsCopyable}}
+: {{apilink|t=Function|ScrollingMessageFrame:MakeFontObjectCustom}}
 : {{apilink|t=Function|ScrollingMessageFrame:MarkDisplayDirty}}
 : {{apilink|t=Function|ScrollingMessageFrame:MarkLayoutDirty}}
 : {{apilink|t=Function|ScrollingMessageFrame:OnColorsUpdated}}
@@ -78,41 +90,28 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 : {{apilink|t=Function|ScrollingMessageFrame:ScrollUp}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetFadeDuration|arg=fadeDurationSecs}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetFading|arg=shouldFadeAfterInactivity}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetFont|arg=font, fontHeight, fontFlags}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetFontObject|arg=fontObject}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetIndentedWordWrap|arg=indentWordWrap}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetInsertMode|arg=insertMode}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyH|arg=justifyH}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyV|arg=justifyV}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetMaxLines|arg=maxLines}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetOnLineRightClickedCallback|arg=onLineRightClickedCallback}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetOnScrollChangedCallback|arg=onScrollChangedCallback}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetOnTextCopiedCallback|arg=onTextCopiedCallback}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetScrollAllowed|arg=allowed}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetScrollOffset|arg=offset}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetShadowColor|arg=r, g, b, a}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetShadowOffset|arg=offsetX, offsetY}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetSpacing|arg=spacing}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetTextColor|arg=r, g, b, a}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetTextCopyable|arg=textIsCopyable}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetTimeVisible|arg=timeVisibleSecs}}
 : {{apilink|t=Function|ScrollingMessageFrame:TransformMessages|arg=predicate, transformFunction|ret=unknown, unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:UnpackageEntry|arg=entry|ret=message, r, g, b, unknown, message, r, g, b}}
 : {{apilink|t=Function|ScrollingMessageFrame:UpdateFading}}
 : {{apilink|t=Function|ScrollingMessageFrame:UpdateSelectingText}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetFont|ret=font}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetFontObject|ret=fontObject}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetIndentedWordWrap|ret=indentedWordWrap}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyH|ret=justifyH}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyV|ret=justifyV}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetShadowColor|ret=shadowColor}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetShadowOffset|ret=shadowOffset}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetSpacing|ret=spacing}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetTextColor|ret=textColor}}
-: {{apilink|t=Function|ScrollingMessageFrame:HasFontObject|ret=hasFontObject}}
-: {{apilink|t=Function|ScrollingMessageFrame:InitializeFontableFrame|arg=name}}
-: {{apilink|t=Function|ScrollingMessageFrame:MakeFontObjectCustom}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnFontObjectUpdated}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetFont|arg=font, fontHeight, fontFlags}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetFontObject|arg=fontObject}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetIndentedWordWrap|arg=indentWordWrap}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyH|arg=justifyH}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyV|arg=justifyV}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetShadowColor|arg=r, g, b, a}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetShadowOffset|arg=offsetX, offsetY}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetSpacing|arg=spacing}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetTextColor|arg=r, g, b, a}}
 }}</onlyinclude>
 |-
 |
