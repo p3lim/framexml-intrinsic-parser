@@ -1,4 +1,4 @@
-{{intrinsicmethod|mixin=WowDropdownFilterBehaviorMixin}}
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
 &nbsp;
 {{apisig|DropdownButton:OnMenuResponse(menu, description)}}
 

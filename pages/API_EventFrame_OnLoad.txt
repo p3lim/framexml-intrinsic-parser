@@ -1,3 +1,3 @@
-{{intrinsicmethod|mixin=WowTrimScrollBarMixin}}
+{{intrinsicmethod|mixin=CallbackRegistryMixin}}
 &nbsp;
 {{apisig|EventFrame:OnLoad()}}

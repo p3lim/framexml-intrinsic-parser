@@ -1,4 +1,4 @@
-{{intrinsicmethod|mixin=WowStyle2DropdownMixin}}
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
 &nbsp;
 {{apisig|DropdownButton:OnMenuClosed(menu, closeReason)}}
 
