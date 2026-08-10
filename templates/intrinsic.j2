@@ -20,9 +20,13 @@ If {{tlygo|[[ template ]]}} is inherited the methods from these mixins are also 
 
 ==Forbidden Aspects==
 This data object has these [% raw %][[forbidden aspect]]s[% endraw %] attached to it, which will restrict which methods and script types it can access.
+{| class="darktable zebra"
+! Enum !! Description
 [%- for aspect in data.aspects %]
-* [[ aspect ]]
+|-
+| {{apiname|Enum.ForbiddenAspect.[[ aspect ]]}} || {{#lst:Enum.ForbiddenAspect|[[ aspect ]]}}
 [%- endfor %]
+|}
 [%- endif %]
 
 ==Methods==
