@@ -9,7 +9,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 
 ==Methods==
 {| class="darktable zebra"
-| <onlyinclude>{{#switch:{{{1|method}}}|method=
+| <section begin=IntrinsicMethods/>
 : {{apilink|t=Function|ItemButton:GetBagID|ret=bagID}}
 : {{apilink|t=Function|ItemButton:GetItem|ret=item}}
 : {{apilink|t=Function|ItemButton:GetItemButtonBackgroundTexture|ret=itemButtonBackgroundTexture}}
@@ -46,8 +46,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 : {{apilink|t=Function|ItemButton:UpdateCraftedProfessionsQualityShown}}
 : {{apilink|t=Function|ItemButton:UpdateItemContextMatching}}
 : {{apilink|t=Function|ItemButton:UpdateItemContextOverlay}}
-: {{apilink|t=Function|ItemButton:UpdateItemContextOverlayTextures|arg=contextMode}}
-}}</onlyinclude>
+: {{apilink|t=Function|ItemButton:UpdateItemContextOverlayTextures|arg=contextMode}}<section end=IntrinsicMethods/>
 |-
 | {{:UIOBJECT_Button|method}}
 |- class="mw-customtoggle-methods"

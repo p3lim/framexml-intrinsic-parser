@@ -10,7 +10,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 
 ==Methods==
 {| class="darktable zebra"
-| <onlyinclude>{{#switch:{{{1|method}}}|method=
+| <section begin=IntrinsicMethods/>
 : {{apilink|t=Function|EventButton:CopyDeferredCallbacks|arg=callbackType, event, target}}
 : {{apilink|t=Function|EventButton:GenerateCallbackEvents|arg=eventTable}}
 : {{apilink|t=Function|EventButton:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
@@ -34,8 +34,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 : {{apilink|t=Function|EventButton:TriggerEvent|arg=event, ...}}
 : {{apilink|t=Function|EventButton:UnregisterCallback|arg=event, owner}}
 : {{apilink|t=Function|EventButton:UnregisterEvents}}
-: {{apilink|t=Function|EventButton:UnregisterEventsByEventTable|arg=eventTable}}
-}}</onlyinclude>
+: {{apilink|t=Function|EventButton:UnregisterEventsByEventTable|arg=eventTable}}<section end=IntrinsicMethods/>
 |-
 | {{:UIOBJECT_Button|method}}
 |- class="mw-customtoggle-methods"

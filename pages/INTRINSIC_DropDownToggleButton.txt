@@ -9,10 +9,9 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 
 ==Methods==
 {| class="darktable zebra"
-| <onlyinclude>{{#switch:{{{1|method}}}|method=
+| <section begin=IntrinsicMethods/>
 : {{apilink|t=Function|DropDownToggleButton:HandlesGlobalMouseEvent|arg=buttonName, event|ret=unknown}}
-: {{apilink|t=Function|DropDownToggleButton:OnLoad_Intrinsic}}
-}}</onlyinclude>
+: {{apilink|t=Function|DropDownToggleButton:OnLoad_Intrinsic}}<section end=IntrinsicMethods/>
 |-
 | {{:UIOBJECT_Button|method}}
 |- class="mw-customtoggle-methods"

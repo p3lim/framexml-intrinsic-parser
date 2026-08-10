@@ -10,7 +10,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 
 ==Methods==
 {| class="darktable zebra"
-| <onlyinclude>{{#switch:{{{1|method}}}|method=
+| <section begin=IntrinsicMethods/>
 : {{apilink|t=Function|ScrollingMessageFrame:AcquireFontString|ret=fontString}}
 : {{apilink|t=Function|ScrollingMessageFrame:AcquireHighlightTexture|ret=texture}}
 : {{apilink|t=Function|ScrollingMessageFrame:AddMessage|arg=message, r, g, b, ...}}
@@ -111,8 +111,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 : {{apilink|t=Function|ScrollingMessageFrame:TransformMessages|arg=predicate, transformFunction|ret=unknown, unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:UnpackageEntry|arg=entry|ret=message, r, g, b, unknown, message, r, g, b}}
 : {{apilink|t=Function|ScrollingMessageFrame:UpdateFading}}
-: {{apilink|t=Function|ScrollingMessageFrame:UpdateSelectingText}}
-}}</onlyinclude>
+: {{apilink|t=Function|ScrollingMessageFrame:UpdateSelectingText}}<section end=IntrinsicMethods/>
 |-
 |
 |- class="mw-customtoggle-methods"

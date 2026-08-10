@@ -26,12 +26,12 @@ This data object has these [[forbidden aspect]]s attached to it, which will rest
 
 ==Methods==
 {| class="darktable zebra"
-| <onlyinclude>{{#switch:{{{1|method}}}|method=
+| <section begin=IntrinsicMethods/>
 : {{apilink|t=Function|AuraButton:GetTooltipAnchorPoint|ret=tooltipAnchorPoint, tooltipOffsetX, tooltipOffsetY}}
 : {{apilink|t=Function|AuraButton:SetCancelAuraButtons|arg=cancelAuraButtons}}
 : {{apilink|t=Function|AuraButton:SetHideTooltipInCombat|arg=hideInCombat}}
 : {{apilink|t=Function|AuraButton:SetTooltipAnchorPoint|arg=point, offsetX, offsetY}}
-: {{apilink|t=Function|AuraButton:ShouldHideTooltipInCombat|ret=tooltipHideInCombat}}
+: {{apilink|t=Function|AuraButton:ShouldHideTooltipInCombat|ret=tooltipHideInCombat}}<section end=IntrinsicMethods/>
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|CustomAuraButtonTemplate}}:</span>
 : {{apilink|t=Function|AuraButton:AddDispelTypeTexture|arg=texture, options|ret=index}}
 : {{apilink|t=Function|AuraButton:AddPandemicRegion|arg=region|ret=index}}
@@ -68,7 +68,6 @@ This data object has these [[forbidden aspect]]s attached to it, which will rest
 : {{apilink|t=Function|AuraButton:SetDurationText|arg=fontString, options}}
 : {{apilink|t=Function|AuraButton:SetIcon|arg=texture}}
 : {{apilink|t=Function|AuraButton:SetSpellName|arg=fontString}}
-}}</onlyinclude>
 |-
 | {{:UIOBJECT_Button|method}}
 |- class="mw-customtoggle-methods"

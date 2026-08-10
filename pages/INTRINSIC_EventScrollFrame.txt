@@ -10,7 +10,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|ScrollFram
 
 ==Methods==
 {| class="darktable zebra"
-| <onlyinclude>{{#switch:{{{1|method}}}|method=
+| <section begin=IntrinsicMethods/>
 : {{apilink|t=Function|EventScrollFrame:CopyDeferredCallbacks|arg=callbackType, event, target}}
 : {{apilink|t=Function|EventScrollFrame:GenerateCallbackEvents|arg=eventTable}}
 : {{apilink|t=Function|EventScrollFrame:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
@@ -33,8 +33,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|ScrollFram
 : {{apilink|t=Function|EventScrollFrame:TriggerEvent|arg=event, ...}}
 : {{apilink|t=Function|EventScrollFrame:UnregisterCallback|arg=event, owner}}
 : {{apilink|t=Function|EventScrollFrame:UnregisterEvents}}
-: {{apilink|t=Function|EventScrollFrame:UnregisterEventsByEventTable|arg=eventTable}}
-}}</onlyinclude>
+: {{apilink|t=Function|EventScrollFrame:UnregisterEventsByEventTable|arg=eventTable}}<section end=IntrinsicMethods/>
 |-
 |
 |- class="mw-customtoggle-methods"
