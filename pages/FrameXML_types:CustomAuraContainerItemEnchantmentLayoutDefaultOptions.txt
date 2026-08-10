@@ -2,23 +2,23 @@
 
 <onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
 |+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerItemEnchantmentLayoutDefaultOptions}}
-! Field !! Type !! Default !! Description
+! Field !! Type !! Description
 |-
-| {{apiname|placement}} || {{apitype|CustomAuraContainerItemEnchantmentPlacement}} || {{apitype|CustomAuraContainerItemEnchantmentPlacement.BeforeAuraGroups}} || Where item enchantment frames are inserted relative to aura groups.
+| {{apiname|placement}} || {{apitype|CustomAuraContainerItemEnchantmentPlacement?|default=CustomAuraContainerItemEnchantmentPlacement.BeforeAuraGroups}} || Where item enchantment frames are inserted relative to aura groups.
 |-
-| {{apiname|elementSpacing}} || {{apitype|number}} || {{apitype|0}} || 
+| {{apiname|elementSpacing}} || {{apitype|number?|default=0}} || 
 |-
-| {{apiname|lineSpacing}} || {{apitype|number}} || {{apitype|0}} || 
+| {{apiname|lineSpacing}} || {{apitype|number?|default=0}} || 
 |-
-| {{apiname|groupSpacing}} || {{apitype|number}} || {{apitype|0}} || 
+| {{apiname|groupSpacing}} || {{apitype|number?|default=0}} || 
 |-
-| {{apiname|groupLineSpacing}} || {{apitype|number}} || {{apitype|0}} || 
+| {{apiname|groupLineSpacing}} || {{apitype|number?|default=0}} || 
 |-
-| {{apiname|forceNewLine}} || {{apitype|boolean}} || {{apitype|false}} || 
+| {{apiname|forceNewLine}} || {{apitype|boolean?|default=false}} || 
 |-
-| {{apiname|elementWidth}} || {{apitype|number}} || {{apitype|nil}} || 
+| {{apiname|elementWidth}} || {{apitype|number?}} || 
 |-
-| {{apiname|elementHeight}} || {{apitype|number}} || {{apitype|nil}} || 
+| {{apiname|elementHeight}} || {{apitype|number?}} || 
 |-
-| {{apiname|layoutIndex}} || {{apitype|number}} || {{apitype|nil}} || 
+| {{apiname|layoutIndex}} || {{apitype|number?}} || 
 |}</onlyinclude>

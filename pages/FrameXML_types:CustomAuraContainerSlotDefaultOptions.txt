@@ -2,17 +2,17 @@
 
 <onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
 |+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerSlotDefaultOptions}}
-! Field !! Type !! Default !! Description
+! Field !! Type !! Description
 |-
-| {{apiname|templateNames}} || {{apitype|string}} || {{apitype|nil}} || Additional templates inherited by the slot frame after CustomAuraButtonTemplate.
+| {{apiname|templateNames}} || {{apitype|string?}} || Additional templates inherited by the slot frame after CustomAuraButtonTemplate.
 |-
-| {{apiname|initializeFrame}} || {{apitype|function}} || {{apitype|nil}} || Optional callback invoked after the slot frame is created.
+| {{apiname|initializeFrame}} || {{apitype|function?}} || Optional callback invoked after the slot frame is created.
 |-
-| {{apiname|candidateFilters}} || {{apitype|table}} || {{apitype|nil}} || Optional candidate filters applied after the aura filter string.
+| {{apiname|candidateFilters}} || {{apitype|table?}} || Optional candidate filters applied after the aura filter string.
 |-
-| {{apiname|sortMethod}} || {{apitype|AuraContainerSortMethod}} || {{apitype|AuraContainerSortMethod.Default}} || Sort method used to choose the preferred aura for this slot.
+| {{apiname|sortMethod}} || {{apitype|AuraContainerSortMethod?|default=AuraContainerSortMethod.Default}} || Sort method used to choose the preferred aura for this slot.
 |-
-| {{apiname|sortDirection}} || {{apitype|AuraContainerSortDirection}} || {{apitype|AuraContainerSortDirection.Normal}} || Sort direction applied to the selected sort method.
+| {{apiname|sortDirection}} || {{apitype|AuraContainerSortDirection?|default=AuraContainerSortDirection.Normal}} || Sort direction applied to the selected sort method.
 |}</onlyinclude>
 ==Details==
 Default options for aura slot displays. An aura slot renders a single aura
