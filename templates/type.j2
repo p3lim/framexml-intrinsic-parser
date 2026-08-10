@@ -7,7 +7,7 @@
 ! Field !! Type !! Description
 [%- for field in data.fields %]
 |-
-| {{apiname|[[ field.name ]]}} || {{apitype|[[ field.type ]][% if field.value %]?[% if field.value != 'nil' %]|default=[[ field.value ]][% endif %][% endif %]}} || [[ field.comment ]]
+| {{apiname|[[ field.name ]]}} || {{apitype|[[ field.type ]][% if field.value is defined %]?[% if field.value != 'nil' %]|default=[[ field.value ]][% endif %][% endif %]}} || [[ field.comment ]]
 [%- endfor %]
 [%- else %]
 ! Value !! Field !! Description
