@@ -153,17 +153,20 @@ def main() -> None:
       # need to do temporary substitution for / in the page path
       print(f"Templating page FrameXML_types:{kind}...", file=sys.stderr)
       template = jinja.get_template("type.j2")
-      pages[f"FrameXML_types:{kind}"] = template.render(
+      pages[Path("FrameXML_types") / kind] = template.render(
         name=kind,
         data=tables_dict[kind],
       )
 
-  # ensure the pages directory exists
-  PAGES_DIR.mkdir(exist_ok=True)
-
   # write pages to file
   for page, text in pages.items():
-    with open(PAGES_DIR / (page + ".txt"), "w") as f:
+    # define the full (relative) path of the file to write to
+    path = (PAGES_DIR / page).with_suffix(".txt")
+
+    # ensure the directory for the path exists
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(path, "w") as f:
       print(f"Writing page {page}...")
       f.write(text)
 

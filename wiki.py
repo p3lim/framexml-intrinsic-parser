@@ -130,8 +130,7 @@ def main() -> None:
   print("Processing pages...", file=sys.stderr)
   for file in Path("pages").rglob("*.txt"):
     # get the name without the file extension suffix, and do replacements
-    path = file.with_suffix("")
-    name = path.name.replace(":", "/")
+    name = file.relative_to(file.parts[0]).with_suffix("")
     page_names.add(name)
 
     # get (cached) page reference and call for an upload
