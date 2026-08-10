@@ -5,9 +5,11 @@ on:
     branches:
       - master
     paths:
-      - '**.py'
-      - '**.j2'
+      - 'main.py'
+      - 'scraper/*'
+      - 'templates/*'
       - '.github/workflows/scrape.yaml'
+      - 'requirements.txt'
   schedule:
     - cron: '0 8 * * 3' # every wednesday morning
   workflow_dispatch:
