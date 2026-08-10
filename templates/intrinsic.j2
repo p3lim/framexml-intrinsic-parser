@@ -59,15 +59,14 @@ This data object has these [% raw %][[forbidden aspect]]s[% endraw %] attached t
 
 ==Methods==
 {| class="darktable zebra"
-| <onlyinclude>{{#switch:{{{1|method}}}|method=
-[[- render_mixins(data.mixins) ]]
+| <section begin=IntrinsicMethods/>
+[[- render_mixins(data.mixins) ]]<section end=IntrinsicMethods/>
 [%- for template in data.templates %]
 [%- if templates[template].mixins | length > 0 %]
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|[[ template ]]}}:</span>
 [[- render_mixins(templates[template].mixins) ]]
 [%- endif %]
 [%- endfor %]
-}}</onlyinclude>
 |-
 [%- if data.type == 'Button' %]
 | {{:UIOBJECT_Button|method}}
