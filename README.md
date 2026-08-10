@@ -12,3 +12,7 @@ This runs on an interval through GitHub workflows once a week (the day after PTR
 
 - [Python](https://www.python.org) 3.12 or newer
 - `requirements.txt`
+
+## Acknowledgements
+
+Big thanks to @Ketho for his help and insight with the wiki.
