@@ -34,7 +34,7 @@ This data object has these [% raw %][[forbidden aspect]]s[% endraw %] attached t
 [%- set included_mixins = [] %]
 [%- for mixin_name in data.mixins %]
 [%- do included_mixins.append(mixin_name) %]
-[%- for method in tables[mixin_name].methods %]
+[%- for method in tables[mixin_name].methods | sort %]
 [%- if tables[mixin_name].methods[method].signature | length > 0 %]
 [%- if tables[mixin_name].methods[method].returns | length > 0 %]
 : {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}
@@ -53,7 +53,7 @@ This data object has these [% raw %][[forbidden aspect]]s[% endraw %] attached t
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|[[ template ]]}}:</span>
 [%- for mixin_name in templates[template].mixins %]
 [%- if mixin_name not in included_mixins %]
-[%- for method in tables[mixin_name].methods %]
+[%- for method in tables[mixin_name].methods | sort %]
 [%- if tables[mixin_name].methods[method].signature | length > 0 %]
 [%- if tables[mixin_name].methods[method].returns | length > 0 %]
 : {{apilink|t=Function|[[ name ]]:[[ method ]]|arg=[[ tables[mixin_name].methods[method].signature | map(attribute='name') | join(', ') ]]|ret=[[ tables[mixin_name].methods[method].returns | map(attribute='name') | join(', ') ]]}}

@@ -11,108 +11,108 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 ==Methods==
 {| class="darktable zebra"
 | <onlyinclude>{{#switch:{{{1|method}}}|method=
+: {{apilink|t=Function|ScrollingMessageFrame:AcquireFontString|ret=fontString}}
+: {{apilink|t=Function|ScrollingMessageFrame:AcquireHighlightTexture|ret=texture}}
 : {{apilink|t=Function|ScrollingMessageFrame:AddMessage|arg=message, r, g, b, ...}}
-: {{apilink|t=Function|ScrollingMessageFrame:BackFillMessage|arg=message, r, g, b, ...}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetNumMessages|ret=numMessages}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetMessageInfo|arg=messageIndex|ret=messageInfo}}
-: {{apilink|t=Function|ScrollingMessageFrame:ForEachMessage|arg=op}}
-: {{apilink|t=Function|ScrollingMessageFrame:RemoveMessagesByPredicate|arg=predicate|ret=unknown}}
-: {{apilink|t=Function|ScrollingMessageFrame:AdjustMessageColors|arg=transformFunction}}
-: {{apilink|t=Function|ScrollingMessageFrame:TransformMessages|arg=predicate, transformFunction|ret=unknown, unknown}}
-: {{apilink|t=Function|ScrollingMessageFrame:ForEachVisibleLineText|arg=op}}
-: {{apilink|t=Function|ScrollingMessageFrame:ForEachMessageInfoText|arg=op}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetScrollAllowed|arg=allowed}}
-: {{apilink|t=Function|ScrollingMessageFrame:IsScrollAllowed|ret=isScrollAllowed}}
-: {{apilink|t=Function|ScrollingMessageFrame:ScrollByAmount|arg=amount}}
-: {{apilink|t=Function|ScrollingMessageFrame:ScrollUp}}
-: {{apilink|t=Function|ScrollingMessageFrame:ScrollDown}}
-: {{apilink|t=Function|ScrollingMessageFrame:PageUp}}
-: {{apilink|t=Function|ScrollingMessageFrame:PageDown}}
-: {{apilink|t=Function|ScrollingMessageFrame:ScrollToTop}}
-: {{apilink|t=Function|ScrollingMessageFrame:ScrollToBottom}}
 : {{apilink|t=Function|ScrollingMessageFrame:AddOnDisplayRefreshedCallback|arg=callback}}
-: {{apilink|t=Function|ScrollingMessageFrame:CallOnDisplayRefreshed}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetOnScrollChangedCallback|arg=onScrollChangedCallback}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetOnScrollChangedCallback|ret=onScrollChangedCallback}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetOnTextCopiedCallback|arg=onTextCopiedCallback}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetOnTextCopiedCallback|ret=onTextCopiedCallback}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetOnLineRightClickedCallback|arg=onLineRightClickedCallback}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetOnLineRightClickedCallback|ret=onLineRightClickedCallback}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetScrollOffset|arg=offset}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetScrollOffset|ret=scrollOffset}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetMaxScrollRange|ret=maxScrollRange, maxScrollRange}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetNumVisibleLines|ret=numVisibleLines}}
-: {{apilink|t=Function|ScrollingMessageFrame:AtTop|ret=unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:AdjustMessageColors|arg=transformFunction}}
 : {{apilink|t=Function|ScrollingMessageFrame:AtBottom|ret=unknown}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetMaxLines|arg=maxLines}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetMaxLines|ret=maxLines}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetPagingScrollAmount|ret=pagingScrollAmount}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetFading|arg=shouldFadeAfterInactivity}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetFading|ret=shouldFadeAfterInactivity}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetTimeVisible|arg=timeVisibleSecs}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetTimeVisible|ret=timeVisibleSecs}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetFadeDuration|arg=fadeDurationSecs}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetFadeDuration|ret=fadeDurationSecs}}
+: {{apilink|t=Function|ScrollingMessageFrame:AtTop|ret=unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:BackFillMessage|arg=message, r, g, b, ...}}
+: {{apilink|t=Function|ScrollingMessageFrame:CalculateLineAlphaValueFromTimestamp|arg=now, timestamp|ret=unknown, unknown, unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:CalculateLineSpacing|ret=lineSpacing}}
+: {{apilink|t=Function|ScrollingMessageFrame:CalculateNumVisibleLines|ret=unknown, unknown, unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:CalculateSelectingCharacterIndicesForVisibleLine|arg=lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex|ret=unknown, unknown, startCharacterIndex, unknown, unknown, startCharacterIndex, unknown, startCharacterIndex, startCharacterIndex, unknown, unknown, endCharacterIndex, endCharacterIndex, unknown, endCharacterIndex, unknown, unknown, endCharacterIndex, unknown, unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:CallOnDisplayRefreshed}}
+: {{apilink|t=Function|ScrollingMessageFrame:CanEffectivelyFade|ret=unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:Clear}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetInsertMode|arg=insertMode}}
+: {{apilink|t=Function|ScrollingMessageFrame:FindCharacterAndLineIndexAtCoordinate|arg=x, y|ret=characterIndex, lineIndex, closestCharacterIndex, closestLineIndex}}
+: {{apilink|t=Function|ScrollingMessageFrame:ForEachMessage|arg=op}}
+: {{apilink|t=Function|ScrollingMessageFrame:ForEachMessageInfoText|arg=op}}
+: {{apilink|t=Function|ScrollingMessageFrame:ForEachVisibleLineText|arg=op}}
+: {{apilink|t=Function|ScrollingMessageFrame:GatherSelectedText|arg=x, y|ret=unknown, unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetFadeDuration|ret=fadeDurationSecs}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetFading|ret=shouldFadeAfterInactivity}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetInsertMode|ret=insertMode}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetTextCopyable|arg=textIsCopyable}}
-: {{apilink|t=Function|ScrollingMessageFrame:IsTextCopyable|ret=textIsCopyable}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetMaxLines|ret=maxLines}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetMaxScrollRange|ret=maxScrollRange, maxScrollRange}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetMessageInfo|arg=messageIndex|ret=messageInfo}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetNumMessages|ret=numMessages}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetNumVisibleLines|ret=numVisibleLines}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetOnLineRightClickedCallback|ret=onLineRightClickedCallback}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetOnScrollChangedCallback|ret=onScrollChangedCallback}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetOnTextCopiedCallback|ret=onTextCopiedCallback}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetPagingScrollAmount|ret=pagingScrollAmount}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetScaledCursorPosition|ret=scaledCursorPosition, scaledCursorPosition}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetScrollOffset|ret=scrollOffset}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetTimeVisible|ret=timeVisibleSecs}}
+: {{apilink|t=Function|ScrollingMessageFrame:InitializeFontString|arg=fontString}}
+: {{apilink|t=Function|ScrollingMessageFrame:IsScrollAllowed|ret=isScrollAllowed}}
 : {{apilink|t=Function|ScrollingMessageFrame:IsSelectingText|ret=isSelectingText}}
-: {{apilink|t=Function|ScrollingMessageFrame:ResetAllFadeTimes}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPreLoad}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPostShow}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPostHide}}
+: {{apilink|t=Function|ScrollingMessageFrame:IsTextCopyable|ret=textIsCopyable}}
+: {{apilink|t=Function|ScrollingMessageFrame:MarkDisplayDirty}}
+: {{apilink|t=Function|ScrollingMessageFrame:MarkLayoutDirty}}
+: {{apilink|t=Function|ScrollingMessageFrame:OnColorsUpdated}}
+: {{apilink|t=Function|ScrollingMessageFrame:OnFontObjectUpdated}}
 : {{apilink|t=Function|ScrollingMessageFrame:OnPostEvent|arg=event, ...}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPostUpdate|arg=elapsed}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPreSizeChanged}}
+: {{apilink|t=Function|ScrollingMessageFrame:OnPostHide}}
 : {{apilink|t=Function|ScrollingMessageFrame:OnPostMouseDown|arg=buttonName, inside}}
 : {{apilink|t=Function|ScrollingMessageFrame:OnPostMouseUp|arg=buttonName, inside}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnColorsUpdated}}
-: {{apilink|t=Function|ScrollingMessageFrame:ResetSelectingText}}
-: {{apilink|t=Function|ScrollingMessageFrame:CalculateSelectingCharacterIndicesForVisibleLine|arg=lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex|ret=unknown, unknown, startCharacterIndex, unknown, unknown, startCharacterIndex, unknown, startCharacterIndex, startCharacterIndex, unknown, unknown, endCharacterIndex, endCharacterIndex, unknown, endCharacterIndex, unknown, unknown, endCharacterIndex, unknown, unknown}}
-: {{apilink|t=Function|ScrollingMessageFrame:UpdateSelectingText}}
-: {{apilink|t=Function|ScrollingMessageFrame:GatherSelectedText|arg=x, y|ret=unknown, unknown}}
-: {{apilink|t=Function|ScrollingMessageFrame:FindCharacterAndLineIndexAtCoordinate|arg=x, y|ret=characterIndex, lineIndex, closestCharacterIndex, closestLineIndex}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetScaledCursorPosition|ret=scaledCursorPosition, scaledCursorPosition}}
-: {{apilink|t=Function|ScrollingMessageFrame:RefreshLayout}}
-: {{apilink|t=Function|ScrollingMessageFrame:RefreshIfNecessary}}
-: {{apilink|t=Function|ScrollingMessageFrame:RefreshDisplay}}
-: {{apilink|t=Function|ScrollingMessageFrame:CalculateLineAlphaValueFromTimestamp|arg=now, timestamp|ret=unknown, unknown, unknown}}
-: {{apilink|t=Function|ScrollingMessageFrame:CalculateNumVisibleLines|ret=unknown, unknown, unknown}}
-: {{apilink|t=Function|ScrollingMessageFrame:MarkLayoutDirty}}
-: {{apilink|t=Function|ScrollingMessageFrame:MarkDisplayDirty}}
-: {{apilink|t=Function|ScrollingMessageFrame:AcquireFontString|ret=fontString}}
-: {{apilink|t=Function|ScrollingMessageFrame:InitializeFontString|arg=fontString}}
-: {{apilink|t=Function|ScrollingMessageFrame:AcquireHighlightTexture|ret=texture}}
-: {{apilink|t=Function|ScrollingMessageFrame:CalculateLineSpacing|ret=lineSpacing}}
+: {{apilink|t=Function|ScrollingMessageFrame:OnPostShow}}
+: {{apilink|t=Function|ScrollingMessageFrame:OnPostUpdate|arg=elapsed}}
+: {{apilink|t=Function|ScrollingMessageFrame:OnPreLoad}}
+: {{apilink|t=Function|ScrollingMessageFrame:OnPreSizeChanged}}
 : {{apilink|t=Function|ScrollingMessageFrame:PackageEntry|arg=message, r, g, b, ...|ret=unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:PageDown}}
+: {{apilink|t=Function|ScrollingMessageFrame:PageUp}}
+: {{apilink|t=Function|ScrollingMessageFrame:RefreshDisplay}}
+: {{apilink|t=Function|ScrollingMessageFrame:RefreshIfNecessary}}
+: {{apilink|t=Function|ScrollingMessageFrame:RefreshLayout}}
+: {{apilink|t=Function|ScrollingMessageFrame:RemoveMessagesByPredicate|arg=predicate|ret=unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:ResetAllFadeTimes}}
+: {{apilink|t=Function|ScrollingMessageFrame:ResetSelectingText}}
+: {{apilink|t=Function|ScrollingMessageFrame:ScrollByAmount|arg=amount}}
+: {{apilink|t=Function|ScrollingMessageFrame:ScrollDown}}
+: {{apilink|t=Function|ScrollingMessageFrame:ScrollToBottom}}
+: {{apilink|t=Function|ScrollingMessageFrame:ScrollToTop}}
+: {{apilink|t=Function|ScrollingMessageFrame:ScrollUp}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetFadeDuration|arg=fadeDurationSecs}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetFading|arg=shouldFadeAfterInactivity}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetInsertMode|arg=insertMode}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetMaxLines|arg=maxLines}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetOnLineRightClickedCallback|arg=onLineRightClickedCallback}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetOnScrollChangedCallback|arg=onScrollChangedCallback}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetOnTextCopiedCallback|arg=onTextCopiedCallback}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetScrollAllowed|arg=allowed}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetScrollOffset|arg=offset}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetTextCopyable|arg=textIsCopyable}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetTimeVisible|arg=timeVisibleSecs}}
+: {{apilink|t=Function|ScrollingMessageFrame:TransformMessages|arg=predicate, transformFunction|ret=unknown, unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:UnpackageEntry|arg=entry|ret=message, r, g, b, unknown, message, r, g, b}}
-: {{apilink|t=Function|ScrollingMessageFrame:CanEffectivelyFade|ret=unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:UpdateFading}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnFontObjectUpdated}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetFontObject|arg=fontObject}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetFontObject|ret=fontObject}}
-: {{apilink|t=Function|ScrollingMessageFrame:HasFontObject|ret=hasFontObject}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetFont|arg=font, fontHeight, fontFlags}}
+: {{apilink|t=Function|ScrollingMessageFrame:UpdateSelectingText}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetFont|ret=font}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetTextColor|arg=r, g, b, a}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetTextColor|ret=textColor}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetShadowColor|arg=r, g, b, a}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetShadowColor|ret=shadowColor}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetShadowOffset|arg=offsetX, offsetY}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetShadowOffset|ret=shadowOffset}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetSpacing|arg=spacing}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetSpacing|ret=spacing}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyH|arg=justifyH}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyH|ret=justifyH}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyV|arg=justifyV}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyV|ret=justifyV}}
-: {{apilink|t=Function|ScrollingMessageFrame:SetIndentedWordWrap|arg=indentWordWrap}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetFontObject|ret=fontObject}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetIndentedWordWrap|ret=indentedWordWrap}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyH|ret=justifyH}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetJustifyV|ret=justifyV}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetShadowColor|ret=shadowColor}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetShadowOffset|ret=shadowOffset}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetSpacing|ret=spacing}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetTextColor|ret=textColor}}
+: {{apilink|t=Function|ScrollingMessageFrame:HasFontObject|ret=hasFontObject}}
 : {{apilink|t=Function|ScrollingMessageFrame:InitializeFontableFrame|arg=name}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnFontObjectUpdated}}
 : {{apilink|t=Function|ScrollingMessageFrame:MakeFontObjectCustom}}
+: {{apilink|t=Function|ScrollingMessageFrame:OnFontObjectUpdated}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetFont|arg=font, fontHeight, fontFlags}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetFontObject|arg=fontObject}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetIndentedWordWrap|arg=indentWordWrap}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyH|arg=justifyH}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetJustifyV|arg=justifyV}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetShadowColor|arg=r, g, b, a}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetShadowOffset|arg=offsetX, offsetY}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetSpacing|arg=spacing}}
+: {{apilink|t=Function|ScrollingMessageFrame:SetTextColor|arg=r, g, b, a}}
 }}</onlyinclude>
 |-
 |

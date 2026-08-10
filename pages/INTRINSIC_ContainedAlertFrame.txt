@@ -10,12 +10,12 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 ==Methods==
 {| class="darktable zebra"
 | <onlyinclude>{{#switch:{{{1|method}}}|method=
-: {{apilink|t=Function|ContainedAlertFrame:OnPostShow}}
-: {{apilink|t=Function|ContainedAlertFrame:OnPostHide}}
-: {{apilink|t=Function|ContainedAlertFrame:SetAlertContainer|arg=container}}
 : {{apilink|t=Function|ContainedAlertFrame:GetAlertContainer|ret=alertContainer}}
-: {{apilink|t=Function|ContainedAlertFrame:OnManagedAlertFrameVisibilityChanged}}
 : {{apilink|t=Function|ContainedAlertFrame:ManagesOwnOutroAnimation|ret=unknown}}
+: {{apilink|t=Function|ContainedAlertFrame:OnManagedAlertFrameVisibilityChanged}}
+: {{apilink|t=Function|ContainedAlertFrame:OnPostHide}}
+: {{apilink|t=Function|ContainedAlertFrame:OnPostShow}}
+: {{apilink|t=Function|ContainedAlertFrame:SetAlertContainer|arg=container}}
 : {{apilink|t=Function|ContainedAlertFrame:SetExternallyManagedOutroAnimation|arg=externallyManagedAnimation}}
 }}</onlyinclude>
 |-

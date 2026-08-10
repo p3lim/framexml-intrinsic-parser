@@ -11,48 +11,48 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|EditBox}} 
 ==Methods==
 {| class="darktable zebra"
 | <onlyinclude>{{#switch:{{{1|method}}}|method=
+: {{apilink|t=Function|EventEditBox:ApplyDefaultText|arg=defaultText}}
+: {{apilink|t=Function|EventEditBox:ApplyDefaultTextColor|arg=color}}
+: {{apilink|t=Function|EventEditBox:ApplyText|arg=text}}
+: {{apilink|t=Function|EventEditBox:ApplyTextColor|arg=color}}
+: {{apilink|t=Function|EventEditBox:ExpectedHasFocus|ret=unknown, unknown}}
+: {{apilink|t=Function|EventEditBox:GetCursorHeight|ret=cursorHeight}}
+: {{apilink|t=Function|EventEditBox:GetCursorOffset|ret=cursorOffset}}
+: {{apilink|t=Function|EventEditBox:GetFontHeight|ret=fontHeight}}
+: {{apilink|t=Function|EventEditBox:GetInputText|ret=inputText, inputText}}
+: {{apilink|t=Function|EventEditBox:IsDefaultTextDisplayed|ret=isDefaultTextDisplayed, isDefaultTextDisplayed}}
+: {{apilink|t=Function|EventEditBox:IsDefaultTextEnabled|ret=isDefaultTextEnabled}}
+: {{apilink|t=Function|EventEditBox:OnCursorChanged_Intrinsic|arg=x, y, width, height, context}}
+: {{apilink|t=Function|EventEditBox:OnEditFocusGained_Intrinsic}}
+: {{apilink|t=Function|EventEditBox:OnEditFocusLost_Intrinsic}}
+: {{apilink|t=Function|EventEditBox:OnEnterPressed_Intrinsic}}
+: {{apilink|t=Function|EventEditBox:OnEscapePressed_Intrinsic}}
+: {{apilink|t=Function|EventEditBox:OnKeyDown_Intrinsic|arg=key}}
 : {{apilink|t=Function|EventEditBox:OnLoad_Intrinsic}}
 : {{apilink|t=Function|EventEditBox:OnMouseDown_Intrinsic}}
 : {{apilink|t=Function|EventEditBox:OnMouseUp_Intrinsic}}
 : {{apilink|t=Function|EventEditBox:OnTabPressed_Intrinsic}}
 : {{apilink|t=Function|EventEditBox:OnTextChanged_Intrinsic|arg=userChanged}}
-: {{apilink|t=Function|EventEditBox:OnCursorChanged_Intrinsic|arg=x, y, width, height, context}}
-: {{apilink|t=Function|EventEditBox:OnEscapePressed_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:OnEnterPressed_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:OnKeyDown_Intrinsic|arg=key}}
-: {{apilink|t=Function|EventEditBox:OnEditFocusGained_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:OnEditFocusLost_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:ExpectedHasFocus|ret=unknown, unknown}}
-: {{apilink|t=Function|EventEditBox:GetCursorOffset|ret=cursorOffset}}
-: {{apilink|t=Function|EventEditBox:GetCursorHeight|ret=cursorHeight}}
-: {{apilink|t=Function|EventEditBox:GetFontHeight|ret=fontHeight}}
-: {{apilink|t=Function|EventEditBox:ApplyText|arg=text}}
-: {{apilink|t=Function|EventEditBox:ApplyDefaultText|arg=defaultText}}
 : {{apilink|t=Function|EventEditBox:SetDefaultTextEnabled|arg=enabled}}
-: {{apilink|t=Function|EventEditBox:IsDefaultTextEnabled|ret=isDefaultTextEnabled}}
 : {{apilink|t=Function|EventEditBox:ShouldDefault|arg=text|ret=shouldDefault, shouldDefault, shouldDefault, shouldDefault}}
 : {{apilink|t=Function|EventEditBox:TryApplyDefaultText}}
-: {{apilink|t=Function|EventEditBox:GetInputText|ret=inputText, inputText}}
-: {{apilink|t=Function|EventEditBox:IsDefaultTextDisplayed|ret=isDefaultTextDisplayed, isDefaultTextDisplayed}}
-: {{apilink|t=Function|EventEditBox:ApplyTextColor|arg=color}}
-: {{apilink|t=Function|EventEditBox:ApplyDefaultTextColor|arg=color}}
-: {{apilink|t=Function|EventEditBox:OnLoad}}
-: {{apilink|t=Function|EventEditBox:SetUndefinedEventsAllowed|arg=allowed}}
-: {{apilink|t=Function|EventEditBox:GetCallbackTables|ret=callbackTables}}
-: {{apilink|t=Function|EventEditBox:GetCallbackTable|arg=callbackType|ret=callbackType}}
+: {{apilink|t=Function|EventEditBox:CopyDeferredCallbacks|arg=callbackType, event, target}}
+: {{apilink|t=Function|EventEditBox:GenerateCallbackEvents|arg=eventTable}}
 : {{apilink|t=Function|EventEditBox:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
+: {{apilink|t=Function|EventEditBox:GetCallbackTable|arg=callbackType|ret=callbackType}}
+: {{apilink|t=Function|EventEditBox:GetCallbackTables|ret=callbackTables}}
 : {{apilink|t=Function|EventEditBox:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent, mutableCallbacksByEvent}}
 : {{apilink|t=Function|EventEditBox:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent, hasRegistrantsForEvent}}
-: {{apilink|t=Function|EventEditBox:SecureInsertEvent|arg=event}}
+: {{apilink|t=Function|EventEditBox:OnLoad}}
+: {{apilink|t=Function|EventEditBox:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
 : {{apilink|t=Function|EventEditBox:RegisterCallback|arg=event, func, owner, ...|ret=owner}}
 : {{apilink|t=Function|EventEditBox:RegisterCallbackWithHandle|arg=event, func, owner, ...|ret=unknown}}
-: {{apilink|t=Function|EventEditBox:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
-: {{apilink|t=Function|EventEditBox:CopyDeferredCallbacks|arg=callbackType, event, target}}
+: {{apilink|t=Function|EventEditBox:SecureInsertEvent|arg=event}}
+: {{apilink|t=Function|EventEditBox:SetUndefinedEventsAllowed|arg=allowed}}
 : {{apilink|t=Function|EventEditBox:TriggerEvent|arg=event, ...}}
 : {{apilink|t=Function|EventEditBox:UnregisterCallback|arg=event, owner}}
 : {{apilink|t=Function|EventEditBox:UnregisterEvents}}
 : {{apilink|t=Function|EventEditBox:UnregisterEventsByEventTable|arg=eventTable}}
-: {{apilink|t=Function|EventEditBox:GenerateCallbackEvents|arg=eventTable}}
 }}</onlyinclude>
 |-
 |

@@ -10,24 +10,24 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 ==Methods==
 {| class="darktable zebra"
 | <onlyinclude>{{#switch:{{{1|method}}}|method=
-: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPreLoad}}
-: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPreShow}}
-: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPostHide}}
-: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPostEvent|arg=event, ...}}
-: {{apilink|t=Function|UIThemeContainerFrame:UpdateTheme|arg=cvarValue}}
 : {{apilink|t=Function|UIThemeContainerFrame:CheckUpdateTheme|arg=cvar, value}}
 : {{apilink|t=Function|UIThemeContainerFrame:GetCVarValue|ret=cVarValue}}
 : {{apilink|t=Function|UIThemeContainerFrame:IsDarkMode|arg=cvarValue|ret=isDarkMode}}
-: {{apilink|t=Function|UIThemeContainerFrame:UpdateFontStrings|arg=cvarValue}}
-: {{apilink|t=Function|UIThemeContainerFrame:UpdateFrames|arg=cvarValue}}
-: {{apilink|t=Function|UIThemeContainerFrame:UpdateBackground|arg=cvarValue}}
-: {{apilink|t=Function|UIThemeContainerFrame:RegisterObject|arg=container, object}}
-: {{apilink|t=Function|UIThemeContainerFrame:RegisterObjects|arg=container, ...}}
+: {{apilink|t=Function|UIThemeContainerFrame:RegisterBackgroundTexture|arg=texture, textureKit}}
 : {{apilink|t=Function|UIThemeContainerFrame:RegisterFontString|arg=fontString}}
 : {{apilink|t=Function|UIThemeContainerFrame:RegisterFontStrings|arg=...}}
 : {{apilink|t=Function|UIThemeContainerFrame:RegisterFrame|arg=frame}}
 : {{apilink|t=Function|UIThemeContainerFrame:RegisterFrames|arg=...}}
-: {{apilink|t=Function|UIThemeContainerFrame:RegisterBackgroundTexture|arg=texture, textureKit}}
+: {{apilink|t=Function|UIThemeContainerFrame:RegisterObject|arg=container, object}}
+: {{apilink|t=Function|UIThemeContainerFrame:RegisterObjects|arg=container, ...}}
+: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPostEvent|arg=event, ...}}
+: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPostHide}}
+: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPreLoad}}
+: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPreShow}}
+: {{apilink|t=Function|UIThemeContainerFrame:UpdateBackground|arg=cvarValue}}
+: {{apilink|t=Function|UIThemeContainerFrame:UpdateFontStrings|arg=cvarValue}}
+: {{apilink|t=Function|UIThemeContainerFrame:UpdateFrames|arg=cvarValue}}
+: {{apilink|t=Function|UIThemeContainerFrame:UpdateTheme|arg=cvarValue}}
 }}</onlyinclude>
 |-
 |

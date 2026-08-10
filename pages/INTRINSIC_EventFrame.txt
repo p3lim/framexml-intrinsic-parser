@@ -33,222 +33,222 @@ If {{tlygo|WowTrimHorizontalScrollBar}} is inherited the methods from these mixi
 ==Methods==
 {| class="darktable zebra"
 | <onlyinclude>{{#switch:{{{1|method}}}|method=
-: {{apilink|t=Function|EventFrame:OnLoad_Intrinsic}}
 : {{apilink|t=Function|EventFrame:OnHide_Intrinsic}}
+: {{apilink|t=Function|EventFrame:OnLoad_Intrinsic}}
 : {{apilink|t=Function|EventFrame:OnShow_Intrinsic}}
 : {{apilink|t=Function|EventFrame:OnSizeChanged_Intrinsic|arg=width, height}}
-: {{apilink|t=Function|EventFrame:OnLoad}}
-: {{apilink|t=Function|EventFrame:SetUndefinedEventsAllowed|arg=allowed}}
-: {{apilink|t=Function|EventFrame:GetCallbackTables|ret=callbackTables}}
-: {{apilink|t=Function|EventFrame:GetCallbackTable|arg=callbackType|ret=callbackType}}
+: {{apilink|t=Function|EventFrame:CopyDeferredCallbacks|arg=callbackType, event, target}}
+: {{apilink|t=Function|EventFrame:GenerateCallbackEvents|arg=eventTable}}
 : {{apilink|t=Function|EventFrame:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
+: {{apilink|t=Function|EventFrame:GetCallbackTable|arg=callbackType|ret=callbackType}}
+: {{apilink|t=Function|EventFrame:GetCallbackTables|ret=callbackTables}}
 : {{apilink|t=Function|EventFrame:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent, mutableCallbacksByEvent}}
 : {{apilink|t=Function|EventFrame:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent, hasRegistrantsForEvent}}
-: {{apilink|t=Function|EventFrame:SecureInsertEvent|arg=event}}
+: {{apilink|t=Function|EventFrame:OnLoad}}
+: {{apilink|t=Function|EventFrame:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
 : {{apilink|t=Function|EventFrame:RegisterCallback|arg=event, func, owner, ...|ret=owner}}
 : {{apilink|t=Function|EventFrame:RegisterCallbackWithHandle|arg=event, func, owner, ...|ret=unknown}}
-: {{apilink|t=Function|EventFrame:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
-: {{apilink|t=Function|EventFrame:CopyDeferredCallbacks|arg=callbackType, event, target}}
+: {{apilink|t=Function|EventFrame:SecureInsertEvent|arg=event}}
+: {{apilink|t=Function|EventFrame:SetUndefinedEventsAllowed|arg=allowed}}
 : {{apilink|t=Function|EventFrame:TriggerEvent|arg=event, ...}}
 : {{apilink|t=Function|EventFrame:UnregisterCallback|arg=event, owner}}
 : {{apilink|t=Function|EventFrame:UnregisterEvents}}
 : {{apilink|t=Function|EventFrame:UnregisterEventsByEventTable|arg=eventTable}}
-: {{apilink|t=Function|EventFrame:GenerateCallbackEvents|arg=eventTable}}
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|ScrollBarBaseTemplate}}:</span>
-: {{apilink|t=Function|EventFrame:OnLoad}}
-: {{apilink|t=Function|EventFrame:InitializeNarration|ret=NARRATION_OBJECT_SCROLL_UP_BUTTON, NARRATION_OBJECT_SCROLL_DOWN_BUTTON}}
-: {{apilink|t=Function|EventFrame:Init|arg=visibleExtentPercentage, panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:CallInternalScope|arg=func, ...}}
+: {{apilink|t=Function|EventFrame:CanCursorStepInDirection|arg=direction|ret=unknown, unknown, unknown, unknown}}
+: {{apilink|t=Function|EventFrame:DisableControls}}
+: {{apilink|t=Function|EventFrame:EnableInternalPriority}}
 : {{apilink|t=Function|EventFrame:GetBackStepper|ret=Back}}
 : {{apilink|t=Function|EventFrame:GetForwardStepper|ret=Forward}}
-: {{apilink|t=Function|EventFrame:GetTrack|ret=Track}}
+: {{apilink|t=Function|EventFrame:GetPanRepeatDelay|ret=panDelay}}
+: {{apilink|t=Function|EventFrame:GetPanRepeatTime|ret=panRepeatTime}}
 : {{apilink|t=Function|EventFrame:GetThumb|ret=Thumb}}
 : {{apilink|t=Function|EventFrame:GetThumbAnchor|ret=thumbAnchor}}
-: {{apilink|t=Function|EventFrame:GetPanRepeatTime|ret=panRepeatTime}}
-: {{apilink|t=Function|EventFrame:GetPanRepeatDelay|ret=panDelay}}
+: {{apilink|t=Function|EventFrame:GetTrack|ret=Track}}
 : {{apilink|t=Function|EventFrame:GetTrackExtent|ret=trackExtent}}
-: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=percentage, direction}}
-: {{apilink|t=Function|EventFrame:ScrollWheelInDirection|arg=direction}}
-: {{apilink|t=Function|EventFrame:ScrollStepInDirection|arg=direction}}
-: {{apilink|t=Function|EventFrame:ScrollPageInDirection|arg=direction}}
-: {{apilink|t=Function|EventFrame:SetVisibleExtentPercentage|arg=visibleExtentPercentage}}
 : {{apilink|t=Function|EventFrame:GetVisibleExtentPercentage|ret=visibleExtentPercentage}}
+: {{apilink|t=Function|EventFrame:HasScrollableExtent|ret=hasScrollableExtent}}
+: {{apilink|t=Function|EventFrame:Init|arg=visibleExtentPercentage, panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:InitializeNarration|ret=NARRATION_OBJECT_SCROLL_UP_BUTTON, NARRATION_OBJECT_SCROLL_DOWN_BUTTON}}
+: {{apilink|t=Function|EventFrame:IsThumbMouseDown|ret=isThumbMouseDown}}
+: {{apilink|t=Function|EventFrame:OnLoad}}
+: {{apilink|t=Function|EventFrame:OnStepperMouseDown|arg=stepper}}
+: {{apilink|t=Function|EventFrame:OnThumbMouseDown|arg=button, buttonName}}
+: {{apilink|t=Function|EventFrame:OnTrackMouseDown|arg=button, buttonName}}
+: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=percentage, direction}}
+: {{apilink|t=Function|EventFrame:ScrollPageInDirection|arg=direction}}
+: {{apilink|t=Function|EventFrame:ScrollStepInDirection|arg=direction}}
 : {{apilink|t=Function|EventFrame:ScrollToBegin|arg=forceImmediate}}
 : {{apilink|t=Function|EventFrame:ScrollToEnd|arg=forceImmediate}}
-: {{apilink|t=Function|EventFrame:EnableInternalPriority}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage, forceImmediate}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentageInternal|arg=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:HasScrollableExtent|ret=hasScrollableExtent}}
-: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
-: {{apilink|t=Function|EventFrame:SetThumbExtent|arg=thumbExtent|ret=thumbExtent, clamped}}
+: {{apilink|t=Function|EventFrame:ScrollWheelInDirection|arg=direction}}
 : {{apilink|t=Function|EventFrame:SetHideIfUnscrollable|arg=hide}}
 : {{apilink|t=Function|EventFrame:SetHideTrackIfThumbExceedsTrack|arg=hide}}
-: {{apilink|t=Function|EventFrame:Update}}
-: {{apilink|t=Function|EventFrame:DisableControls}}
-: {{apilink|t=Function|EventFrame:CanCursorStepInDirection|arg=direction|ret=unknown, unknown, unknown, unknown}}
-: {{apilink|t=Function|EventFrame:IsThumbMouseDown|ret=isThumbMouseDown}}
+: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage, forceImmediate}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentageInternal|arg=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:SetThumbExtent|arg=thumbExtent|ret=thumbExtent, clamped}}
+: {{apilink|t=Function|EventFrame:SetVisibleExtentPercentage|arg=visibleExtentPercentage}}
 : {{apilink|t=Function|EventFrame:UnregisterUpdate}}
-: {{apilink|t=Function|EventFrame:CallInternalScope|arg=func, ...}}
-: {{apilink|t=Function|EventFrame:OnStepperMouseDown|arg=stepper}}
-: {{apilink|t=Function|EventFrame:OnTrackMouseDown|arg=button, buttonName}}
-: {{apilink|t=Function|EventFrame:OnThumbMouseDown|arg=button, buttonName}}
-: {{apilink|t=Function|EventFrame:OnLoad}}
-: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
+: {{apilink|t=Function|EventFrame:Update}}
+: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
 : {{apilink|t=Function|EventFrame:EnableSnapToInterval}}
 : {{apilink|t=Function|EventFrame:GetIntervalRange|ret=intervalRange, intervalRange}}
-: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
 : {{apilink|t=Function|EventFrame:GetPanExtentPercentage|ret=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
+: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
 : {{apilink|t=Function|EventFrame:GetScrollPercentage|ret=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
+: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
 : {{apilink|t=Function|EventFrame:IsAtBegin|ret=isAtBegin}}
 : {{apilink|t=Function|EventFrame:IsAtEnd|ret=isAtEnd}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
-: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
 : {{apilink|t=Function|EventFrame:IsScrollAllowed|ret=allowScroll}}
+: {{apilink|t=Function|EventFrame:OnLoad}}
+: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
+: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
+: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
+: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
 : {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
-: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
-: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
 : {{apilink|t=Function|EventFrame:GetFrameExtent|arg=frame|ret=frameExtent}}
-: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
-: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
 : {{apilink|t=Function|EventFrame:GetLower|arg=frame|ret=lower}}
+: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
+: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
 : {{apilink|t=Function|EventFrame:SelectCursorComponent|arg=parent|ret=unknown}}
 : {{apilink|t=Function|EventFrame:SelectPointComponent|arg=frame|ret=unknown}}
+: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
+: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|VerticalScrollBarTemplate}}:</span>
-: {{apilink|t=Function|EventFrame:OnLoad}}
-: {{apilink|t=Function|EventFrame:InitializeNarration|ret=NARRATION_OBJECT_SCROLL_UP_BUTTON, NARRATION_OBJECT_SCROLL_DOWN_BUTTON}}
-: {{apilink|t=Function|EventFrame:Init|arg=visibleExtentPercentage, panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:CallInternalScope|arg=func, ...}}
+: {{apilink|t=Function|EventFrame:CanCursorStepInDirection|arg=direction|ret=unknown, unknown, unknown, unknown}}
+: {{apilink|t=Function|EventFrame:DisableControls}}
+: {{apilink|t=Function|EventFrame:EnableInternalPriority}}
 : {{apilink|t=Function|EventFrame:GetBackStepper|ret=Back}}
 : {{apilink|t=Function|EventFrame:GetForwardStepper|ret=Forward}}
-: {{apilink|t=Function|EventFrame:GetTrack|ret=Track}}
+: {{apilink|t=Function|EventFrame:GetPanRepeatDelay|ret=panDelay}}
+: {{apilink|t=Function|EventFrame:GetPanRepeatTime|ret=panRepeatTime}}
 : {{apilink|t=Function|EventFrame:GetThumb|ret=Thumb}}
 : {{apilink|t=Function|EventFrame:GetThumbAnchor|ret=thumbAnchor}}
-: {{apilink|t=Function|EventFrame:GetPanRepeatTime|ret=panRepeatTime}}
-: {{apilink|t=Function|EventFrame:GetPanRepeatDelay|ret=panDelay}}
+: {{apilink|t=Function|EventFrame:GetTrack|ret=Track}}
 : {{apilink|t=Function|EventFrame:GetTrackExtent|ret=trackExtent}}
-: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=percentage, direction}}
-: {{apilink|t=Function|EventFrame:ScrollWheelInDirection|arg=direction}}
-: {{apilink|t=Function|EventFrame:ScrollStepInDirection|arg=direction}}
-: {{apilink|t=Function|EventFrame:ScrollPageInDirection|arg=direction}}
-: {{apilink|t=Function|EventFrame:SetVisibleExtentPercentage|arg=visibleExtentPercentage}}
 : {{apilink|t=Function|EventFrame:GetVisibleExtentPercentage|ret=visibleExtentPercentage}}
+: {{apilink|t=Function|EventFrame:HasScrollableExtent|ret=hasScrollableExtent}}
+: {{apilink|t=Function|EventFrame:Init|arg=visibleExtentPercentage, panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:InitializeNarration|ret=NARRATION_OBJECT_SCROLL_UP_BUTTON, NARRATION_OBJECT_SCROLL_DOWN_BUTTON}}
+: {{apilink|t=Function|EventFrame:IsThumbMouseDown|ret=isThumbMouseDown}}
+: {{apilink|t=Function|EventFrame:OnLoad}}
+: {{apilink|t=Function|EventFrame:OnStepperMouseDown|arg=stepper}}
+: {{apilink|t=Function|EventFrame:OnThumbMouseDown|arg=button, buttonName}}
+: {{apilink|t=Function|EventFrame:OnTrackMouseDown|arg=button, buttonName}}
+: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=percentage, direction}}
+: {{apilink|t=Function|EventFrame:ScrollPageInDirection|arg=direction}}
+: {{apilink|t=Function|EventFrame:ScrollStepInDirection|arg=direction}}
 : {{apilink|t=Function|EventFrame:ScrollToBegin|arg=forceImmediate}}
 : {{apilink|t=Function|EventFrame:ScrollToEnd|arg=forceImmediate}}
-: {{apilink|t=Function|EventFrame:EnableInternalPriority}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage, forceImmediate}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentageInternal|arg=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:HasScrollableExtent|ret=hasScrollableExtent}}
-: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
-: {{apilink|t=Function|EventFrame:SetThumbExtent|arg=thumbExtent|ret=thumbExtent, clamped}}
+: {{apilink|t=Function|EventFrame:ScrollWheelInDirection|arg=direction}}
 : {{apilink|t=Function|EventFrame:SetHideIfUnscrollable|arg=hide}}
 : {{apilink|t=Function|EventFrame:SetHideTrackIfThumbExceedsTrack|arg=hide}}
-: {{apilink|t=Function|EventFrame:Update}}
-: {{apilink|t=Function|EventFrame:DisableControls}}
-: {{apilink|t=Function|EventFrame:CanCursorStepInDirection|arg=direction|ret=unknown, unknown, unknown, unknown}}
-: {{apilink|t=Function|EventFrame:IsThumbMouseDown|ret=isThumbMouseDown}}
+: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage, forceImmediate}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentageInternal|arg=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:SetThumbExtent|arg=thumbExtent|ret=thumbExtent, clamped}}
+: {{apilink|t=Function|EventFrame:SetVisibleExtentPercentage|arg=visibleExtentPercentage}}
 : {{apilink|t=Function|EventFrame:UnregisterUpdate}}
-: {{apilink|t=Function|EventFrame:CallInternalScope|arg=func, ...}}
-: {{apilink|t=Function|EventFrame:OnStepperMouseDown|arg=stepper}}
-: {{apilink|t=Function|EventFrame:OnTrackMouseDown|arg=button, buttonName}}
-: {{apilink|t=Function|EventFrame:OnThumbMouseDown|arg=button, buttonName}}
-: {{apilink|t=Function|EventFrame:OnLoad}}
-: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
+: {{apilink|t=Function|EventFrame:Update}}
+: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
 : {{apilink|t=Function|EventFrame:EnableSnapToInterval}}
 : {{apilink|t=Function|EventFrame:GetIntervalRange|ret=intervalRange, intervalRange}}
-: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
 : {{apilink|t=Function|EventFrame:GetPanExtentPercentage|ret=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
+: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
 : {{apilink|t=Function|EventFrame:GetScrollPercentage|ret=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
+: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
 : {{apilink|t=Function|EventFrame:IsAtBegin|ret=isAtBegin}}
 : {{apilink|t=Function|EventFrame:IsAtEnd|ret=isAtEnd}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
-: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
 : {{apilink|t=Function|EventFrame:IsScrollAllowed|ret=allowScroll}}
+: {{apilink|t=Function|EventFrame:OnLoad}}
+: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
+: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
+: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
+: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
 : {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
-: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
-: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
 : {{apilink|t=Function|EventFrame:GetFrameExtent|arg=frame|ret=frameExtent}}
-: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
-: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
 : {{apilink|t=Function|EventFrame:GetLower|arg=frame|ret=lower}}
+: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
+: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
 : {{apilink|t=Function|EventFrame:SelectCursorComponent|arg=parent|ret=unknown}}
 : {{apilink|t=Function|EventFrame:SelectPointComponent|arg=frame|ret=unknown}}
+: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
+: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|HorizontalScrollBarTemplate}}:</span>
-: {{apilink|t=Function|EventFrame:OnLoad}}
-: {{apilink|t=Function|EventFrame:InitializeNarration|ret=NARRATION_OBJECT_SCROLL_UP_BUTTON, NARRATION_OBJECT_SCROLL_DOWN_BUTTON}}
-: {{apilink|t=Function|EventFrame:Init|arg=visibleExtentPercentage, panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:CallInternalScope|arg=func, ...}}
+: {{apilink|t=Function|EventFrame:CanCursorStepInDirection|arg=direction|ret=unknown, unknown, unknown, unknown}}
+: {{apilink|t=Function|EventFrame:DisableControls}}
+: {{apilink|t=Function|EventFrame:EnableInternalPriority}}
 : {{apilink|t=Function|EventFrame:GetBackStepper|ret=Back}}
 : {{apilink|t=Function|EventFrame:GetForwardStepper|ret=Forward}}
-: {{apilink|t=Function|EventFrame:GetTrack|ret=Track}}
+: {{apilink|t=Function|EventFrame:GetPanRepeatDelay|ret=panDelay}}
+: {{apilink|t=Function|EventFrame:GetPanRepeatTime|ret=panRepeatTime}}
 : {{apilink|t=Function|EventFrame:GetThumb|ret=Thumb}}
 : {{apilink|t=Function|EventFrame:GetThumbAnchor|ret=thumbAnchor}}
-: {{apilink|t=Function|EventFrame:GetPanRepeatTime|ret=panRepeatTime}}
-: {{apilink|t=Function|EventFrame:GetPanRepeatDelay|ret=panDelay}}
+: {{apilink|t=Function|EventFrame:GetTrack|ret=Track}}
 : {{apilink|t=Function|EventFrame:GetTrackExtent|ret=trackExtent}}
-: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=percentage, direction}}
-: {{apilink|t=Function|EventFrame:ScrollWheelInDirection|arg=direction}}
-: {{apilink|t=Function|EventFrame:ScrollStepInDirection|arg=direction}}
-: {{apilink|t=Function|EventFrame:ScrollPageInDirection|arg=direction}}
-: {{apilink|t=Function|EventFrame:SetVisibleExtentPercentage|arg=visibleExtentPercentage}}
 : {{apilink|t=Function|EventFrame:GetVisibleExtentPercentage|ret=visibleExtentPercentage}}
+: {{apilink|t=Function|EventFrame:HasScrollableExtent|ret=hasScrollableExtent}}
+: {{apilink|t=Function|EventFrame:Init|arg=visibleExtentPercentage, panExtentPercentage}}
+: {{apilink|t=Function|EventFrame:InitializeNarration|ret=NARRATION_OBJECT_SCROLL_UP_BUTTON, NARRATION_OBJECT_SCROLL_DOWN_BUTTON}}
+: {{apilink|t=Function|EventFrame:IsThumbMouseDown|ret=isThumbMouseDown}}
+: {{apilink|t=Function|EventFrame:OnLoad}}
+: {{apilink|t=Function|EventFrame:OnStepperMouseDown|arg=stepper}}
+: {{apilink|t=Function|EventFrame:OnThumbMouseDown|arg=button, buttonName}}
+: {{apilink|t=Function|EventFrame:OnTrackMouseDown|arg=button, buttonName}}
+: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=percentage, direction}}
+: {{apilink|t=Function|EventFrame:ScrollPageInDirection|arg=direction}}
+: {{apilink|t=Function|EventFrame:ScrollStepInDirection|arg=direction}}
 : {{apilink|t=Function|EventFrame:ScrollToBegin|arg=forceImmediate}}
 : {{apilink|t=Function|EventFrame:ScrollToEnd|arg=forceImmediate}}
-: {{apilink|t=Function|EventFrame:EnableInternalPriority}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage, forceImmediate}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentageInternal|arg=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:HasScrollableExtent|ret=hasScrollableExtent}}
-: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
-: {{apilink|t=Function|EventFrame:SetThumbExtent|arg=thumbExtent|ret=thumbExtent, clamped}}
+: {{apilink|t=Function|EventFrame:ScrollWheelInDirection|arg=direction}}
 : {{apilink|t=Function|EventFrame:SetHideIfUnscrollable|arg=hide}}
 : {{apilink|t=Function|EventFrame:SetHideTrackIfThumbExceedsTrack|arg=hide}}
-: {{apilink|t=Function|EventFrame:Update}}
-: {{apilink|t=Function|EventFrame:DisableControls}}
-: {{apilink|t=Function|EventFrame:CanCursorStepInDirection|arg=direction|ret=unknown, unknown, unknown, unknown}}
-: {{apilink|t=Function|EventFrame:IsThumbMouseDown|ret=isThumbMouseDown}}
+: {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage, forceImmediate}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentageInternal|arg=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:SetThumbExtent|arg=thumbExtent|ret=thumbExtent, clamped}}
+: {{apilink|t=Function|EventFrame:SetVisibleExtentPercentage|arg=visibleExtentPercentage}}
 : {{apilink|t=Function|EventFrame:UnregisterUpdate}}
-: {{apilink|t=Function|EventFrame:CallInternalScope|arg=func, ...}}
-: {{apilink|t=Function|EventFrame:OnStepperMouseDown|arg=stepper}}
-: {{apilink|t=Function|EventFrame:OnTrackMouseDown|arg=button, buttonName}}
-: {{apilink|t=Function|EventFrame:OnThumbMouseDown|arg=button, buttonName}}
-: {{apilink|t=Function|EventFrame:OnLoad}}
-: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
+: {{apilink|t=Function|EventFrame:Update}}
+: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
 : {{apilink|t=Function|EventFrame:EnableSnapToInterval}}
 : {{apilink|t=Function|EventFrame:GetIntervalRange|ret=intervalRange, intervalRange}}
-: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
-: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
 : {{apilink|t=Function|EventFrame:GetPanExtentPercentage|ret=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
-: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
+: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
 : {{apilink|t=Function|EventFrame:GetScrollPercentage|ret=scrollPercentage}}
+: {{apilink|t=Function|EventFrame:GetWheelPanPercentage|ret=wheelPanPercentage}}
+: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
 : {{apilink|t=Function|EventFrame:IsAtBegin|ret=isAtBegin}}
 : {{apilink|t=Function|EventFrame:IsAtEnd|ret=isAtEnd}}
-: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
-: {{apilink|t=Function|EventFrame:CanInterpolateScroll|ret=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
-: {{apilink|t=Function|EventFrame:GetScrollInterpolator|ret=interpolator}}
-: {{apilink|t=Function|EventFrame:Interpolate|arg=scrollPercentage, setter}}
 : {{apilink|t=Function|EventFrame:IsScrollAllowed|ret=allowScroll}}
+: {{apilink|t=Function|EventFrame:OnLoad}}
+: {{apilink|t=Function|EventFrame:OnMouseWheel|arg=value}}
+: {{apilink|t=Function|EventFrame:ScrollDecrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollIncrease|arg=panFactor}}
+: {{apilink|t=Function|EventFrame:ScrollInDirection|arg=scrollPercentage, direction}}
+: {{apilink|t=Function|EventFrame:SetInterpolateScroll|arg=canInterpolateScroll}}
+: {{apilink|t=Function|EventFrame:SetPanExtentPercentage|arg=panExtentPercentage}}
 : {{apilink|t=Function|EventFrame:SetScrollAllowed|arg=allowScroll}}
-: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
-: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
+: {{apilink|t=Function|EventFrame:SetScrollPercentage|arg=scrollPercentage}}
 : {{apilink|t=Function|EventFrame:GetFrameExtent|arg=frame|ret=frameExtent}}
-: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
-: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
 : {{apilink|t=Function|EventFrame:GetLower|arg=frame|ret=lower}}
+: {{apilink|t=Function|EventFrame:GetUpper|arg=frame|ret=upper}}
+: {{apilink|t=Function|EventFrame:IsHorizontal|ret=isHorizontal}}
 : {{apilink|t=Function|EventFrame:SelectCursorComponent|arg=parent|ret=unknown}}
 : {{apilink|t=Function|EventFrame:SelectPointComponent|arg=frame|ret=unknown}}
+: {{apilink|t=Function|EventFrame:SetFrameExtent|arg=frame, value}}
+: {{apilink|t=Function|EventFrame:SetHorizontal|arg=isHorizontal}}
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|WowTrimScrollBar}}:</span>
 : {{apilink|t=Function|EventFrame:OnLoad}}
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|WowTrimHorizontalScrollBar}}:</span>
