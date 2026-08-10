@@ -23,11 +23,19 @@ jobs:
       - name: Clone
         uses: actions/checkout@v7
 
+      - name: Evaluate latest branch
+        id: get_version
+        run: |
+          builds="$(curl -s 'https://wago.tools/api/builds/latest')"
+          versions="$(jq -r '"ptr:\(.wowt.version)", "ptr2:\(.wowxptr.version)"' <<< "$builds")"
+          latest="$(sort -t: -k 2,2 -V -r <<< "$versions" | head -n 1 | cut -d: -f 1)"
+          echo "branch=${latest}" >> $GITHUB_OUTPUT
+
       - name: Clone FrameXML
         uses: actions/checkout@v7
         with:
           repository: gethe/wow-ui-source
-          ref: ptr # TODO: need to alternate ptr and ptr2
+          ref: ${{ steps.get_version.outputs.branch }}
           path: wow-ui-source
 
       - name: Setup Python
