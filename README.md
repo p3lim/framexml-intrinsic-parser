@@ -8,6 +8,11 @@ Any structures used as types in the method pages that exist in the scraped files
 
 This runs on an interval through GitHub workflows once a week (the day after PTR builds typically release), and creates pull requests for any new or modified pages.
 
+### `wiki.py`
+
+This iterates through `pages/` and uploads them to [warcraft.wiki.gg](https://warcraft.wiki.gg).
+
+Unlike the scraping this is run manually, but will be automated at some point.
 ## Runtime dependencies
 
 - [Python](https://www.python.org) 3.12 or newer
