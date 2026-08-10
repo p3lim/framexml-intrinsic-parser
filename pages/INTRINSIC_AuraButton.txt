@@ -15,20 +15,13 @@ If {{tlygo|CustomAuraButtonTemplate}} is inherited the methods from these mixins
 This data object has these [[forbidden aspect]]s attached to it, which will restrict which methods and script types it can access.
 {| class="darktable zebra"
 ! Enum !! Description
-|-
-| {{apiname|Enum.ForbiddenAspect.UntrustedScriptExecution}} || {{#lst:Enum.ForbiddenAspect|UntrustedScriptExecution}}
-|-
-| {{apiname|Enum.ForbiddenAspect.UntrustedLayoutScriptExecution}} || {{#lst:Enum.ForbiddenAspect|UntrustedLayoutScriptExecution}}
-|-
-| {{apiname|Enum.ForbiddenAspect.ScriptedInput}} || {{#lst:Enum.ForbiddenAspect|ScriptedInput}}
-|-
-| {{apiname|Enum.ForbiddenAspect.AlwaysPropagateInput}} || {{#lst:Enum.ForbiddenAspect|AlwaysPropagateInput}}
-|-
-| {{apiname|Enum.ForbiddenAspect.QueryFocus}} || {{#lst:Enum.ForbiddenAspect|QueryFocus}}
-|-
-| {{apiname|Enum.ForbiddenAspect.ChangeParent}} || {{#lst:Enum.ForbiddenAspect|ChangeParent}}
-|-
-| {{apiname|Enum.ForbiddenAspect.RemoveSecretAspects}} || {{#lst:Enum.ForbiddenAspect|RemoveSecretAspects}}
+{{api.enumsection|ForbiddenAspect|UntrustedScriptExecution}}
+{{api.enumsection|ForbiddenAspect|UntrustedLayoutScriptExecution}}
+{{api.enumsection|ForbiddenAspect|ScriptedInput}}
+{{api.enumsection|ForbiddenAspect|AlwaysPropagateInput}}
+{{api.enumsection|ForbiddenAspect|QueryFocus}}
+{{api.enumsection|ForbiddenAspect|ChangeParent}}
+{{api.enumsection|ForbiddenAspect|RemoveSecretAspects}}
 |}
 
 ==Methods==
