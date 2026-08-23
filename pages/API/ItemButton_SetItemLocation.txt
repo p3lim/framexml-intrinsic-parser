@@ -3,7 +3,7 @@
 {{apisig|unknown {{=}} ItemButton:SetItemLocation(itemLocation)}}
 
 ==Arguments==
-:;itemLocation:{{apitype|unknown}}
+:;itemLocation:{{apitype|ItemLocation}}
 
 ==Returns==
 :;unknown:{{apitype|boolean}}

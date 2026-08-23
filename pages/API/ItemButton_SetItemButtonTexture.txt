@@ -3,4 +3,4 @@
 {{apisig|ItemButton:SetItemButtonTexture(texture)}}
 
 ==Arguments==
-:;texture:{{apitype|unknown}}
+:;texture:{{apitype|number|string}}

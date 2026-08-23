@@ -3,6 +3,6 @@
 {{apisig|ItemButton:SetItemButtonTextureVertexColor(r, g, b)}}
 
 ==Arguments==
-:;r:{{apitype|unknown}}
-:;g:{{apitype|unknown}}
-:;b:{{apitype|unknown}}
+:;r:{{apitype|number}}
+:;g:{{apitype|number}}
+:;b:{{apitype|number}}

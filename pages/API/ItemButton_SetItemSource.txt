@@ -3,4 +3,4 @@
 {{apisig|ItemButton:SetItemSource(itemLocation)}}
 
 ==Arguments==
-:;itemLocation:{{apitype|unknown}}
+:;itemLocation:{{apitype|ItemLocation}}

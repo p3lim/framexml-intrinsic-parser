@@ -3,7 +3,7 @@
 {{apisig|unknown {{=}} ItemButton:SetItem(item)}}
 
 ==Arguments==
-:;item:{{apitype|unknown}}
+:;item:{{apitype|ItemInfo}}{{:API_types/ItemInfo|nocaption=1}}
 
 ==Returns==
 :;unknown:{{apitype|unknown}}

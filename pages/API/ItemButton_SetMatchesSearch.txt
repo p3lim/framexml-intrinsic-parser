@@ -3,4 +3,4 @@
 {{apisig|ItemButton:SetMatchesSearch(matchesSearch)}}
 
 ==Arguments==
-:;matchesSearch:{{apitype|unknown}}
+:;matchesSearch:{{apitype|boolean}}

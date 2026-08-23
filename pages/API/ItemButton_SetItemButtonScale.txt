@@ -3,4 +3,4 @@
 {{apisig|ItemButton:SetItemButtonScale(scale)}}
 
 ==Arguments==
-:;scale:{{apitype|unknown}}
+:;scale:{{apitype|number}}

@@ -529,5 +529,66 @@ METHOD_SIGNATURE_MAP = {
     },
   },
 
+  "ItemButtonMixin": {
+    "OnUpdateItemContextMatching": {
+      "bagID": "Enum:Enum.BagIndex",
+    },
+    "SetAlpha": {
+      "alpha": "number",
+    },
+    "SetBagID": {
+      "bagID": "Enum:Enum.BagIndex",
+    },
+    "SetItem": {
+      "item": "Type:ItemInfo",
+    },
+    "SetItemButtonAnchorPoint": {
+      "point": "Page:FramePoint",
+      "x": "number",
+      "y": "number",
+    },
+    "SetItemButtonBorderVertexColor": {
+      "r": "number",
+      "g": "number",
+      "b": "number",
+    },
+    "SetItemButtonCount": {
+      "count": "number",
+    },
+    "SetItemButtonQuality": {
+      "quality": "number",
+      "itemIDOrLink": "Type:ItemInfo",
+      "suppressOverlays": "boolean",
+      "isBound": "boolean",
+      "ignoreColorOverrides": "boolean",
+    },
+    "SetItemButtonScale": {
+      "scale": "number",
+    },
+    "SetItemButtonTexture": {
+      "texture": "number|string",
+    },
+    "SetItemButtonTextureVertexColor": {
+      "r": "number",
+      "g": "number",
+      "b": "number",
+    },
+    "SetItemInternal": {
+      "item": "Type:ItemInfo",
+    },
+    "SetItemLocation": {
+      "itemLocation": "Mixin:ItemLocation",
+    },
+    "SetItemSource": {
+      "itemLocation": "Mixin:ItemLocation",
+    },
+    "SetMatchesSearch": {
+      "matchesSearch": "boolean",
+    },
+    "UpdateItemContextOverlayTextures": {
+      "contextMode": "FType:ItemButtonConstants.ContextMatch",
+    },
+  },
+
   # TODO: for all the other non-AuraContainer intrinsic mixin methods
 }

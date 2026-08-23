@@ -3,8 +3,8 @@
 {{apisig|ItemButton:SetItemButtonQuality(quality, itemIDOrLink, suppressOverlays, isBound, ignoreColorOverrides)}}
 
 ==Arguments==
-:;quality:{{apitype|unknown}}
-:;itemIDOrLink:{{apitype|unknown}}
-:;suppressOverlays:{{apitype|unknown}}
-:;isBound:{{apitype|unknown}}
-:;ignoreColorOverrides:{{apitype|unknown}}
+:;quality:{{apitype|number}}
+:;itemIDOrLink:{{apitype|ItemInfo}}{{:API_types/ItemInfo|nocaption=1}}
+:;suppressOverlays:{{apitype|boolean}}
+:;isBound:{{apitype|boolean}}
+:;ignoreColorOverrides:{{apitype|boolean}}

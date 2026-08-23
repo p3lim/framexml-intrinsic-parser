@@ -3,4 +3,4 @@
 {{apisig|ItemButton:SetItemButtonCount(count)}}
 
 ==Arguments==
-:;count:{{apitype|unknown}}
+:;count:{{apitype|number}}
