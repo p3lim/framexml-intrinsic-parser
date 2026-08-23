@@ -783,5 +783,13 @@ METHOD_SIGNATURE_MAP = {
       "text": "string",
     },
   },
+
+  "DropDownToggleButtonMixin": {
+    "HandlesGlobalMouseEvent": {
+      "buttonName": "string",
+      "event": "string",
+    },
+  },
+
   # TODO: for all the other non-AuraContainer intrinsic mixin methods
 }

@@ -3,8 +3,8 @@
 {{apisig|unknown {{=}} DropDownToggleButton:HandlesGlobalMouseEvent(buttonName, event)}}
 
 ==Arguments==
-:;buttonName:{{apitype|unknown}}
-:;event:{{apitype|unknown}}
+:;buttonName:{{apitype|string}}
+:;event:{{apitype|string}}
 
 ==Returns==
 :;unknown:{{apitype|boolean}}
