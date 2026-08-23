@@ -167,7 +167,7 @@ def main() -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
 
     with open(path, "w") as f:
-      print(f"Writing page {page}...")
+      print(f"Writing page {page}...", file=sys.stderr)
       f.write(text)
 
   # DEBUG:
