@@ -161,7 +161,8 @@ def main() -> None:
   # write pages to file
   for page, text in pages.items():
     # define the full (relative) path of the file to write to
-    path = (PAGES_DIR / page).with_suffix(".txt")
+    path = (PAGES_DIR / page)
+    path = path.with_suffix(path.suffix + ".txt")
 
     # ensure the directory for the path exists
     path.parent.mkdir(parents=True, exist_ok=True)
