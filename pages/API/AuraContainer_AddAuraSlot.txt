@@ -5,7 +5,7 @@
 ==Arguments==
 :;slotKey:{{apitype|string}}
 :;filterString:{{apitype|AuraFilters}} {{:API_types/AuraFilters|nocaption=1}}
-:;options:{{apitype|CustomAuraContainerSlotDefaultOptions}} {{:FrameXML_types/CustomAuraContainerSlotDefaultOptions}}
+:;options:{{apitype|CustomAuraContainerSlotDefaultOptions}} {{:FrameXML_types/CustomAuraContainerSlotDefaultOptions|nocaption=1}}
 
 ==Returns==
 :;auraFrame:{{apitype|unknown}}

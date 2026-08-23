@@ -3,4 +3,4 @@
 {{apisig|AuraContainer:SetFlowLayoutAxis(layoutAxis)}}
 
 ==Arguments==
-:;layoutAxis:{{apitype|AnchorUtil.FlowLayoutAxis}} {{:FrameXML_types/AnchorUtil.FlowLayoutAxis}}
+:;layoutAxis:{{apitype|AnchorUtil.FlowLayoutAxis}} {{:FrameXML_types/AnchorUtil.FlowLayoutAxis|nocaption=1}}

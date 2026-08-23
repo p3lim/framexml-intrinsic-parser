@@ -5,12 +5,12 @@
 [%- elif ref.startswith('Type:') -%]
 {{:API_types/[[ ref[5:] ]]|nocaption=1}}
 [%- elif ref.startswith('FType:') -%]
-{{:FrameXML_types/[[ ref[6:] ]]}}
+{{:FrameXML_types/[[ ref[6:] ]]|nocaption=1}}
 [%- do referenced_types.add(ref[6:]) -%]
 [%- elif ref.startswith('Page:') -%]
-{{:[[ ref[5:] ]]}}
+{{:[[ ref[5:] ]]|nocaption=1}}
 [%- elif ref.startswith('Enum:') -%]
-{{:[[ ref[5:] ]]}}
+{{:[[ ref[5:] ]]|nocaption=1}}
 [%- endif -%]
 [%- endmacro -%]
 

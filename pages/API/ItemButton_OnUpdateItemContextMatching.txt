@@ -3,4 +3,4 @@
 {{apisig|ItemButton:OnUpdateItemContextMatching(bagID)}}
 
 ==Arguments==
-:;bagID:{{apitype|Enum.BagIndex}} {{:Enum.BagIndex}}
+:;bagID:{{apitype|Enum.BagIndex}} {{:Enum.BagIndex|nocaption=1}}

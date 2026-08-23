@@ -4,4 +4,4 @@
 
 ==Arguments==
 :;groupKey:{{apitype|string}}
-:;layoutOptions:{{apitype|CustomAuraContainerGroupLayoutDefaultOptions}} {{:FrameXML_types/CustomAuraContainerGroupLayoutDefaultOptions}}
+:;layoutOptions:{{apitype|CustomAuraContainerGroupLayoutDefaultOptions}} {{:FrameXML_types/CustomAuraContainerGroupLayoutDefaultOptions|nocaption=1}}

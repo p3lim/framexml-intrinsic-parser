@@ -3,4 +3,4 @@
 {{apisig|AuraContainer:SetFlowLayoutAnchorPoint(anchorPoint)}}
 
 ==Arguments==
-:;anchorPoint:{{apitype|FramePoint}} {{:FramePoint}}
+:;anchorPoint:{{apitype|FramePoint}} {{:FramePoint|nocaption=1}}
