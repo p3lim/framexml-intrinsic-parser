@@ -9,6 +9,8 @@
 [%- do referenced_types.add(ref[6:]) -%]
 [%- elif ref.startswith('Page:') -%]
 {{:[[ ref[5:] ]]}}
+[%- elif ref.startswith('Enum:') -%]
+{{:[[ ref[5:] ]]}}
 [%- endif -%]
 [%- endmacro -%]
 
