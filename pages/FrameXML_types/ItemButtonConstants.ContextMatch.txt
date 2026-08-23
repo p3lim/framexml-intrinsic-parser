@@ -1,0 +1,10 @@
+{{framexmltype}}
+
+<onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||ItemButtonConstants.ContextMatch}}
+! Value !! Field !! Description
+|-
+| 1 || {{apiname|Standard}} || 
+|-
+| 2 || {{apiname|RuneForging}} || 
+|}</onlyinclude>
