@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetJustifyV(justifyV)}}
 
 ==Arguments==
-:;justifyV:{{apitype|JustifyVertical}}{{:API_types/JustifyVertical|nocaption=1}}
+:;justifyV:{{apitype|JustifyVertical}}{{:JUSTIFYVTYPE}}
