@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetFontObject(fontObject)}}
 
 ==Arguments==
-:;fontObject:{{apitype|Font|string|nil}} {{:API_types/Font|string|nil|nocaption=1}}
+:;fontObject:{{apitype|Font,string,nil}} {{:API_types/Font,string,nil|nocaption=1}}

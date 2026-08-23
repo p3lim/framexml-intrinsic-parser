@@ -574,7 +574,7 @@ METHOD_SIGNATURE_MAP = {
       "scale": "number",
     },
     "SetItemButtonTexture": {
-      "texture": "number|string",
+      "texture": "number,string",
     },
     "SetItemButtonTextureVertexColor": {
       "r": "number",
@@ -731,7 +731,7 @@ METHOD_SIGNATURE_MAP = {
       "fontFlags": "Type:TBFFlags",
     },
     "SetFontObject": {
-      "fontObject": "Type:Font|string|nil",
+      "fontObject": "Type:Font,string,nil",
     },
     "SetIndentedWordWrap": {
       "indentWordWrap": "boolean"
