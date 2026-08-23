@@ -150,8 +150,8 @@ def main() -> None:
   # build pages for tables that were referenced as types
   for kind in referenced_types:
     if kind in tables_dict:
-      # need to do temporary substitution for / in the page path
-      print(f"Templating page FrameXML_types:{kind}...", file=sys.stderr)
+      # need to do substitution for / in the page path
+      print(f"Templating page FrameXML_types/{kind}...", file=sys.stderr)
       template = jinja.get_template("type.j2")
       pages[Path("FrameXML_types") / kind] = template.render(
         name=kind,
