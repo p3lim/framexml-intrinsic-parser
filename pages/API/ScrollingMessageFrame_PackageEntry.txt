@@ -3,10 +3,10 @@
 {{apisig|unknown {{=}} ScrollingMessageFrame:PackageEntry(message, r, g, b, ...)}}
 
 ==Arguments==
-:;message:{{apitype|unknown}}
-:;r:{{apitype|unknown}}
-:;g:{{apitype|unknown}}
-:;b:{{apitype|unknown}}
+:;message:{{apitype|string}}
+:;r:{{apitype|number}}
+:;g:{{apitype|number}}
+:;b:{{apitype|number}}
 :;...:{{apitype|unknown}}
 
 ==Returns==

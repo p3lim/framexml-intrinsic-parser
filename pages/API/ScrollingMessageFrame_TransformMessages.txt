@@ -3,8 +3,8 @@
 {{apisig|unknown {{=}} ScrollingMessageFrame:TransformMessages(predicate, transformFunction)}}
 
 ==Arguments==
-:;predicate:{{apitype|unknown}}
-:;transformFunction:{{apitype|unknown}}
+:;predicate:{{apitype|function}}
+:;transformFunction:{{apitype|function}}
 
 ==Returns==
 :;unknown:{{apitype|unknown}}

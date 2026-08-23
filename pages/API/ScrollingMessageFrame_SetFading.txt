@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetFading(shouldFadeAfterInactivity)}}
 
 ==Arguments==
-:;shouldFadeAfterInactivity:{{apitype|unknown}}
+:;shouldFadeAfterInactivity:{{apitype|boolean}}

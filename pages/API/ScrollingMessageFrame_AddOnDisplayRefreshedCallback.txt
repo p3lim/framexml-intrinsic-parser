@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:AddOnDisplayRefreshedCallback(callback)}}
 
 ==Arguments==
-:;callback:{{apitype|unknown}}
+:;callback:{{apitype|function}}

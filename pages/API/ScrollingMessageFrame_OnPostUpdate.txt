@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:OnPostUpdate(elapsed)}}
 
 ==Arguments==
-:;elapsed:{{apitype|unknown}}
+:;elapsed:{{apitype|number}}

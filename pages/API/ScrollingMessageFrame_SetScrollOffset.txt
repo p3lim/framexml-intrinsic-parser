@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetScrollOffset(offset)}}
 
 ==Arguments==
-:;offset:{{apitype|unknown}}
+:;offset:{{apitype|number}}

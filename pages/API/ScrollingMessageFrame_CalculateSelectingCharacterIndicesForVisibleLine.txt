@@ -1,14 +1,14 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
 &nbsp;
-{{apisig|unknown, unknown {{=}} ScrollingMessageFrame:CalculateSelectingCharacterIndicesForVisibleLine(lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex)}}
+{{apisig|startCharacterIndex, unknown {{=}} ScrollingMessageFrame:CalculateSelectingCharacterIndicesForVisibleLine(lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex)}}
 
 ==Arguments==
-:;lineIndex:{{apitype|unknown}}
-:;startLineIndex:{{apitype|unknown}}
-:;endLineIndex:{{apitype|unknown}}
-:;startCharacterIndex:{{apitype|unknown}}
-:;endCharacterIndex:{{apitype|unknown}}
+:;lineIndex:{{apitype|number}}
+:;startLineIndex:{{apitype|number}}
+:;endLineIndex:{{apitype|number}}
+:;startCharacterIndex:{{apitype|number}}
+:;endCharacterIndex:{{apitype|number}}
 
 ==Returns==
-:;unknown:{{apitype|number}}
+:;startCharacterIndex:{{apitype|number}}
 :;unknown:{{apitype|number}}

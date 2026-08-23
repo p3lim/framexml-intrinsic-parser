@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetFadeDuration(fadeDurationSecs)}}
 
 ==Arguments==
-:;fadeDurationSecs:{{apitype|unknown}}
+:;fadeDurationSecs:{{apitype|number}}

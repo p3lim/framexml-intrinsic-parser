@@ -598,5 +598,170 @@ METHOD_SIGNATURE_MAP = {
     },
   },
 
+  "ScrollingMessageFrameMixin": {
+    "AddMessage": {
+      "message": "string",
+      "r": "number",
+      "g": "number",
+      "b": "number",
+      # "...": TODO
+    },
+    "AddOnDisplayRefreshedCallback": {
+      "callback": "function",
+    },
+    "AdjustMessageColors": {
+      "transformFunction": "function",
+    },
+    "BackFillMessage": {
+      "message": "string",
+      "r": "number",
+      "g": "number",
+      "b": "number",
+      # "...": TODO
+    },
+    "CalculateLineAlphaValueFromTimestamp": {
+      "now": "number",
+      "timestamp": "number",
+    },
+    "CalculateSelectingCharacterIndicesForVisibleLine": {
+      "lineIndex": "number",
+      "startLineIndex": "number",
+      "endLineIndex": "number",
+      "startCharacterIndex": "number",
+      "endCharacterIndex": "number",
+    },
+    "FindCharacterAndLineIndexAtCoordinate": {
+      "x": "number",
+      "y": "number",
+    },
+    "ForEachMessage": {
+      "op": "function",
+    },
+    "ForEachMessageInfoText": {
+      "op": "function",
+    },
+    "ForEachVisibleLineText": {
+      "op": "function",
+    },
+    "GatherSelectedText": {
+      "x": "number",
+      "y": "number",
+    },
+    "GetMessageInfo": {
+      "messageIndex": "number",
+    },
+    "InitializeFontString": {
+      "fontString": "Type:FontString",
+    },
+    "OnPostEvent": {
+      "event": "string",
+    },
+    "OnPostMouseDown": {
+      "buttonName": "string",
+      "inside": "boolean",
+    },
+    "OnPostMouseUp": {
+      "buttonName": "string",
+      "inside": "boolean",
+    },
+    "OnPostUpdate": {
+      "elapsed": "number"
+    },
+    "PackageEntry": {
+      "message": "string",
+      "r": "number",
+      "g": "number",
+      "b": "number",
+      # "...": TODO
+    },
+    "RemoveMessagesByPredicate": {
+      "predicate": "function",
+    },
+    "ScrollByAmount": {
+      "amount": "number",
+    },
+    "SetFadeDuration": {
+      "fadeDurationSecs": "number",
+    },
+    "SetFading": {
+      "shouldFadeAfterInactivity": "boolean",
+    },
+    "SetInsertMode": {
+      "insertMode": "number",
+    },
+    "SetMaxLines": {
+      "maxLines": "number",
+    },
+    "SetOnLineRightClickedCallback": {
+      "onLineRightClickedCallback": "function",
+    },
+    "SetOnScrollChangedCallback": {
+      "onScrollChangedCallback": "function",
+    },
+    "SetOnTextCopiedCallback": {
+      "onTextCopiedCallback": "function",
+    },
+    "SetScrollAllowed": {
+      "allowed": "boolean",
+    },
+    "SetScrollOffset": {
+      "offset": "number",
+    },
+    "SetTextCopyable": {
+      "textIsCopyable": "boolean",
+    },
+    "SetTimeVisible": {
+      "timeVisibleSecs": "number",
+    },
+    "TransformMessages": {
+      "predicate": "function",
+      "transformFunction": "function",
+    },
+    "UnpackageEntry": {
+      "entry": "table",
+    },
+  },
+  "FontableFrameMixin": {
+    "InitializeFontableFrame": {
+      "name": "string",
+    },
+    "SetFont": {
+      "font": "string",
+      "fontHeight": "number",
+      "fontFlags": "Type:TBFFlags",
+    },
+    "SetFontObject": {
+      "fontObject": "Type:Font|string|nil",
+    },
+    "SetIndentedWordWrap": {
+      "indentWordWrap": "boolean"
+    },
+    "SetJustifyH": {
+      "justifyH": "Type:JustifyHorizontal",
+    },
+    "SetJustifyV": {
+      "justifyV": "Type:JustifyVertical",
+    },
+    "SetShadowColor": {
+      "r": "number",
+      "g": "number",
+      "b": "number",
+      "a": "number",
+    },
+    "SetShadowOffset": {
+      "offsetX": "number",
+      "offsetY": "number",
+    },
+    "SetSpacing": {
+      "spacing": "number",
+    },
+    "SetTextColor": {
+      "r": "number",
+      "g": "number",
+      "b": "number",
+      "a": "number",
+    },
+  },
+
   # TODO: for all the other non-AuraContainer intrinsic mixin methods
 }

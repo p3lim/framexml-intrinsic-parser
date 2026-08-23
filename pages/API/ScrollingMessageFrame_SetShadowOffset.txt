@@ -3,5 +3,5 @@
 {{apisig|ScrollingMessageFrame:SetShadowOffset(offsetX, offsetY)}}
 
 ==Arguments==
-:;offsetX:{{apitype|unknown}}
-:;offsetY:{{apitype|unknown}}
+:;offsetX:{{apitype|number}}
+:;offsetY:{{apitype|number}}

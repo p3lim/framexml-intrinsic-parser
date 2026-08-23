@@ -3,7 +3,7 @@
 {{apisig|unknown {{=}} ScrollingMessageFrame:RemoveMessagesByPredicate(predicate)}}
 
 ==Arguments==
-:;predicate:{{apitype|unknown}}
+:;predicate:{{apitype|function}}
 
 ==Returns==
 :;unknown:{{apitype|unknown}}

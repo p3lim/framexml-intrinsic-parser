@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetTextCopyable(textIsCopyable)}}
 
 ==Arguments==
-:;textIsCopyable:{{apitype|unknown}}
+:;textIsCopyable:{{apitype|boolean}}

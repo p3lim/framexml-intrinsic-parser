@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetTimeVisible(timeVisibleSecs)}}
 
 ==Arguments==
-:;timeVisibleSecs:{{apitype|unknown}}
+:;timeVisibleSecs:{{apitype|number}}

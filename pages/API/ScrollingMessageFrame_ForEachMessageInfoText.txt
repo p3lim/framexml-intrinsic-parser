@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:ForEachMessageInfoText(op)}}
 
 ==Arguments==
-:;op:{{apitype|unknown}}
+:;op:{{apitype|function}}

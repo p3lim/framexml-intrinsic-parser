@@ -3,7 +3,7 @@
 {{apisig|message, r, g, b, unknown {{=}} ScrollingMessageFrame:UnpackageEntry(entry)}}
 
 ==Arguments==
-:;entry:{{apitype|unknown}}
+:;entry:{{apitype|table}}
 
 ==Returns==
 :;message:{{apitype|unknown}}

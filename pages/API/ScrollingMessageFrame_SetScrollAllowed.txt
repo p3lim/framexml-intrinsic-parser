@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetScrollAllowed(allowed)}}
 
 ==Arguments==
-:;allowed:{{apitype|unknown}}
+:;allowed:{{apitype|boolean}}

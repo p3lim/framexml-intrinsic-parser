@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetSpacing(spacing)}}
 
 ==Arguments==
-:;spacing:{{apitype|unknown}}
+:;spacing:{{apitype|number}}

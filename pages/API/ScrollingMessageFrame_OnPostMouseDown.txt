@@ -3,5 +3,5 @@
 {{apisig|ScrollingMessageFrame:OnPostMouseDown(buttonName, inside)}}
 
 ==Arguments==
-:;buttonName:{{apitype|unknown}}
-:;inside:{{apitype|unknown}}
+:;buttonName:{{apitype|string}}
+:;inside:{{apitype|boolean}}

@@ -3,8 +3,8 @@
 {{apisig|unknown {{=}} ScrollingMessageFrame:CalculateLineAlphaValueFromTimestamp(now, timestamp)}}
 
 ==Arguments==
-:;now:{{apitype|unknown}}
-:;timestamp:{{apitype|unknown}}
+:;now:{{apitype|number}}
+:;timestamp:{{apitype|number}}
 
 ==Returns==
 :;unknown:{{apitype|number}}

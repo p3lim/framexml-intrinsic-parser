@@ -3,7 +3,7 @@
 {{apisig|ScrollingMessageFrame:SetTextColor(r, g, b, a)}}
 
 ==Arguments==
-:;r:{{apitype|unknown}}
-:;g:{{apitype|unknown}}
-:;b:{{apitype|unknown}}
-:;a:{{apitype|unknown}}
+:;r:{{apitype|number}}
+:;g:{{apitype|number}}
+:;b:{{apitype|number}}
+:;a:{{apitype|number}}

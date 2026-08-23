@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetMaxLines(maxLines)}}
 
 ==Arguments==
-:;maxLines:{{apitype|unknown}}
+:;maxLines:{{apitype|number}}

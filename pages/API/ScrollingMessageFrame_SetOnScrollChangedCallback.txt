@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetOnScrollChangedCallback(onScrollChangedCallback)}}
 
 ==Arguments==
-:;onScrollChangedCallback:{{apitype|unknown}}
+:;onScrollChangedCallback:{{apitype|function}}

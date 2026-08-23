@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetOnTextCopiedCallback(onTextCopiedCallback)}}
 
 ==Arguments==
-:;onTextCopiedCallback:{{apitype|unknown}}
+:;onTextCopiedCallback:{{apitype|function}}

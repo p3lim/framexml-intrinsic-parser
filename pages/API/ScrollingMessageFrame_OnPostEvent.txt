@@ -3,5 +3,5 @@
 {{apisig|ScrollingMessageFrame:OnPostEvent(event, ...)}}
 
 ==Arguments==
-:;event:{{apitype|unknown}}
+:;event:{{apitype|string}}
 :;...:{{apitype|unknown}}

@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:AdjustMessageColors(transformFunction)}}
 
 ==Arguments==
-:;transformFunction:{{apitype|unknown}}
+:;transformFunction:{{apitype|function}}

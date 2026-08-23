@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:ScrollByAmount(amount)}}
 
 ==Arguments==
-:;amount:{{apitype|unknown}}
+:;amount:{{apitype|number}}

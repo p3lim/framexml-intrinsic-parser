@@ -3,6 +3,6 @@
 {{apisig|ScrollingMessageFrame:SetFont(font, fontHeight, fontFlags)}}
 
 ==Arguments==
-:;font:{{apitype|unknown}}
-:;fontHeight:{{apitype|unknown}}
-:;fontFlags:{{apitype|unknown}}
+:;font:{{apitype|string}}
+:;fontHeight:{{apitype|number}}
+:;fontFlags:{{apitype|TBFFlags}}{{:API_types/TBFFlags|nocaption=1}}

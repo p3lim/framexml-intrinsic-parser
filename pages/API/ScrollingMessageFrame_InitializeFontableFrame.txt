@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:InitializeFontableFrame(name)}}
 
 ==Arguments==
-:;name:{{apitype|unknown}}
+:;name:{{apitype|string}}

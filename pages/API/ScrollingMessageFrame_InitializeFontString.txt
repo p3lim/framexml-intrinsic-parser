@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:InitializeFontString(fontString)}}
 
 ==Arguments==
-:;fontString:{{apitype|unknown}}
+:;fontString:{{apitype|FontString}}{{:API_types/FontString|nocaption=1}}

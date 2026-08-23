@@ -3,7 +3,7 @@
 {{apisig|messageInfo {{=}} ScrollingMessageFrame:GetMessageInfo(messageIndex)}}
 
 ==Arguments==
-:;messageIndex:{{apitype|unknown}}
+:;messageIndex:{{apitype|number}}
 
 ==Returns==
 :;messageInfo:{{apitype|unknown}}
