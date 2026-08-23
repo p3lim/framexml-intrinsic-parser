@@ -287,6 +287,14 @@ def parse_lua_tables(tables: dict[str, Table], file: Path) -> None:
             # parse fields in the table
             if hasattr(node.values[0], "fields") and len(node.values[0].fields) > 0 and not isinstance(node, astnodes.LocalAssign):
               for field in node.values[0].fields:
+                if isinstance(field.value, astnodes.Table) and hasattr(field.value, 'fields'):
+                  if isinstance(field.key, astnodes.Name):
+                    nname = f"{name}.{field.key.id}"
+                    tables[nname] = Table(nname)
+                    for nfield in field.value.fields:
+                      parse_table_field(tables[nname], nfield)
+                    continue
+
                 parse_table_field(tables[name], field)
         elif isinstance(node.values[0], astnodes.Call) and hasattr(node.values[0].func, "id"):
           func = node.values[0].func.id
