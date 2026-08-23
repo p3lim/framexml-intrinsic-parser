@@ -3,13 +3,7 @@
 {{:Structure_[[ ref[10:] ]]|nocaption=1}}
 [%- do referenced_types.add(ref[10:]) -%]
 [%- elif ref.startswith('Type:') -%]
-[%- if ref[5:] == 'JustifyHorizontal' -%]
-{{:JUSTIFYHTYPE}}
-[%- elif ref[5:] == 'JustifyVertical' -%]
-{{:JUSTIFYVTYPE}}
-[%- else -%]
 {{:API_types/[[ ref[5:] ]]|nocaption=1}}
-[%- endif -%]
 [%- elif ref.startswith('FType:') -%]
 {{:FrameXML_types/[[ ref[6:] ]]}}
 [%- do referenced_types.add(ref[6:]) -%]
