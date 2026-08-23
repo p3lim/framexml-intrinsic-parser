@@ -763,5 +763,25 @@ METHOD_SIGNATURE_MAP = {
     },
   },
 
+  "EventEditBoxMixin": {
+    "ApplyDefaultText": {
+      "defaultText": "string",
+    },
+    "ApplyDefaultTextColor": {
+      "color": "Type:colorRGBA",
+    },
+    "ApplyText": {
+      "text": "string",
+    },
+    "ApplyTextColor": {
+      "color": "Type:colorRGBA",
+    },
+    "SetDefaultTextEnabled": {
+      "enabled": "boolean",
+    },
+    "ShouldDefault": {
+      "text": "string",
+    },
+  },
   # TODO: for all the other non-AuraContainer intrinsic mixin methods
 }

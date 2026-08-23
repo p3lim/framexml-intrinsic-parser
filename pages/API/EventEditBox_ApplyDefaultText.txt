@@ -3,4 +3,4 @@
 {{apisig|EventEditBox:ApplyDefaultText(defaultText)}}
 
 ==Arguments==
-:;defaultText:{{apitype|unknown}}
+:;defaultText:{{apitype|string}}

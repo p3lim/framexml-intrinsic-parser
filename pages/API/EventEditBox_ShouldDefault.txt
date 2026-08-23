@@ -3,7 +3,7 @@
 {{apisig|shouldDefault {{=}} EventEditBox:ShouldDefault(text)}}
 
 ==Arguments==
-:;text:{{apitype|unknown}}
+:;text:{{apitype|string}}
 
 ==Returns==
 :;shouldDefault:{{apitype|boolean}}

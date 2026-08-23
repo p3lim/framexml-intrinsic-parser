@@ -3,4 +3,4 @@
 {{apisig|EventEditBox:ApplyTextColor(color)}}
 
 ==Arguments==
-:;color:{{apitype|unknown}}
+:;color:{{apitype|colorRGBA}}{{:API_types/colorRGBA|nocaption=1}}
