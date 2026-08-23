@@ -1,9 +1,9 @@
 {{intrinsic}} {{tocright}}
-{| {{apitable}}}
-{{apirow | Instantiation | <code>{{api|CreateFrame}}("UIThemeContainerFrame")</code>}}
-|}
 
 This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} and these mixins:
+<syntaxhighlight lang="lua">
+CreateFrame("UIThemeContainerFrame")
+</syntaxhighlight>
 * {{tlygo|UIThemeContainerMixin}}
 
 

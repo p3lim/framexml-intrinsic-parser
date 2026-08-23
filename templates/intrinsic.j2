@@ -28,17 +28,20 @@
 [%- endmacro -%]
 
 {{intrinsic}} {{tocright}}
-{| {{apitable}}}
-{{apirow | Instantiation | <code>{{api|CreateFrame}}("[[name]]")</code>}}
-|}
 
 This is an [% raw %][[intrinsic frame]][% endraw %]. It has all the methods from {{api|t=o|[[ data.type ]]}} and these mixins:
+<syntaxhighlight lang="lua">
+CreateFrame("[[ name ]]")
+</syntaxhighlight>
 [%- for mixin in data.mixins | sort %]
 * {{tlygo|[[ mixin ]]}}
 [%- endfor %]
 [% for template in data.templates %]
 [%- if templates[template].mixins | length > 0 %]
 If {{tlygo|[[ template ]]}} is inherited the methods from these mixins are also available:
+<syntaxhighlight lang="lua">
+CreateFrame("[[ name ]]", nil, UIParent, "[[ template ]]")
+</syntaxhighlight>
 [%- for mixin in templates[template].mixins | sort %]
 * {{tlygo|[[ mixin ]]}}
 [%- endfor %]

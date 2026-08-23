@@ -1,13 +1,16 @@
 {{intrinsic}} {{tocright}}
-{| {{apitable}}}
-{{apirow | Instantiation | <code>{{api|CreateFrame}}("AuraContainer")</code>}}
-|}
 
 This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} and these mixins:
+<syntaxhighlight lang="lua">
+CreateFrame("AuraContainer")
+</syntaxhighlight>
 * {{tlygo|AuraContainerInboundMixin}}
 * {{tlygo|AuraContainerSharedMixin}}
 
 If {{tlygo|CustomAuraContainerTemplate}} is inherited the methods from these mixins are also available:
+<syntaxhighlight lang="lua">
+CreateFrame("AuraContainer", nil, UIParent, "CustomAuraContainerTemplate")
+</syntaxhighlight>
 * {{tlygo|AuraContainerFlowLayoutInboundMixin}}
 * {{tlygo|AuraContainerFlowLayoutSharedMixin}}
 * {{tlygo|AuraContainerInboundMixin}}

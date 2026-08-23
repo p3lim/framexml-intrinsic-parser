@@ -1,9 +1,9 @@
 {{intrinsic}} {{tocright}}
-{| {{apitable}}}
-{{apirow | Instantiation | <code>{{api|CreateFrame}}("ScrollingMessageFrame")</code>}}
-|}
 
 This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} and these mixins:
+<syntaxhighlight lang="lua">
+CreateFrame("ScrollingMessageFrame")
+</syntaxhighlight>
 * {{tlygo|FontableFrameMixin}}
 * {{tlygo|ScrollingMessageFrameMixin}}
 

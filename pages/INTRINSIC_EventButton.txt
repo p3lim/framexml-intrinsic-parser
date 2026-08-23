@@ -1,9 +1,9 @@
 {{intrinsic}} {{tocright}}
-{| {{apitable}}}
-{{apirow | Instantiation | <code>{{api|CreateFrame}}("EventButton")</code>}}
-|}
 
 This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} and these mixins:
+<syntaxhighlight lang="lua">
+CreateFrame("EventButton")
+</syntaxhighlight>
 * {{tlygo|CallbackRegistryMixin}}
 * {{tlygo|EventButtonMixin}}
 

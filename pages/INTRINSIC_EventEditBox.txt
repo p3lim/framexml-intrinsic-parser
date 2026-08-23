@@ -1,9 +1,9 @@
 {{intrinsic}} {{tocright}}
-{| {{apitable}}}
-{{apirow | Instantiation | <code>{{api|CreateFrame}}("EventEditBox")</code>}}
-|}
 
 This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|EditBox}} and these mixins:
+<syntaxhighlight lang="lua">
+CreateFrame("EventEditBox")
+</syntaxhighlight>
 * {{tlygo|CallbackRegistryMixin}}
 * {{tlygo|EventEditBoxMixin}}
 

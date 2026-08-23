@@ -1,13 +1,16 @@
 {{intrinsic}} {{tocright}}
-{| {{apitable}}}
-{{apirow | Instantiation | <code>{{api|CreateFrame}}("AuraButton")</code>}}
-|}
 
 This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} and these mixins:
+<syntaxhighlight lang="lua">
+CreateFrame("AuraButton")
+</syntaxhighlight>
 * {{tlygo|AuraButtonInboundMixin}}
 * {{tlygo|AuraButtonSharedMixin}}
 
 If {{tlygo|CustomAuraButtonTemplate}} is inherited the methods from these mixins are also available:
+<syntaxhighlight lang="lua">
+CreateFrame("AuraButton", nil, UIParent, "CustomAuraButtonTemplate")
+</syntaxhighlight>
 * {{tlygo|CustomAuraButtonInboundMixin}}
 * {{tlygo|CustomAuraButtonSharedMixin}}
 

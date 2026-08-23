@@ -1,9 +1,9 @@
 {{intrinsic}} {{tocright}}
-{| {{apitable}}}
-{{apirow | Instantiation | <code>{{api|CreateFrame}}("EventScrollFrame")</code>}}
-|}
 
 This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|ScrollFrame}} and these mixins:
+<syntaxhighlight lang="lua">
+CreateFrame("EventScrollFrame")
+</syntaxhighlight>
 * {{tlygo|CallbackRegistryMixin}}
 * {{tlygo|EventScrollFrameMixin}}
 
