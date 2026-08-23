@@ -4,5 +4,5 @@
 
 ==Arguments==
 :;groupKey:{{apitype|string}}
-:;sortMethod:{{apitype|AuraContainerSortMethod}}{{:FrameXML_types/AuraContainerSortMethod}}
-:;sortDirection:{{apitype|AuraContainerSortDirection}}{{:FrameXML_types/AuraContainerSortDirection}}
+:;sortMethod:{{apitype|AuraContainerSortMethod}} {{:FrameXML_types/AuraContainerSortMethod}}
+:;sortDirection:{{apitype|AuraContainerSortDirection}} {{:FrameXML_types/AuraContainerSortDirection}}

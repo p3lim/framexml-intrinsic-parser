@@ -4,4 +4,4 @@
 
 ==Arguments==
 :;slotKey:{{apitype|string}}
-:;filterString:{{apitype|AuraFilters}}{{:API_types/AuraFilters|nocaption=1}}
+:;filterString:{{apitype|AuraFilters}} {{:API_types/AuraFilters|nocaption=1}}

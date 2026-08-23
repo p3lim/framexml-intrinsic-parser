@@ -4,4 +4,4 @@
 
 ==Arguments==
 :;fontString:{{apitype|FontString}}
-:;options:{{apitype|CustomAuraButtonApplicationCountOptions}}{{:Structure_CustomAuraButtonApplicationCountOptions|nocaption=1}}
+:;options:{{apitype|CustomAuraButtonApplicationCountOptions}} {{:Structure_CustomAuraButtonApplicationCountOptions|nocaption=1}}

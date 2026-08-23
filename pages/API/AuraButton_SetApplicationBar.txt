@@ -4,4 +4,4 @@
 
 ==Arguments==
 :;statusBar:{{apitype|StatusBar}}
-:;options:{{apitype|CustomAuraButtonApplicationBarOptions}}{{:Structure_CustomAuraButtonApplicationBarOptions|nocaption=1}}
+:;options:{{apitype|CustomAuraButtonApplicationBarOptions}} {{:Structure_CustomAuraButtonApplicationBarOptions|nocaption=1}}

@@ -5,4 +5,4 @@
 ==Arguments==
 :;font:{{apitype|string}}
 :;fontHeight:{{apitype|number}}
-:;fontFlags:{{apitype|TBFFlags}}{{:API_types/TBFFlags|nocaption=1}}
+:;fontFlags:{{apitype|TBFFlags}} {{:API_types/TBFFlags|nocaption=1}}

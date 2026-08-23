@@ -4,5 +4,5 @@
 
 ==Arguments==
 :;groupKey:{{apitype|string}}
-:;filterString:{{apitype|AuraFilters}}{{:API_types/AuraFilters|nocaption=1}}
-:;options:{{apitype|CustomAuraContainerGroupDefaultOptions}}{{:FrameXML_types/CustomAuraContainerGroupDefaultOptions}}
+:;filterString:{{apitype|AuraFilters}} {{:API_types/AuraFilters|nocaption=1}}
+:;options:{{apitype|CustomAuraContainerGroupDefaultOptions}} {{:FrameXML_types/CustomAuraContainerGroupDefaultOptions}}

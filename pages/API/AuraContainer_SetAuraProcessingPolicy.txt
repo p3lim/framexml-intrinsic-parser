@@ -3,5 +3,5 @@
 {{apisig|AuraContainer:SetAuraProcessingPolicy(policy, options)}}
 
 ==Arguments==
-:;policy:{{apitype|CustomAuraContainerAuraProcessingPolicy}}{{:FrameXML_types/CustomAuraContainerAuraProcessingPolicy}}
-:;options:{{apitype|CustomAuraContainerProcessAuraPolicyDefaultOptions}}{{:FrameXML_types/CustomAuraContainerProcessAuraPolicyDefaultOptions}}
+:;policy:{{apitype|CustomAuraContainerAuraProcessingPolicy}} {{:FrameXML_types/CustomAuraContainerAuraProcessingPolicy}}
+:;options:{{apitype|CustomAuraContainerProcessAuraPolicyDefaultOptions}} {{:FrameXML_types/CustomAuraContainerProcessAuraPolicyDefaultOptions}}

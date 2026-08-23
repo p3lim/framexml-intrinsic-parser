@@ -3,4 +3,4 @@
 {{apisig|ItemButton:UpdateItemContextOverlayTextures(contextMode)}}
 
 ==Arguments==
-:;contextMode:{{apitype|ItemButtonConstants.ContextMatch}}{{:FrameXML_types/ItemButtonConstants.ContextMatch}}
+:;contextMode:{{apitype|ItemButtonConstants.ContextMatch}} {{:FrameXML_types/ItemButtonConstants.ContextMatch}}

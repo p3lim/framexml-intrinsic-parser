@@ -3,7 +3,7 @@
 {{apisig|unknown {{=}} ItemButton:SetItemInternal(item)}}
 
 ==Arguments==
-:;item:{{apitype|ItemInfo}}{{:API_types/ItemInfo|nocaption=1}}
+:;item:{{apitype|ItemInfo}} {{:API_types/ItemInfo|nocaption=1}}
 
 ==Returns==
 :;unknown:{{apitype|boolean}}

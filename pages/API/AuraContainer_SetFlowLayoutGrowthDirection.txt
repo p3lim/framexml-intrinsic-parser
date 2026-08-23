@@ -3,5 +3,5 @@
 {{apisig|AuraContainer:SetFlowLayoutGrowthDirection(horizontalDirection, verticalDirection)}}
 
 ==Arguments==
-:;horizontalDirection:{{apitype|AnchorUtil.FlowDirection}}{{:FrameXML_types/AnchorUtil.FlowDirection}}
-:;verticalDirection:{{apitype|AnchorUtil.FlowDirection}}{{:FrameXML_types/AnchorUtil.FlowDirection}}
+:;horizontalDirection:{{apitype|AnchorUtil.FlowDirection}} {{:FrameXML_types/AnchorUtil.FlowDirection}}
+:;verticalDirection:{{apitype|AnchorUtil.FlowDirection}} {{:FrameXML_types/AnchorUtil.FlowDirection}}

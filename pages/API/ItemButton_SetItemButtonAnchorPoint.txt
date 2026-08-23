@@ -3,6 +3,6 @@
 {{apisig|ItemButton:SetItemButtonAnchorPoint(point, x, y)}}
 
 ==Arguments==
-:;point:{{apitype|FramePoint}}{{:FramePoint}}
+:;point:{{apitype|FramePoint}} {{:FramePoint}}
 :;x:{{apitype|number}}
 :;y:{{apitype|number}}

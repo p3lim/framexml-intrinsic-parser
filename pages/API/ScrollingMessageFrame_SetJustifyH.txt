@@ -3,4 +3,4 @@
 {{apisig|ScrollingMessageFrame:SetJustifyH(justifyH)}}
 
 ==Arguments==
-:;justifyH:{{apitype|JustifyHorizontal}}{{:JUSTIFYHTYPE}}
+:;justifyH:{{apitype|JustifyHorizontal}} {{:JUSTIFYHTYPE}}

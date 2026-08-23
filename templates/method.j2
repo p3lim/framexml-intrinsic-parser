@@ -38,9 +38,7 @@
 
 ==Arguments==
 [%- for argument in data.signature %]
-:;[[ argument.name ]]:{{apitype|[[ argument.type.split(':')[-1] ]]}} 
-[%- if ':' in argument.type -%]
-[[ inline_object(argument.type) ]]
+:;[[ argument.name ]]:{{apitype|[[ argument.type.split(':')[-1] ]]}}[% if ':' in argument.type %] [[ inline_object(argument.type) ]]
 [%- endif %]
 [%- endfor %]
 [%- endif %]
