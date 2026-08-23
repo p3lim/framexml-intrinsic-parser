@@ -1,11 +1,10 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
 &nbsp;
-{{apisig|unknown, unknown {{=}} ScrollingMessageFrame:TransformMessages(predicate, transformFunction)}}
+{{apisig|unknown {{=}} ScrollingMessageFrame:TransformMessages(predicate, transformFunction)}}
 
 ==Arguments==
 :;predicate:{{apitype|unknown}}
 :;transformFunction:{{apitype|unknown}}
 
 ==Returns==
-:;unknown:{{apitype|unknown}}
 :;unknown:{{apitype|unknown}}

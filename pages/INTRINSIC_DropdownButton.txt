@@ -22,15 +22,15 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 : {{apilink|t=Function|DropdownButton:GenerateCallbackEvents|arg=eventTable}}
 : {{apilink|t=Function|DropdownButton:GenerateMenu}}
 : {{apilink|t=Function|DropdownButton:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
-: {{apilink|t=Function|DropdownButton:GetCallbackTable|arg=callbackType|ret=callbackType}}
+: {{apilink|t=Function|DropdownButton:GetCallbackTable|arg=callbackType|ret=unknown}}
 : {{apilink|t=Function|DropdownButton:GetCallbackTables|ret=callbackTables}}
 : {{apilink|t=Function|DropdownButton:GetMenuDescription|ret=menuDescription}}
-: {{apilink|t=Function|DropdownButton:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent, mutableCallbacksByEvent}}
+: {{apilink|t=Function|DropdownButton:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent}}
 : {{apilink|t=Function|DropdownButton:GetSelectionData|ret=selectionData}}
 : {{apilink|t=Function|DropdownButton:HandlesGlobalMouseEvent|arg=buttonName, event|ret=unknown}}
-: {{apilink|t=Function|DropdownButton:HasAnyRadioDescriptions|ret=hasAnyRadioDescriptions, hasAnyRadioDescriptions}}
+: {{apilink|t=Function|DropdownButton:HasAnyRadioDescriptions|ret=hasAnyRadioDescriptions}}
 : {{apilink|t=Function|DropdownButton:HasElements|ret=hasElements}}
-: {{apilink|t=Function|DropdownButton:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent, hasRegistrantsForEvent}}
+: {{apilink|t=Function|DropdownButton:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent}}
 : {{apilink|t=Function|DropdownButton:HasStickyFocus|ret=hasStickyFocus}}
 : {{apilink|t=Function|DropdownButton:Increment}}
 : {{apilink|t=Function|DropdownButton:IsMenuOpen|ret=isMenuOpen}}
@@ -45,7 +45,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 : {{apilink|t=Function|DropdownButton:OnMouseDown_Intrinsic}}
 : {{apilink|t=Function|DropdownButton:OnMouseWheel_Intrinsic|arg=delta}}
 : {{apilink|t=Function|DropdownButton:OpenMenu}}
-: {{apilink|t=Function|DropdownButton:Pick|arg=description, menuInputContext, menuInputButtonName|ret=unknown, unknown}}
+: {{apilink|t=Function|DropdownButton:Pick|arg=description, menuInputContext, menuInputButtonName|ret=unknown}}
 : {{apilink|t=Function|DropdownButton:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
 : {{apilink|t=Function|DropdownButton:RegisterCallback|arg=event, func, owner, ...|ret=owner}}
 : {{apilink|t=Function|DropdownButton:RegisterCallbackWithHandle|arg=event, func, owner, ...|ret=unknown}}

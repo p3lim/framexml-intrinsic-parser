@@ -97,20 +97,34 @@ def parse_method_args(table: Table, method: Method, args: astnodes.Name, body: a
 def parse_method_returns(table: Table, method: Method, body: astnodes.Block) -> None:
   returns = []
 
+  invalid = set()
+
   for node in ast.walk(body):
     if isinstance(node, astnodes.Return) and len(node.values) > 0:
+      if id(node) in invalid:
+        continue
+
       for index, value in enumerate(node.values):
         if isinstance(value, astnodes.Call):
           # try to unwrap some returns that are from function calls
           if hasattr(value.func, "id") and value.func.id == "secretwrap":
             value = value.args[0]
 
+          # if the value is an anonymous call with a return: mark the return object as invalid
+          if hasattr(value, 'args'):
+            for _, arg in enumerate(value.args):
+              if isinstance(arg, astnodes.AnonymousFunction):
+                if isinstance(arg.body.body[0], astnodes.Return):
+                  invalid.add(id(arg.body.body[0]))
+
         # try to assign names to return value
         name = None
         if isinstance(value, astnodes.Name):
           name = value.id
         elif isinstance(value, astnodes.Index):
-          if hasattr(value, "idx") and hasattr(value.idx, "id"):
+          if hasattr(value, 'value') and isinstance(value.value, astnodes.Index):
+            pass # TBD
+          elif hasattr(value, "idx") and hasattr(value.idx, "id"):
             name = value.idx.id
           elif hasattr(value, "id"):
             name = value.id
@@ -128,8 +142,10 @@ def parse_method_returns(table: Table, method: Method, body: astnodes.Block) -> 
           kind = "boolean"
         elif isinstance(value, astnodes.LoOp):
           kind = "boolean"
-        elif isinstance(value, astnodes.UnaryOp):
+        elif isinstance(value, astnodes.Number) or isinstance(value, astnodes.UnaryOp) or isinstance(value, astnodes.AriOp):
           kind = "number"
+        elif isinstance(value, astnodes.String):
+          kind = "string"
         elif isinstance(value, astnodes.Name):
           kind = type_guesser(table.name, method.name, value.id) #+ "-----1"
         elif isinstance(value, astnodes.Index):
@@ -143,10 +159,17 @@ def parse_method_returns(table: Table, method: Method, body: astnodes.Block) -> 
         if kind is None and name is not None and METHOD_SIGNATURE_MAP.get(table.name, {}).get(method.name, {}).get(name):
           kind = METHOD_SIGNATURE_MAP[table.name][method.name][name]
 
-        returns.append({
+        data = {
           "name": name if name is not None else "unknown",
           "type": kind if kind is not None else "unknown",
-        })
+        }
+
+        if index >= len(returns):
+          returns.append(data)
+        else:
+          if returns[index]["type"] != data["type"]:
+            if returns[index]["type"] == "unknown" and data["type"] != "unknown":
+              returns[index] = data
 
   for ret in returns:
     method.add_return(ret["name"], ret["type"])

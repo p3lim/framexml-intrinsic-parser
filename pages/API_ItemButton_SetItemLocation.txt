@@ -1,10 +1,9 @@
 {{intrinsicmethod|mixin=ItemButtonMixin}}
 &nbsp;
-{{apisig|unknown, unknown {{=}} ItemButton:SetItemLocation(itemLocation)}}
+{{apisig|unknown {{=}} ItemButton:SetItemLocation(itemLocation)}}
 
 ==Arguments==
 :;itemLocation:{{apitype|unknown}}
 
 ==Returns==
 :;unknown:{{apitype|boolean}}
-:;unknown:{{apitype|unknown}}

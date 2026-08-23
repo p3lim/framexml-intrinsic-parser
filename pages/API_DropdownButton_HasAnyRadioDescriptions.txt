@@ -1,7 +1,6 @@
 {{intrinsicmethod|mixin=DropdownButtonMixin}}
 &nbsp;
-{{apisig|hasAnyRadioDescriptions, hasAnyRadioDescriptions {{=}} DropdownButton:HasAnyRadioDescriptions()}}
+{{apisig|hasAnyRadioDescriptions {{=}} DropdownButton:HasAnyRadioDescriptions()}}
 
 ==Returns==
-:;hasAnyRadioDescriptions:{{apitype|unknown}}
 :;hasAnyRadioDescriptions:{{apitype|unknown}}

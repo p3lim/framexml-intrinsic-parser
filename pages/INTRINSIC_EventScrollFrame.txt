@@ -14,10 +14,10 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|ScrollFram
 : {{apilink|t=Function|EventScrollFrame:CopyDeferredCallbacks|arg=callbackType, event, target}}
 : {{apilink|t=Function|EventScrollFrame:GenerateCallbackEvents|arg=eventTable}}
 : {{apilink|t=Function|EventScrollFrame:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
-: {{apilink|t=Function|EventScrollFrame:GetCallbackTable|arg=callbackType|ret=callbackType}}
+: {{apilink|t=Function|EventScrollFrame:GetCallbackTable|arg=callbackType|ret=unknown}}
 : {{apilink|t=Function|EventScrollFrame:GetCallbackTables|ret=callbackTables}}
-: {{apilink|t=Function|EventScrollFrame:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent, mutableCallbacksByEvent}}
-: {{apilink|t=Function|EventScrollFrame:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent, hasRegistrantsForEvent}}
+: {{apilink|t=Function|EventScrollFrame:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent}}
+: {{apilink|t=Function|EventScrollFrame:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent}}
 : {{apilink|t=Function|EventScrollFrame:OnHorizontalScroll_Intrinsic|arg=offset}}
 : {{apilink|t=Function|EventScrollFrame:OnLoad}}
 : {{apilink|t=Function|EventScrollFrame:OnLoad_Intrinsic}}

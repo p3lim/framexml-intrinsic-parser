@@ -1,10 +1,9 @@
 {{intrinsicmethod|mixin=CallbackRegistryMixin}}
 &nbsp;
-{{apisig|hasRegistrantsForEvent, hasRegistrantsForEvent {{=}} EventFrame:HasRegistrantsForEvent(event)}}
+{{apisig|hasRegistrantsForEvent {{=}} EventFrame:HasRegistrantsForEvent(event)}}
 
 ==Arguments==
 :;event:{{apitype|unknown}}
 
 ==Returns==
-:;hasRegistrantsForEvent:{{apitype|boolean}}
 :;hasRegistrantsForEvent:{{apitype|boolean}}

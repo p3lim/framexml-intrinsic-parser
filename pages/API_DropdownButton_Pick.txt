@@ -1,6 +1,6 @@
 {{intrinsicmethod|mixin=DropdownButtonMixin}}
 &nbsp;
-{{apisig|unknown, unknown {{=}} DropdownButton:Pick(description, menuInputContext, menuInputButtonName)}}
+{{apisig|unknown {{=}} DropdownButton:Pick(description, menuInputContext, menuInputButtonName)}}
 
 ==Arguments==
 :;description:{{apitype|unknown}}
@@ -8,5 +8,4 @@
 :;menuInputButtonName:{{apitype|unknown}}
 
 ==Returns==
-:;unknown:{{apitype|boolean}}
 :;unknown:{{apitype|boolean}}

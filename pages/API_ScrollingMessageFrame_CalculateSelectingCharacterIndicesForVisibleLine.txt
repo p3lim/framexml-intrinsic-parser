@@ -1,6 +1,6 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
 &nbsp;
-{{apisig|unknown, unknown, startCharacterIndex, unknown, unknown, startCharacterIndex, unknown, startCharacterIndex, startCharacterIndex, unknown, unknown, endCharacterIndex, endCharacterIndex, unknown, endCharacterIndex, unknown, unknown, endCharacterIndex, unknown, unknown {{=}} ScrollingMessageFrame:CalculateSelectingCharacterIndicesForVisibleLine(lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex)}}
+{{apisig|unknown, unknown {{=}} ScrollingMessageFrame:CalculateSelectingCharacterIndicesForVisibleLine(lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex)}}
 
 ==Arguments==
 :;lineIndex:{{apitype|unknown}}
@@ -10,23 +10,5 @@
 :;endCharacterIndex:{{apitype|unknown}}
 
 ==Returns==
-:;unknown:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
-:;startCharacterIndex:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
-:;startCharacterIndex:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
-:;startCharacterIndex:{{apitype|unknown}}
-:;startCharacterIndex:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
-:;endCharacterIndex:{{apitype|unknown}}
-:;endCharacterIndex:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
-:;endCharacterIndex:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
-:;endCharacterIndex:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
+:;unknown:{{apitype|number}}
+:;unknown:{{apitype|number}}

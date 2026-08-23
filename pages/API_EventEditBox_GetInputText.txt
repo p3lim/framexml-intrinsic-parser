@@ -1,7 +1,6 @@
 {{intrinsicmethod|mixin=EventEditBoxMixin}}
 &nbsp;
-{{apisig|inputText, inputText {{=}} EventEditBox:GetInputText()}}
+{{apisig|inputText {{=}} EventEditBox:GetInputText()}}
 
 ==Returns==
-:;inputText:{{apitype|unknown}}
-:;inputText:{{apitype|unknown}}
+:;inputText:{{apitype|string}}

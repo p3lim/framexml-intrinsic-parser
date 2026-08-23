@@ -1,11 +1,10 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
 &nbsp;
-{{apisig|unknown, unknown {{=}} ScrollingMessageFrame:GatherSelectedText(x, y)}}
+{{apisig|unknown {{=}} ScrollingMessageFrame:GatherSelectedText(x, y)}}
 
 ==Arguments==
 :;x:{{apitype|number}}
 :;y:{{apitype|unknown}}
 
 ==Returns==
-:;unknown:{{apitype|unknown}}
 :;unknown:{{apitype|unknown}}

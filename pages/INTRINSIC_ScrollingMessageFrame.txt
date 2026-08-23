@@ -19,18 +19,18 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 : {{apilink|t=Function|ScrollingMessageFrame:AtBottom|ret=unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:AtTop|ret=unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:BackFillMessage|arg=message, r, g, b, ...}}
-: {{apilink|t=Function|ScrollingMessageFrame:CalculateLineAlphaValueFromTimestamp|arg=now, timestamp|ret=unknown, unknown, unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:CalculateLineAlphaValueFromTimestamp|arg=now, timestamp|ret=unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:CalculateLineSpacing|ret=lineSpacing}}
-: {{apilink|t=Function|ScrollingMessageFrame:CalculateNumVisibleLines|ret=unknown, unknown, unknown}}
-: {{apilink|t=Function|ScrollingMessageFrame:CalculateSelectingCharacterIndicesForVisibleLine|arg=lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex|ret=unknown, unknown, startCharacterIndex, unknown, unknown, startCharacterIndex, unknown, startCharacterIndex, startCharacterIndex, unknown, unknown, endCharacterIndex, endCharacterIndex, unknown, endCharacterIndex, unknown, unknown, endCharacterIndex, unknown, unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:CalculateNumVisibleLines|ret=unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:CalculateSelectingCharacterIndicesForVisibleLine|arg=lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex|ret=unknown, unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:CallOnDisplayRefreshed}}
 : {{apilink|t=Function|ScrollingMessageFrame:CanEffectivelyFade|ret=unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:Clear}}
-: {{apilink|t=Function|ScrollingMessageFrame:FindCharacterAndLineIndexAtCoordinate|arg=x, y|ret=characterIndex, lineIndex, closestCharacterIndex, closestLineIndex}}
+: {{apilink|t=Function|ScrollingMessageFrame:FindCharacterAndLineIndexAtCoordinate|arg=x, y|ret=characterIndex, lineIndex}}
 : {{apilink|t=Function|ScrollingMessageFrame:ForEachMessage|arg=op}}
 : {{apilink|t=Function|ScrollingMessageFrame:ForEachMessageInfoText|arg=op}}
 : {{apilink|t=Function|ScrollingMessageFrame:ForEachVisibleLineText|arg=op}}
-: {{apilink|t=Function|ScrollingMessageFrame:GatherSelectedText|arg=x, y|ret=unknown, unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:GatherSelectedText|arg=x, y|ret=unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetFadeDuration|ret=fadeDurationSecs}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetFading|ret=shouldFadeAfterInactivity}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetFont|ret=font}}
@@ -40,7 +40,7 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 : {{apilink|t=Function|ScrollingMessageFrame:GetJustifyH|ret=justifyH}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetJustifyV|ret=justifyV}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetMaxLines|ret=maxLines}}
-: {{apilink|t=Function|ScrollingMessageFrame:GetMaxScrollRange|ret=maxScrollRange, maxScrollRange}}
+: {{apilink|t=Function|ScrollingMessageFrame:GetMaxScrollRange|ret=maxScrollRange}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetMessageInfo|arg=messageIndex|ret=messageInfo}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetNumMessages|ret=numMessages}}
 : {{apilink|t=Function|ScrollingMessageFrame:GetNumVisibleLines|ret=numVisibleLines}}
@@ -108,8 +108,8 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Frame}} an
 : {{apilink|t=Function|ScrollingMessageFrame:SetTextColor|arg=r, g, b, a}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetTextCopyable|arg=textIsCopyable}}
 : {{apilink|t=Function|ScrollingMessageFrame:SetTimeVisible|arg=timeVisibleSecs}}
-: {{apilink|t=Function|ScrollingMessageFrame:TransformMessages|arg=predicate, transformFunction|ret=unknown, unknown}}
-: {{apilink|t=Function|ScrollingMessageFrame:UnpackageEntry|arg=entry|ret=message, r, g, b, unknown, message, r, g, b}}
+: {{apilink|t=Function|ScrollingMessageFrame:TransformMessages|arg=predicate, transformFunction|ret=unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:UnpackageEntry|arg=entry|ret=message, r, g, b, unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:UpdateFading}}
 : {{apilink|t=Function|ScrollingMessageFrame:UpdateSelectingText}}<section end=IntrinsicMethods/>
 |-

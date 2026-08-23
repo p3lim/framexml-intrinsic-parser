@@ -1,11 +1,9 @@
 {{intrinsicmethod|mixin=ItemButtonMixin}}
 &nbsp;
-{{apisig|unknown, unknown, unknown {{=}} ItemButton:SetItemInternal(item)}}
+{{apisig|unknown {{=}} ItemButton:SetItemInternal(item)}}
 
 ==Arguments==
 :;item:{{apitype|unknown}}
 
 ==Returns==
-:;unknown:{{apitype|boolean}}
-:;unknown:{{apitype|boolean}}
 :;unknown:{{apitype|boolean}}

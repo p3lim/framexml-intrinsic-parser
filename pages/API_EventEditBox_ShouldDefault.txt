@@ -1,12 +1,9 @@
 {{intrinsicmethod|mixin=EventEditBoxMixin}}
 &nbsp;
-{{apisig|shouldDefault, shouldDefault, shouldDefault, shouldDefault {{=}} EventEditBox:ShouldDefault(text)}}
+{{apisig|shouldDefault {{=}} EventEditBox:ShouldDefault(text)}}
 
 ==Arguments==
 :;text:{{apitype|unknown}}
 
 ==Returns==
-:;shouldDefault:{{apitype|boolean}}
-:;shouldDefault:{{apitype|boolean}}
-:;shouldDefault:{{apitype|boolean}}
 :;shouldDefault:{{apitype|boolean}}

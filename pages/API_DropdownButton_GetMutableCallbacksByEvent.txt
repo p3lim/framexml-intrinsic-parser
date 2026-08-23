@@ -1,11 +1,10 @@
 {{intrinsicmethod|mixin=CallbackRegistryMixin}}
 &nbsp;
-{{apisig|mutableCallbacksByEvent, mutableCallbacksByEvent {{=}} DropdownButton:GetMutableCallbacksByEvent(callbackType, event)}}
+{{apisig|mutableCallbacksByEvent {{=}} DropdownButton:GetMutableCallbacksByEvent(callbackType, event)}}
 
 ==Arguments==
 :;callbackType:{{apitype|unknown}}
 :;event:{{apitype|unknown}}
 
 ==Returns==
-:;mutableCallbacksByEvent:{{apitype|unknown}}
 :;mutableCallbacksByEvent:{{apitype|unknown}}

@@ -1,7 +1,6 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
 &nbsp;
-{{apisig|maxScrollRange, maxScrollRange {{=}} ScrollingMessageFrame:GetMaxScrollRange()}}
+{{apisig|maxScrollRange {{=}} ScrollingMessageFrame:GetMaxScrollRange()}}
 
 ==Returns==
-:;maxScrollRange:{{apitype|unknown}}
 :;maxScrollRange:{{apitype|unknown}}

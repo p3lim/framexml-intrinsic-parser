@@ -1,12 +1,10 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
 &nbsp;
-{{apisig|unknown, unknown, unknown {{=}} ScrollingMessageFrame:CalculateLineAlphaValueFromTimestamp(now, timestamp)}}
+{{apisig|unknown {{=}} ScrollingMessageFrame:CalculateLineAlphaValueFromTimestamp(now, timestamp)}}
 
 ==Arguments==
 :;now:{{apitype|unknown}}
 :;timestamp:{{apitype|unknown}}
 
 ==Returns==
-:;unknown:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
-:;unknown:{{apitype|unknown}}
+:;unknown:{{apitype|number}}

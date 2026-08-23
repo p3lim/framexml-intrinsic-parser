@@ -15,9 +15,9 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 : {{apilink|t=Function|ItemButton:GetItemButtonBackgroundTexture|ret=itemButtonBackgroundTexture}}
 : {{apilink|t=Function|ItemButton:GetItemButtonCount|ret=itemButtonCount}}
 : {{apilink|t=Function|ItemButton:GetItemButtonIconTexture|ret=itemButtonIconTexture}}
-: {{apilink|t=Function|ItemButton:GetItemContextOverlayMode|ret=Standard, RuneForging, itemContextOverlayMode}}
-: {{apilink|t=Function|ItemButton:GetItemID|ret=itemID, itemID}}
-: {{apilink|t=Function|ItemButton:GetItemInfo|ret=itemLink, itemQuality, itemIcon, itemLink, itemQuality, itemIcon}}
+: {{apilink|t=Function|ItemButton:GetItemContextOverlayMode|ret=unknown}}
+: {{apilink|t=Function|ItemButton:GetItemID|ret=itemID}}
+: {{apilink|t=Function|ItemButton:GetItemInfo|ret=itemLink, itemQuality, itemIcon}}
 : {{apilink|t=Function|ItemButton:GetItemLink|ret=itemLink}}
 : {{apilink|t=Function|ItemButton:GetItemLocation|ret=itemLocation}}
 : {{apilink|t=Function|ItemButton:GetMatchesSearch|ret=matchesSearch}}
@@ -39,8 +39,8 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 : {{apilink|t=Function|ItemButton:SetItemButtonScale|arg=scale}}
 : {{apilink|t=Function|ItemButton:SetItemButtonTexture|arg=texture}}
 : {{apilink|t=Function|ItemButton:SetItemButtonTextureVertexColor|arg=r, g, b}}
-: {{apilink|t=Function|ItemButton:SetItemInternal|arg=item|ret=unknown, unknown, unknown}}
-: {{apilink|t=Function|ItemButton:SetItemLocation|arg=itemLocation|ret=unknown, unknown}}
+: {{apilink|t=Function|ItemButton:SetItemInternal|arg=item|ret=unknown}}
+: {{apilink|t=Function|ItemButton:SetItemLocation|arg=itemLocation|ret=unknown}}
 : {{apilink|t=Function|ItemButton:SetItemSource|arg=itemLocation}}
 : {{apilink|t=Function|ItemButton:SetMatchesSearch|arg=matchesSearch}}
 : {{apilink|t=Function|ItemButton:UpdateCraftedProfessionsQualityShown}}

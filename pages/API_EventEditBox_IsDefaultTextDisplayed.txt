@@ -1,7 +1,6 @@
 {{intrinsicmethod|mixin=EventEditBoxMixin}}
 &nbsp;
-{{apisig|isDefaultTextDisplayed, isDefaultTextDisplayed {{=}} EventEditBox:IsDefaultTextDisplayed()}}
+{{apisig|isDefaultTextDisplayed {{=}} EventEditBox:IsDefaultTextDisplayed()}}
 
 ==Returns==
-:;isDefaultTextDisplayed:{{apitype|boolean}}
 :;isDefaultTextDisplayed:{{apitype|boolean}}

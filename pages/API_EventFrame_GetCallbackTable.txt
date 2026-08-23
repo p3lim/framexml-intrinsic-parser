@@ -1,9 +1,9 @@
 {{intrinsicmethod|mixin=CallbackRegistryMixin}}
 &nbsp;
-{{apisig|callbackType {{=}} EventFrame:GetCallbackTable(callbackType)}}
+{{apisig|unknown {{=}} EventFrame:GetCallbackTable(callbackType)}}
 
 ==Arguments==
 :;callbackType:{{apitype|unknown}}
 
 ==Returns==
-:;callbackType:{{apitype|unknown}}
+:;unknown:{{apitype|unknown}}

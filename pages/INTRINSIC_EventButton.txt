@@ -14,10 +14,10 @@ This is an [[intrinsic frame]]. It has all the methods from {{api|t=o|Button}} a
 : {{apilink|t=Function|EventButton:CopyDeferredCallbacks|arg=callbackType, event, target}}
 : {{apilink|t=Function|EventButton:GenerateCallbackEvents|arg=eventTable}}
 : {{apilink|t=Function|EventButton:GetCallbacksByEvent|arg=callbackType, event|ret=event}}
-: {{apilink|t=Function|EventButton:GetCallbackTable|arg=callbackType|ret=callbackType}}
+: {{apilink|t=Function|EventButton:GetCallbackTable|arg=callbackType|ret=unknown}}
 : {{apilink|t=Function|EventButton:GetCallbackTables|ret=callbackTables}}
-: {{apilink|t=Function|EventButton:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent, mutableCallbacksByEvent}}
-: {{apilink|t=Function|EventButton:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent, hasRegistrantsForEvent}}
+: {{apilink|t=Function|EventButton:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent}}
+: {{apilink|t=Function|EventButton:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent}}
 : {{apilink|t=Function|EventButton:OnClick_Intrinsic|arg=buttonName, down}}
 : {{apilink|t=Function|EventButton:OnEnter_Intrinsic}}
 : {{apilink|t=Function|EventButton:OnLeave_Intrinsic}}

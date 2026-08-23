@@ -1,7 +1,6 @@
 {{intrinsicmethod|mixin=EventEditBoxMixin}}
 &nbsp;
-{{apisig|unknown, unknown {{=}} EventEditBox:ExpectedHasFocus()}}
+{{apisig|unknown {{=}} EventEditBox:ExpectedHasFocus()}}
 
 ==Returns==
 :;unknown:{{apitype|boolean}}
-:;unknown:{{apitype|unknown}}
