@@ -22,7 +22,7 @@ CreateFrame("ScrollingMessageFrame")
 : {{apilink|t=Function|ScrollingMessageFrame:CalculateLineAlphaValueFromTimestamp|arg=now, timestamp|ret=unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:CalculateLineSpacing|ret=lineSpacing}}
 : {{apilink|t=Function|ScrollingMessageFrame:CalculateNumVisibleLines|ret=unknown}}
-: {{apilink|t=Function|ScrollingMessageFrame:CalculateSelectingCharacterIndicesForVisibleLine|arg=lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex|ret=unknown, unknown}}
+: {{apilink|t=Function|ScrollingMessageFrame:CalculateSelectingCharacterIndicesForVisibleLine|arg=lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex|ret=startCharacterIndex, unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:CallOnDisplayRefreshed}}
 : {{apilink|t=Function|ScrollingMessageFrame:CanEffectivelyFade|ret=unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:Clear}}
