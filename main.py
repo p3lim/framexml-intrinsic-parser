@@ -137,9 +137,9 @@ def main() -> None:
         if method not in api_pages[intrinsic]:
           api_pages[intrinsic].append(method)
 
-        print(f"Templating page API_{intrinsic}_{method}...", file=sys.stderr)
+        print(f"Templating page API/{intrinsic}_{method}...", file=sys.stderr)
         template = jinja.get_template("method.j2")
-        pages[f"API_{intrinsic}_{method}"] = template.render(
+        pages[Path("API") / f"{intrinsic}_{method}"] = template.render(
           name=method,
           data=tables_dict[mixin]["methods"][method],
           mixin=mixin,
