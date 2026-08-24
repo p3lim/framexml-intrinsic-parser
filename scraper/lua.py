@@ -653,20 +653,6 @@ METHOD_SIGNATURE_MAP = {
     "InitializeFontString": {
       "fontString": "Type:FontString",
     },
-    "OnPostEvent": {
-      "event": "string",
-    },
-    "OnPostMouseDown": {
-      "buttonName": "string",
-      "inside": "boolean",
-    },
-    "OnPostMouseUp": {
-      "buttonName": "string",
-      "inside": "boolean",
-    },
-    "OnPostUpdate": {
-      "elapsed": "number"
-    },
     "PackageEntry": {
       "message": "string",
       "r": "number",

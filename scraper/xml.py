@@ -54,7 +54,6 @@ class Intrinsic:
         self.aspects.append(value)
 
     self.scripts: list[str] = []
-
     for script in element.findall(".//ns:Scripts/*", namespace):
       if value := script.attrib.get("method"):
         self.scripts.append(value)
