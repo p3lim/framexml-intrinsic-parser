@@ -1,7 +1,0 @@
-{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
-{{apisig|ScrollingMessageFrame:OnPostMouseUp(buttonName, inside)}}
-
-==Arguments==
-:;buttonName:{{apitype|string}}
-:;inside:{{apitype|boolean}}

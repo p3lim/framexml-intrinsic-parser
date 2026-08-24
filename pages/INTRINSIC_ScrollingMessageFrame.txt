@@ -66,14 +66,6 @@ CreateFrame("ScrollingMessageFrame")
 : {{apilink|t=Function|ScrollingMessageFrame:MarkLayoutDirty}}
 : {{apilink|t=Function|ScrollingMessageFrame:OnColorsUpdated}}
 : {{apilink|t=Function|ScrollingMessageFrame:OnFontObjectUpdated}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPostEvent|arg=event, ...}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPostHide}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPostMouseDown|arg=buttonName, inside}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPostMouseUp|arg=buttonName, inside}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPostShow}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPostUpdate|arg=elapsed}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPreLoad}}
-: {{apilink|t=Function|ScrollingMessageFrame:OnPreSizeChanged}}
 : {{apilink|t=Function|ScrollingMessageFrame:PackageEntry|arg=message, r, g, b, ...|ret=unknown}}
 : {{apilink|t=Function|ScrollingMessageFrame:PageDown}}
 : {{apilink|t=Function|ScrollingMessageFrame:PageUp}}

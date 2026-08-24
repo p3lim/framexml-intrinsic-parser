@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=EventEditBoxMixin}}
-&nbsp;
-{{apisig|EventEditBox:OnMouseUp_Intrinsic()}}

@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=EventEditBoxMixin}}
-&nbsp;
-{{apisig|EventEditBox:OnEditFocusGained_Intrinsic()}}

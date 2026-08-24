@@ -1,7 +1,0 @@
-{{intrinsicmethod|mixin=EventButtonMixin}}
-&nbsp;
-{{apisig|EventButton:OnSizeChanged_Intrinsic(width, height)}}
-
-==Arguments==
-:;width:{{apitype|unknown}}
-:;height:{{apitype|unknown}}

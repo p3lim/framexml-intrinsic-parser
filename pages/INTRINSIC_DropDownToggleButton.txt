@@ -10,8 +10,7 @@ CreateFrame("DropDownToggleButton")
 ==Methods==
 {| class="darktable zebra"
 | <section begin=IntrinsicMethods/>
-: {{apilink|t=Function|DropDownToggleButton:HandlesGlobalMouseEvent|arg=buttonName, event|ret=unknown}}
-: {{apilink|t=Function|DropDownToggleButton:OnLoad_Intrinsic}}<section end=IntrinsicMethods/>
+: {{apilink|t=Function|DropDownToggleButton:HandlesGlobalMouseEvent|arg=buttonName, event|ret=unknown}}<section end=IntrinsicMethods/>
 |-
 | {{:UIOBJECT_Button|method}}
 |- class="mw-customtoggle-methods"

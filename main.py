@@ -87,6 +87,12 @@ def main() -> None:
     for table in [dict(table) for _, table in tables.items()]
   }
 
+  # store pages and references
+  pages = {}
+  referenced_mixins = {}
+  referenced_types = set()
+  referenced_mixin_methods = {}
+
   # manipulate the dicts
   for template in templates_dict:
     template_type = templates_dict[template]["type"]
@@ -101,15 +107,19 @@ def main() -> None:
     mixins = get_inherited_mixins(tables, templates_dict[template]["mixins"])
     templates_dict[template]["mixins"] = mixins
 
-  # store pages and references
-  pages = {}
-  referenced_mixins = {}
-  referenced_types = set()
+    for mixin in templates_dict[template]["mixins"]:
+      if mixin not in referenced_mixin_methods:
+        referenced_mixin_methods[mixin] = set()
+
 
   for intrinsic in intrinsics_dict:
     # merge the inherited mixins into the mixins list
     mixins = get_inherited_mixins(tables, intrinsics_dict[intrinsic]["mixins"])
     intrinsics_dict[intrinsic]["mixins"] = mixins
+
+    for mixin in intrinsics_dict[intrinsic]["mixins"]:
+      if mixin not in referenced_mixin_methods:
+        referenced_mixin_methods[mixin] = set()
 
     # build the intrinsic page
     print(f"Templating page INTRINSIC_{intrinsic}...", file=sys.stderr)
@@ -119,6 +129,7 @@ def main() -> None:
       data=intrinsics_dict[intrinsic],
       tables=tables,
       templates=templates_dict,
+      referenced_mixin_methods=referenced_mixin_methods,
     )
 
     # track which mixins this intrinsic and its templates use, so we can build
@@ -136,6 +147,8 @@ def main() -> None:
       for method in tables_dict[mixin]["methods"]:
         if method not in api_pages[intrinsic]:
           api_pages[intrinsic].append(method)
+        if method not in referenced_mixin_methods[mixin]:
+          continue
 
         print(f"Templating page API/{intrinsic}_{method}...", file=sys.stderr)
         template = jinja.get_template("method.j2")

@@ -18,13 +18,7 @@ CreateFrame("EventScrollFrame")
 : {{apilink|t=Function|EventScrollFrame:GetCallbackTables|ret=callbackTables}}
 : {{apilink|t=Function|EventScrollFrame:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent}}
 : {{apilink|t=Function|EventScrollFrame:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent}}
-: {{apilink|t=Function|EventScrollFrame:OnHorizontalScroll_Intrinsic|arg=offset}}
 : {{apilink|t=Function|EventScrollFrame:OnLoad}}
-: {{apilink|t=Function|EventScrollFrame:OnLoad_Intrinsic}}
-: {{apilink|t=Function|EventScrollFrame:OnMouseWheel_Intrinsic|arg=direction}}
-: {{apilink|t=Function|EventScrollFrame:OnScrollRangeChanged_Intrinsic|arg=xrange, yrange}}
-: {{apilink|t=Function|EventScrollFrame:OnSizeChanged_Intrinsic|arg=width, height}}
-: {{apilink|t=Function|EventScrollFrame:OnVerticalScroll_Intrinsic|arg=offset}}
 : {{apilink|t=Function|EventScrollFrame:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
 : {{apilink|t=Function|EventScrollFrame:RegisterCallback|arg=event, func, owner, ...|ret=owner}}
 : {{apilink|t=Function|EventScrollFrame:RegisterCallbackWithHandle|arg=event, func, owner, ...|ret=unknown}}

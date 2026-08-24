@@ -18,14 +18,7 @@ CreateFrame("EventButton")
 : {{apilink|t=Function|EventButton:GetCallbackTables|ret=callbackTables}}
 : {{apilink|t=Function|EventButton:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent}}
 : {{apilink|t=Function|EventButton:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent}}
-: {{apilink|t=Function|EventButton:OnClick_Intrinsic|arg=buttonName, down}}
-: {{apilink|t=Function|EventButton:OnEnter_Intrinsic}}
-: {{apilink|t=Function|EventButton:OnLeave_Intrinsic}}
 : {{apilink|t=Function|EventButton:OnLoad}}
-: {{apilink|t=Function|EventButton:OnLoad_Intrinsic}}
-: {{apilink|t=Function|EventButton:OnMouseDown_Intrinsic|arg=buttonName}}
-: {{apilink|t=Function|EventButton:OnMouseUp_Intrinsic|arg=buttonName, upInside}}
-: {{apilink|t=Function|EventButton:OnSizeChanged_Intrinsic|arg=width, height}}
 : {{apilink|t=Function|EventButton:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
 : {{apilink|t=Function|EventButton:RegisterCallback|arg=event, func, owner, ...|ret=owner}}
 : {{apilink|t=Function|EventButton:RegisterCallbackWithHandle|arg=event, func, owner, ...|ret=unknown}}

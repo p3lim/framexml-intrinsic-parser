@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=EventScrollFrameMixin}}
-&nbsp;
-{{apisig|EventScrollFrame:OnLoad_Intrinsic()}}

@@ -1,7 +1,0 @@
-{{intrinsicmethod|mixin=EventFrameMixin}}
-&nbsp;
-{{apisig|EventFrame:OnSizeChanged_Intrinsic(width, height)}}
-
-==Arguments==
-:;width:{{apitype|unknown}}
-:;height:{{apitype|unknown}}

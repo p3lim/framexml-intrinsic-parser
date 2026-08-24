@@ -34,16 +34,12 @@ CreateFrame("DropdownButton")
 : {{apilink|t=Function|DropdownButton:HasStickyFocus|ret=hasStickyFocus}}
 : {{apilink|t=Function|DropdownButton:Increment}}
 : {{apilink|t=Function|DropdownButton:IsMenuOpen|ret=isMenuOpen}}
-: {{apilink|t=Function|DropdownButton:OnEnter_Intrinsic}}
 : {{apilink|t=Function|DropdownButton:OnLoad}}
-: {{apilink|t=Function|DropdownButton:OnLoad_Intrinsic}}
 : {{apilink|t=Function|DropdownButton:OnMenuAssigned}}
 : {{apilink|t=Function|DropdownButton:OnMenuChanged}}
 : {{apilink|t=Function|DropdownButton:OnMenuClosed|arg=menu, closeReason}}
 : {{apilink|t=Function|DropdownButton:OnMenuOpened|arg=menu}}
 : {{apilink|t=Function|DropdownButton:OnMenuResponse|arg=menu, description}}
-: {{apilink|t=Function|DropdownButton:OnMouseDown_Intrinsic}}
-: {{apilink|t=Function|DropdownButton:OnMouseWheel_Intrinsic|arg=delta}}
 : {{apilink|t=Function|DropdownButton:OpenMenu}}
 : {{apilink|t=Function|DropdownButton:Pick|arg=description, menuInputContext, menuInputButtonName|ret=unknown}}
 : {{apilink|t=Function|DropdownButton:ReconcileDeferredCallbacks|arg=event, closures, funcs}}

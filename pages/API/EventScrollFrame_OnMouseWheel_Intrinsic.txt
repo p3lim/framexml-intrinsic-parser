@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=EventScrollFrameMixin}}
-&nbsp;
-{{apisig|EventScrollFrame:OnMouseWheel_Intrinsic(direction)}}
-
-==Arguments==
-:;direction:{{apitype|unknown}}

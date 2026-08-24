@@ -18,11 +18,7 @@ CreateFrame("EventFrame")
 : {{apilink|t=Function|EventFrame:GetCallbackTables|ret=callbackTables}}
 : {{apilink|t=Function|EventFrame:GetMutableCallbacksByEvent|arg=callbackType, event|ret=mutableCallbacksByEvent}}
 : {{apilink|t=Function|EventFrame:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent}}
-: {{apilink|t=Function|EventFrame:OnHide_Intrinsic}}
 : {{apilink|t=Function|EventFrame:OnLoad}}
-: {{apilink|t=Function|EventFrame:OnLoad_Intrinsic}}
-: {{apilink|t=Function|EventFrame:OnShow_Intrinsic}}
-: {{apilink|t=Function|EventFrame:OnSizeChanged_Intrinsic|arg=width, height}}
 : {{apilink|t=Function|EventFrame:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
 : {{apilink|t=Function|EventFrame:RegisterCallback|arg=event, func, owner, ...|ret=owner}}
 : {{apilink|t=Function|EventFrame:RegisterCallbackWithHandle|arg=event, func, owner, ...|ret=unknown}}

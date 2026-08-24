@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=UIThemeContainerMixin}}
-&nbsp;
-{{apisig|UIThemeContainerFrame:UIThemeContainerFrame_OnPostHide()}}

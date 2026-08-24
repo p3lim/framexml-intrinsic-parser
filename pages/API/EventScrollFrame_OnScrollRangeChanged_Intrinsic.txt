@@ -1,7 +1,0 @@
-{{intrinsicmethod|mixin=EventScrollFrameMixin}}
-&nbsp;
-{{apisig|EventScrollFrame:OnScrollRangeChanged_Intrinsic(xrange, yrange)}}
-
-==Arguments==
-:;xrange:{{apitype|unknown}}
-:;yrange:{{apitype|unknown}}

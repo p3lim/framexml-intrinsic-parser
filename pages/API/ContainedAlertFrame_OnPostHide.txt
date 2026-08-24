@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=ContainedAlertFrameMixin}}
-&nbsp;
-{{apisig|ContainedAlertFrame:OnPostHide()}}

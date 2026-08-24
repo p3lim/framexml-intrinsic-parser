@@ -53,11 +53,18 @@ class Intrinsic:
       if value := aspect.attrib.get("aspect"):
         self.aspects.append(value)
 
+    self.scripts: list[str] = []
+
+    for script in element.findall(".//ns:Scripts/*", namespace):
+      if value := script.attrib.get("method"):
+        self.scripts.append(value)
+
   def __iter__(self):
     yield "name", self.name
     yield "type", self.type
     yield "mixins", self.mixins
     yield "aspects", self.aspects
+    yield "scripts", self.scripts
 
 def get_xml_intrinsics(source: Path) -> tuple[list[Intrinsic], list[Path]]:
   intrinsics: list[Intrinsic] = []

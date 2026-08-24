@@ -1,7 +1,0 @@
-{{intrinsicmethod|mixin=ItemButtonMixin}}
-&nbsp;
-{{apisig|ItemButton:PostOnEvent(event, ...)}}
-
-==Arguments==
-:;event:{{apitype|unknown}}
-:;...:{{apitype|unknown}}

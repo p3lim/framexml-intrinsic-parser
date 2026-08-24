@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=EventButtonMixin}}
-&nbsp;
-{{apisig|EventButton:OnEnter_Intrinsic()}}

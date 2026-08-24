@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=EventFrameMixin}}
-&nbsp;
-{{apisig|EventFrame:OnLoad_Intrinsic()}}

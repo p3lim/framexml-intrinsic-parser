@@ -1,3 +1,0 @@
-{{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
-{{apisig|ScrollingMessageFrame:OnPostHide()}}

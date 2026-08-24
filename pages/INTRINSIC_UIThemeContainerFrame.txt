@@ -20,10 +20,6 @@ CreateFrame("UIThemeContainerFrame")
 : {{apilink|t=Function|UIThemeContainerFrame:RegisterFrames|arg=...}}
 : {{apilink|t=Function|UIThemeContainerFrame:RegisterObject|arg=container, object}}
 : {{apilink|t=Function|UIThemeContainerFrame:RegisterObjects|arg=container, ...}}
-: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPostEvent|arg=event, ...}}
-: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPostHide}}
-: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPreLoad}}
-: {{apilink|t=Function|UIThemeContainerFrame:UIThemeContainerFrame_OnPreShow}}
 : {{apilink|t=Function|UIThemeContainerFrame:UpdateBackground|arg=cvarValue}}
 : {{apilink|t=Function|UIThemeContainerFrame:UpdateFontStrings|arg=cvarValue}}
 : {{apilink|t=Function|UIThemeContainerFrame:UpdateFrames|arg=cvarValue}}

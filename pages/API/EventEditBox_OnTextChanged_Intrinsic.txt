@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=EventEditBoxMixin}}
-&nbsp;
-{{apisig|EventEditBox:OnTextChanged_Intrinsic(userChanged)}}
-
-==Arguments==
-:;userChanged:{{apitype|unknown}}

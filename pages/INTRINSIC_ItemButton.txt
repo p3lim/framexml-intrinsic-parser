@@ -24,9 +24,6 @@ CreateFrame("ItemButton")
 : {{apilink|t=Function|ItemButton:GetSlotAndBagID|ret=slotAndBagID, slotAndBagID}}
 : {{apilink|t=Function|ItemButton:OnItemContextChanged}}
 : {{apilink|t=Function|ItemButton:OnUpdateItemContextMatching|arg=bagID}}
-: {{apilink|t=Function|ItemButton:PostOnEvent|arg=event, ...}}
-: {{apilink|t=Function|ItemButton:PostOnHide}}
-: {{apilink|t=Function|ItemButton:PostOnShow}}
 : {{apilink|t=Function|ItemButton:RegisterBagButtonUpdateItemContextMatching}}
 : {{apilink|t=Function|ItemButton:Reset}}
 : {{apilink|t=Function|ItemButton:SetAlpha|arg=alpha}}

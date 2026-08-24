@@ -1,6 +1,0 @@
-{{intrinsicmethod|mixin=EventButtonMixin}}
-&nbsp;
-{{apisig|EventButton:OnMouseDown_Intrinsic(buttonName)}}
-
-==Arguments==
-:;buttonName:{{apitype|unknown}}

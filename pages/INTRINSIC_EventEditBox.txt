@@ -29,18 +29,7 @@ CreateFrame("EventEditBox")
 : {{apilink|t=Function|EventEditBox:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent}}
 : {{apilink|t=Function|EventEditBox:IsDefaultTextDisplayed|ret=isDefaultTextDisplayed}}
 : {{apilink|t=Function|EventEditBox:IsDefaultTextEnabled|ret=isDefaultTextEnabled}}
-: {{apilink|t=Function|EventEditBox:OnCursorChanged_Intrinsic|arg=x, y, width, height, context}}
-: {{apilink|t=Function|EventEditBox:OnEditFocusGained_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:OnEditFocusLost_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:OnEnterPressed_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:OnEscapePressed_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:OnKeyDown_Intrinsic|arg=key}}
 : {{apilink|t=Function|EventEditBox:OnLoad}}
-: {{apilink|t=Function|EventEditBox:OnLoad_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:OnMouseDown_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:OnMouseUp_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:OnTabPressed_Intrinsic}}
-: {{apilink|t=Function|EventEditBox:OnTextChanged_Intrinsic|arg=userChanged}}
 : {{apilink|t=Function|EventEditBox:ReconcileDeferredCallbacks|arg=event, closures, funcs}}
 : {{apilink|t=Function|EventEditBox:RegisterCallback|arg=event, func, owner, ...|ret=owner}}
 : {{apilink|t=Function|EventEditBox:RegisterCallbackWithHandle|arg=event, func, owner, ...|ret=unknown}}
