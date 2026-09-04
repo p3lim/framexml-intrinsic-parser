@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CallbackRegistryMixin}}
-&nbsp;
 {{apisig|owner {{=}} EventEditBox:RegisterCallback(event, func, owner, ...)}}
 
 ==Arguments==

@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CallbackRegistryMixin}}
-&nbsp;
 {{apisig|mutableCallbacksByEvent {{=}} EventFrame:GetMutableCallbacksByEvent(callbackType, event)}}
 
 ==Arguments==

@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
 {{apisig|characterIndex, lineIndex {{=}} ScrollingMessageFrame:FindCharacterAndLineIndexAtCoordinate(x, y)}}
 
 ==Arguments==

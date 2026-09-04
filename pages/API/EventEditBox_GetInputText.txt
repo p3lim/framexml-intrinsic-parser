@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=EventEditBoxMixin}}
-&nbsp;
 {{apisig|inputText {{=}} EventEditBox:GetInputText()}}
 
 ==Returns==

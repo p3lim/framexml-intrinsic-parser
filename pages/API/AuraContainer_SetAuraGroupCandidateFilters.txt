@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
-&nbsp;
 {{apisig|AuraContainer:SetAuraGroupCandidateFilters(groupKey, candidateFilters)}}
 
 ==Arguments==

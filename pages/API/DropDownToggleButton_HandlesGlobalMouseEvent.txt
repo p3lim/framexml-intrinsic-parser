@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=DropDownToggleButtonMixin}}
-&nbsp;
 {{apisig|unknown {{=}} DropDownToggleButton:HandlesGlobalMouseEvent(buttonName, event)}}
 
 ==Arguments==

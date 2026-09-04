@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=FontableFrameMixin}}
-&nbsp;
 {{apisig|ScrollingMessageFrame:SetJustifyH(justifyH)}}
 
 ==Arguments==

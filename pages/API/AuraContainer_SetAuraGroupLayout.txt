@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
-&nbsp;
 {{apisig|AuraContainer:SetAuraGroupLayout(groupKey, layoutOptions)}}
 
 ==Arguments==

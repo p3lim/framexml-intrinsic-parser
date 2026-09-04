@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=DropdownButtonMixin}}
-&nbsp;
 {{apisig|DropdownButton:SetupMenu(generator)}}
 
 ==Arguments==

@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
 {{apisig|unknown {{=}} ScrollingMessageFrame:CalculateLineAlphaValueFromTimestamp(now, timestamp)}}
 
 ==Arguments==

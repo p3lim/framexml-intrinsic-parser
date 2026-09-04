@@ -1,3 +1,2 @@
 {{intrinsicmethod|mixin=ContainedAlertFrameMixin}}
-&nbsp;
 {{apisig|ContainedAlertFrame:OnManagedAlertFrameVisibilityChanged()}}

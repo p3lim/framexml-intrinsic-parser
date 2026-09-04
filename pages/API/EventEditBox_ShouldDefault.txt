@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=EventEditBoxMixin}}
-&nbsp;
 {{apisig|shouldDefault {{=}} EventEditBox:ShouldDefault(text)}}
 
 ==Arguments==

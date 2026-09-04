@@ -1,3 +1,2 @@
 {{intrinsicmethod|mixin=CallbackRegistryMixin}}
-&nbsp;
 {{apisig|EventEditBox:OnLoad()}}

@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=FontableFrameMixin}}
-&nbsp;
 {{apisig|ScrollingMessageFrame:SetFont(font, fontHeight, fontFlags)}}
 
 ==Arguments==

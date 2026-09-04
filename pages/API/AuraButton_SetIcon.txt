@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
-&nbsp;
 {{apisig|AuraButton:SetIcon(texture)}}
 
 ==Arguments==

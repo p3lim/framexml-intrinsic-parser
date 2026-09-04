@@ -1,3 +1,2 @@
 {{intrinsicmethod|mixin=ItemButtonMixin}}
-&nbsp;
 {{apisig|ItemButton:OnItemContextChanged()}}

@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
 {{apisig|startCharacterIndex, unknown {{=}} ScrollingMessageFrame:CalculateSelectingCharacterIndicesForVisibleLine(lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex)}}
 
 ==Arguments==

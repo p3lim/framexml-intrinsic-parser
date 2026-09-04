@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=FontableFrameMixin}}
-&nbsp;
 {{apisig|shadowColor {{=}} ScrollingMessageFrame:GetShadowColor()}}
 
 ==Returns==

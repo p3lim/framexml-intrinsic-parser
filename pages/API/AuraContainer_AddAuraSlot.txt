@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
-&nbsp;
 {{apisig|auraFrame {{=}} AuraContainer:AddAuraSlot(slotKey, filterString, options)}}
 
 ==Arguments==

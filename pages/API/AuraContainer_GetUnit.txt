@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=AuraContainerSharedMixin}}
-&nbsp;
 {{apisig|unitToken {{=}} AuraContainer:GetUnit()}}
 
 ==Returns==

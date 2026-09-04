@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=FontableFrameMixin}}
-&nbsp;
 {{apisig|spacing {{=}} ScrollingMessageFrame:GetSpacing()}}
 
 ==Returns==

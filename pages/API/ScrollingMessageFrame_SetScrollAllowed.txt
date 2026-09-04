@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
 {{apisig|ScrollingMessageFrame:SetScrollAllowed(allowed)}}
 
 ==Arguments==

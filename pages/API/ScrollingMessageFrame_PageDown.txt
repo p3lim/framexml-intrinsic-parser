@@ -1,3 +1,2 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
 {{apisig|ScrollingMessageFrame:PageDown()}}

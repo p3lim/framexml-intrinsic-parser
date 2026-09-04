@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=AuraButtonSharedMixin}}
-&nbsp;
 {{apisig|AuraButton:SetTooltipAnchorPoint(point, offsetX, offsetY)}}
 
 ==Arguments==

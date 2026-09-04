@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CallbackRegistryMixin}}
-&nbsp;
 {{apisig|DropdownButton:CopyDeferredCallbacks(callbackType, event, target)}}
 
 ==Arguments==

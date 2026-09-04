@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=AuraContainerFlowLayoutSharedMixin}}
-&nbsp;
 {{apisig|AuraContainer:SetFlowLayoutGrowthDirection(horizontalDirection, verticalDirection)}}
 
 ==Arguments==

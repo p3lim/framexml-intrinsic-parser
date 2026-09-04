@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
 {{apisig|message, r, g, b, unknown {{=}} ScrollingMessageFrame:UnpackageEntry(entry)}}
 
 ==Arguments==

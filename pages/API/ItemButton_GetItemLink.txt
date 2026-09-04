@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ItemButtonMixin}}
-&nbsp;
 {{apisig|itemLink {{=}} ItemButton:GetItemLink()}}
 
 ==Returns==

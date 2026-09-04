@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ContainedAlertFrameMixin}}
-&nbsp;
 {{apisig|unknown {{=}} ContainedAlertFrame:ManagesOwnOutroAnimation()}}
 
 ==Returns==

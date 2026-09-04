@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=EventEditBoxMixin}}
-&nbsp;
 {{apisig|unknown {{=}} EventEditBox:ExpectedHasFocus()}}
 
 ==Returns==

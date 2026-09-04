@@ -1,3 +1,2 @@
 {{intrinsicmethod|mixin=DropdownButtonMixin}}
-&nbsp;
 {{apisig|DropdownButton:EnableRegenerateOnResponse()}}

@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CallbackRegistryMixin}}
-&nbsp;
 {{apisig|event {{=}} EventButton:GetCallbacksByEvent(callbackType, event)}}
 
 ==Arguments==

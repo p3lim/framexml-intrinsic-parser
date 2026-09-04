@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=UIThemeContainerMixin}}
-&nbsp;
 {{apisig|UIThemeContainerFrame:RegisterFrame(frame)}}
 
 ==Arguments==

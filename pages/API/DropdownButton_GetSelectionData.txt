@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=DropdownButtonMixin}}
-&nbsp;
 {{apisig|selectionData {{=}} DropdownButton:GetSelectionData()}}
 
 ==Returns==

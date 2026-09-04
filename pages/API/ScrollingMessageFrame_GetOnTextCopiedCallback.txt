@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
 {{apisig|onTextCopiedCallback {{=}} ScrollingMessageFrame:GetOnTextCopiedCallback()}}
 
 ==Returns==

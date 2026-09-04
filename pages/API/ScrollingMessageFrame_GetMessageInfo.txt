@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
 {{apisig|messageInfo {{=}} ScrollingMessageFrame:GetMessageInfo(messageIndex)}}
 
 ==Arguments==

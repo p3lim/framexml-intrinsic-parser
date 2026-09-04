@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ItemButtonMixin}}
-&nbsp;
 {{apisig|unknown {{=}} ItemButton:SetItemInternal(item)}}
 
 ==Arguments==

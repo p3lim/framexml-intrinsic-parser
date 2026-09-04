@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=AuraButtonSharedMixin}}
-&nbsp;
 {{apisig|tooltipAnchorPoint, tooltipOffsetX, tooltipOffsetY {{=}} AuraButton:GetTooltipAnchorPoint()}}
 
 ==Returns==

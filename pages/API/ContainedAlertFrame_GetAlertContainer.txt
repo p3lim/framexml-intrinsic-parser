@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ContainedAlertFrameMixin}}
-&nbsp;
 {{apisig|alertContainer {{=}} ContainedAlertFrame:GetAlertContainer()}}
 
 ==Returns==

@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
 {{apisig|unknown {{=}} ScrollingMessageFrame:RemoveMessagesByPredicate(predicate)}}
 
 ==Arguments==

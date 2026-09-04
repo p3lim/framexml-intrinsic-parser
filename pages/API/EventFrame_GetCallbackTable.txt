@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CallbackRegistryMixin}}
-&nbsp;
 {{apisig|unknown {{=}} EventFrame:GetCallbackTable(callbackType)}}
 
 ==Arguments==

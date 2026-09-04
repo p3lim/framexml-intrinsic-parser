@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
-&nbsp;
 {{apisig|AuraButton:SetDispelTypeText(fontString, options)}}
 
 ==Arguments==

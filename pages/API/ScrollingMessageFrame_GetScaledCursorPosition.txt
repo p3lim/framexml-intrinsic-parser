@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
 {{apisig|scaledCursorPosition, scaledCursorPosition {{=}} ScrollingMessageFrame:GetScaledCursorPosition()}}
 
 ==Returns==

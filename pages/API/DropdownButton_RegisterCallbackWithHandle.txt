@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CallbackRegistryMixin}}
-&nbsp;
 {{apisig|unknown {{=}} DropdownButton:RegisterCallbackWithHandle(event, func, owner, ...)}}
 
 ==Arguments==

@@ -1,3 +1,2 @@
 {{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
-&nbsp;
 {{apisig|AuraButton:ClearDurationBar()}}

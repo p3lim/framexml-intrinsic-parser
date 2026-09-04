@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=AuraContainerFlowLayoutSharedMixin}}
-&nbsp;
 {{apisig|flowLayoutGrowthDirection {{=}} AuraContainer:GetFlowLayoutGrowthDirection()}}
 
 ==Returns==

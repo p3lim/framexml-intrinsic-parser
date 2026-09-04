@@ -1,3 +1,2 @@
 {{intrinsicmethod|mixin=AuraContainerSharedMixin}}
-&nbsp;
 {{apisig|AuraContainer:UpdateAllAuras()}}

@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=UIThemeContainerMixin}}
-&nbsp;
 {{apisig|cVarValue {{=}} UIThemeContainerFrame:GetCVarValue()}}
 
 ==Returns==

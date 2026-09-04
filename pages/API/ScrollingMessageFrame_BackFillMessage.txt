@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=ScrollingMessageFrameMixin}}
-&nbsp;
 {{apisig|ScrollingMessageFrame:BackFillMessage(message, r, g, b, ...)}}
 
 ==Arguments==

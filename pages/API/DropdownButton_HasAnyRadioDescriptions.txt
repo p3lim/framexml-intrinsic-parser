@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=DropdownButtonMixin}}
-&nbsp;
 {{apisig|hasAnyRadioDescriptions {{=}} DropdownButton:HasAnyRadioDescriptions()}}
 
 ==Returns==

@@ -1,5 +1,4 @@
 {{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
-&nbsp;
 {{apisig|auraFrameCount {{=}} AuraContainer:GetAuraGroupFrameCount(groupKey)}}
 
 ==Arguments==
