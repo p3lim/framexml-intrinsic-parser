@@ -1,0 +1,5 @@
+{{intrinsicmethod|mixin=ManagedAuraContainerSharedMixin}}
+{{apisig|isEditModePreviewEnabled {{=}} AuraContainer:IsEditModePreviewEnabled()}}
+
+==Returns==
+:;isEditModePreviewEnabled:{{apitype|boolean}}

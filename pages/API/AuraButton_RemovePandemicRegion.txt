@@ -1,5 +1,5 @@
 {{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
-{{apisig|AuraButton:RemovePandemicRegion(index)}}
+{{apisig|AuraButton:RemovePandemicRegion(region)}}
 
 ==Arguments==
-:;index:{{apitype|number}}
+:;region:{{apitype|Region}}

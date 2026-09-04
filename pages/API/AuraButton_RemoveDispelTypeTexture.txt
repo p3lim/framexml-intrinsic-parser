@@ -1,5 +1,5 @@
 {{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
-{{apisig|AuraButton:RemoveDispelTypeTexture(index)}}
+{{apisig|AuraButton:RemoveDispelTypeTexture(texture)}}
 
 ==Arguments==
-:;index:{{apitype|number}}
+:;texture:{{apitype|Texture}}

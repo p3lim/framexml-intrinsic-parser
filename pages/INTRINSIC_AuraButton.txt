@@ -36,22 +36,28 @@ This data object has these [[forbidden aspect]]s attached to it, which will rest
 : {{apilink|t=Function|AuraButton:SetTooltipAnchorPoint|arg=point, offsetX, offsetY}}
 : {{apilink|t=Function|AuraButton:ShouldHideTooltipInCombat|ret=tooltipHideInCombat}}<section end=IntrinsicMethods/>
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|CustomAuraButtonTemplate}}:</span>
-: {{apilink|t=Function|AuraButton:AddDispelTypeTexture|arg=texture, options|ret=index}}
-: {{apilink|t=Function|AuraButton:AddPandemicRegion|arg=region|ret=index}}
+: {{apilink|t=Function|AuraButton:AddDispelTypeTexture|arg=texture, options}}
+: {{apilink|t=Function|AuraButton:AddPandemicActiveAnimation|arg=animationGroup}}
+: {{apilink|t=Function|AuraButton:AddPandemicEnterAnimation|arg=animationGroup}}
+: {{apilink|t=Function|AuraButton:AddPandemicLeaveAnimation|arg=animationGroup}}
+: {{apilink|t=Function|AuraButton:AddPandemicRegion|arg=region}}
 : {{apilink|t=Function|AuraButton:ClearApplicationBar}}
 : {{apilink|t=Function|AuraButton:ClearApplicationCount}}
-: {{apilink|t=Function|AuraButton:ClearAuraBorder}}
+: {{apilink|t=Function|AuraButton:ClearCasterName}}
 : {{apilink|t=Function|AuraButton:ClearDispelTypeText}}
 : {{apilink|t=Function|AuraButton:ClearDispelTypeTextures}}
 : {{apilink|t=Function|AuraButton:ClearDurationBar}}
 : {{apilink|t=Function|AuraButton:ClearDurationCooldown}}
 : {{apilink|t=Function|AuraButton:ClearDurationText}}
 : {{apilink|t=Function|AuraButton:ClearIcon}}
+: {{apilink|t=Function|AuraButton:ClearPandemicActiveAnimations}}
+: {{apilink|t=Function|AuraButton:ClearPandemicEnterAnimations}}
+: {{apilink|t=Function|AuraButton:ClearPandemicLeaveAnimations}}
 : {{apilink|t=Function|AuraButton:ClearPandemicRegions}}
 : {{apilink|t=Function|AuraButton:ClearSpellName}}
 : {{apilink|t=Function|AuraButton:GetApplicationBar|ret=applicationBar}}
 : {{apilink|t=Function|AuraButton:GetApplicationCount|ret=applicationCount}}
-: {{apilink|t=Function|AuraButton:GetAuraBorder|ret=auraBorder}}
+: {{apilink|t=Function|AuraButton:GetCasterName|ret=casterName}}
 : {{apilink|t=Function|AuraButton:GetDispelTypeText|ret=dispelTypeText}}
 : {{apilink|t=Function|AuraButton:GetDispelTypeTexture|arg=index|ret=dispelTypeTexture}}
 : {{apilink|t=Function|AuraButton:GetDispelTypeTextureCount|ret=dispelTypeTextureCount}}
@@ -60,11 +66,14 @@ This data object has these [[forbidden aspect]]s attached to it, which will rest
 : {{apilink|t=Function|AuraButton:GetDurationText|ret=durationText}}
 : {{apilink|t=Function|AuraButton:GetIcon|ret=icon}}
 : {{apilink|t=Function|AuraButton:GetSpellName|ret=spellName}}
-: {{apilink|t=Function|AuraButton:RemoveDispelTypeTexture|arg=index}}
-: {{apilink|t=Function|AuraButton:RemovePandemicRegion|arg=index}}
+: {{apilink|t=Function|AuraButton:RemoveDispelTypeTexture|arg=texture}}
+: {{apilink|t=Function|AuraButton:RemovePandemicActiveAnimation|arg=animationGroup}}
+: {{apilink|t=Function|AuraButton:RemovePandemicEnterAnimation|arg=animationGroup}}
+: {{apilink|t=Function|AuraButton:RemovePandemicLeaveAnimation|arg=animationGroup}}
+: {{apilink|t=Function|AuraButton:RemovePandemicRegion|arg=region}}
 : {{apilink|t=Function|AuraButton:SetApplicationBar|arg=statusBar, options}}
 : {{apilink|t=Function|AuraButton:SetApplicationCount|arg=fontString, options}}
-: {{apilink|t=Function|AuraButton:SetAuraBorder|arg=texture, options}}
+: {{apilink|t=Function|AuraButton:SetCasterName|arg=fontString, options}}
 : {{apilink|t=Function|AuraButton:SetDispelTypeText|arg=fontString, options}}
 : {{apilink|t=Function|AuraButton:SetDurationBar|arg=statusBar, options}}
 : {{apilink|t=Function|AuraButton:SetDurationCooldown|arg=cooldown}}

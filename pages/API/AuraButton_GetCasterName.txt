@@ -1,0 +1,5 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+{{apisig|casterName {{=}} AuraButton:GetCasterName()}}
+
+==Returns==
+:;casterName:{{apitype|unknown}}

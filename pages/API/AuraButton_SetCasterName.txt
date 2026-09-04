@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+{{apisig|AuraButton:SetCasterName(fontString, options)}}
+
+==Arguments==
+:;fontString:{{apitype|FontString}}
+:;options:{{apitype|CustomAuraButtonCasterNameOptions}} {{:Structure_CustomAuraButtonCasterNameOptions|nocaption=1}}
