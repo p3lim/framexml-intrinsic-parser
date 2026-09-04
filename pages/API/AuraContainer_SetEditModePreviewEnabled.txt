@@ -1,0 +1,5 @@
+{{intrinsicmethod|mixin=ManagedAuraContainerSharedMixin}}
+{{apisig|AuraContainer:SetEditModePreviewEnabled(enabled)}}
+
+==Arguments==
+:;enabled:{{apitype|boolean}}

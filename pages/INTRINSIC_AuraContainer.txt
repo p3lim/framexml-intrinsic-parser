@@ -35,31 +35,41 @@ CreateFrame("AuraContainer", nil, UIParent, "CustomAuraContainerTemplate")
 : {{apilink|t=Function|AuraContainer:GetAuraGroupFrame|arg=groupKey, frameIndex|ret=auraFrame}}
 : {{apilink|t=Function|AuraContainer:GetAuraGroupFrameCount|arg=groupKey|ret=auraFrameCount}}
 : {{apilink|t=Function|AuraContainer:GetAuraProcessingPolicy|ret=auraProcessingPolicy}}
+: {{apilink|t=Function|AuraContainer:GetAuraSlotFrame|arg=slotKey|ret=auraSlotFrame}}
 : {{apilink|t=Function|AuraContainer:GetFlowLayoutAnchorPoint|ret=flowLayoutAnchorPoint}}
 : {{apilink|t=Function|AuraContainer:GetFlowLayoutAxis|ret=flowLayoutAxis}}
 : {{apilink|t=Function|AuraContainer:GetFlowLayoutGrowthDirection|ret=flowLayoutGrowthDirection}}
 : {{apilink|t=Function|AuraContainer:GetFlowLayoutMaximumLineSize|ret=flowLayoutMaximumLineSize}}
 : {{apilink|t=Function|AuraContainer:GetFlowLayoutPadding|ret=flowLayoutPadding}}
+: {{apilink|t=Function|AuraContainer:GetItemEnchantmentFrame|arg=itemEnchantmentSlot|ret=itemEnchantmentFrame}}
 : {{apilink|t=Function|AuraContainer:GetUnit|ret=unitToken}}
 : {{apilink|t=Function|AuraContainer:HasAuraGroup|arg=groupKey|ret=hasAuraGroup}}
+: {{apilink|t=Function|AuraContainer:IsAuraGroupEnabled|arg=groupKey|ret=isAuraGroupEnabled}}
+: {{apilink|t=Function|AuraContainer:IsAuraSlotEnabled|arg=slotKey|ret=isAuraSlotEnabled}}
+: {{apilink|t=Function|AuraContainer:IsEditModePreviewEnabled|ret=isEditModePreviewEnabled}}
 : {{apilink|t=Function|AuraContainer:IsEnabled|ret=isEnabled}}
+: {{apilink|t=Function|AuraContainer:IsItemEnchantmentEnabled|arg=itemEnchantmentSlot|ret=isItemEnchantmentEnabled}}
 : {{apilink|t=Function|AuraContainer:ResetFlowLayoutOptions}}
 : {{apilink|t=Function|AuraContainer:ResetItemEnchantmentLayout}}
 : {{apilink|t=Function|AuraContainer:SetAuraGroupCandidateFilters|arg=groupKey, candidateFilters}}
+: {{apilink|t=Function|AuraContainer:SetAuraGroupEnabled|arg=groupKey, enabled}}
 : {{apilink|t=Function|AuraContainer:SetAuraGroupFilterString|arg=groupKey, filterString}}
 : {{apilink|t=Function|AuraContainer:SetAuraGroupLayout|arg=groupKey, layoutOptions}}
 : {{apilink|t=Function|AuraContainer:SetAuraGroupMaxFrameCount|arg=groupKey, maxFrameCount}}
 : {{apilink|t=Function|AuraContainer:SetAuraGroupSortMethod|arg=groupKey, sortMethod, sortDirection}}
 : {{apilink|t=Function|AuraContainer:SetAuraProcessingPolicy|arg=policy, options}}
 : {{apilink|t=Function|AuraContainer:SetAuraSlotCandidateFilters|arg=slotKey, candidateFilters}}
+: {{apilink|t=Function|AuraContainer:SetAuraSlotEnabled|arg=slotKey, enabled}}
 : {{apilink|t=Function|AuraContainer:SetAuraSlotFilterString|arg=slotKey, filterString}}
 : {{apilink|t=Function|AuraContainer:SetAuraSlotSortMethod|arg=slotKey, sortMethod, sortDirection}}
+: {{apilink|t=Function|AuraContainer:SetEditModePreviewEnabled|arg=enabled}}
 : {{apilink|t=Function|AuraContainer:SetEnabled|arg=enabled}}
 : {{apilink|t=Function|AuraContainer:SetFlowLayoutAnchorPoint|arg=anchorPoint}}
 : {{apilink|t=Function|AuraContainer:SetFlowLayoutAxis|arg=layoutAxis}}
 : {{apilink|t=Function|AuraContainer:SetFlowLayoutGrowthDirection|arg=horizontalDirection, verticalDirection}}
 : {{apilink|t=Function|AuraContainer:SetFlowLayoutMaximumLineSize|arg=maximumLineSize}}
 : {{apilink|t=Function|AuraContainer:SetFlowLayoutPadding|arg=left, right, top, bottom}}
+: {{apilink|t=Function|AuraContainer:SetItemEnchantmentEnabled|arg=itemEnchantmentSlot, enabled}}
 : {{apilink|t=Function|AuraContainer:SetItemEnchantmentLayout|arg=layoutOptions}}
 : {{apilink|t=Function|AuraContainer:SetItemEnchantmentSortMethod|arg=sortMethod, sortDirection}}
 : {{apilink|t=Function|AuraContainer:SetUnit|arg=unitToken}}

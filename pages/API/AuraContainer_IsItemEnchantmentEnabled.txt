@@ -1,0 +1,8 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+{{apisig|isItemEnchantmentEnabled {{=}} AuraContainer:IsItemEnchantmentEnabled(itemEnchantmentSlot)}}
+
+==Arguments==
+:;itemEnchantmentSlot:{{apitype|AuraContainerItemEnchantmentSlot}} {{:Structure_AuraContainerItemEnchantmentSlot|nocaption=1}}
+
+==Returns==
+:;isItemEnchantmentEnabled:{{apitype|unknown}}

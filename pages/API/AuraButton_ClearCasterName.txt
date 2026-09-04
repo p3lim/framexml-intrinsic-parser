@@ -1,0 +1,2 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+{{apisig|AuraButton:ClearCasterName()}}

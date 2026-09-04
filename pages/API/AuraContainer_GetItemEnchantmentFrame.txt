@@ -1,0 +1,8 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+{{apisig|itemEnchantmentFrame {{=}} AuraContainer:GetItemEnchantmentFrame(itemEnchantmentSlot)}}
+
+==Arguments==
+:;itemEnchantmentSlot:{{apitype|AuraContainerItemEnchantmentSlot}} {{:Structure_AuraContainerItemEnchantmentSlot|nocaption=1}}
+
+==Returns==
+:;itemEnchantmentFrame:{{apitype|boolean}}

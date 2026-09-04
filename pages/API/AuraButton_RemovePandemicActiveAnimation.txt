@@ -1,0 +1,5 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+{{apisig|AuraButton:RemovePandemicActiveAnimation(animationGroup)}}
+
+==Arguments==
+:;animationGroup:{{apitype|AnimationGroup}}

@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+{{apisig|AuraContainer:SetAuraSlotEnabled(slotKey, enabled)}}
+
+==Arguments==
+:;slotKey:{{apitype|string}}
+:;enabled:{{apitype|boolean}}

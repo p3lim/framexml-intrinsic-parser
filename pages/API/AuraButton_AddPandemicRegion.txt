@@ -1,8 +1,5 @@
 {{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
-{{apisig|index {{=}} AuraButton:AddPandemicRegion(region)}}
+{{apisig|AuraButton:AddPandemicRegion(region)}}
 
 ==Arguments==
 :;region:{{apitype|Region}}
-
-==Returns==
-:;index:{{apitype|number}}

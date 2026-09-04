@@ -1,0 +1,6 @@
+{{intrinsicmethod|mixin=CustomAuraContainerSharedMixin}}
+{{apisig|AuraContainer:SetItemEnchantmentEnabled(itemEnchantmentSlot, enabled)}}
+
+==Arguments==
+:;itemEnchantmentSlot:{{apitype|AuraContainerItemEnchantmentSlot}} {{:Structure_AuraContainerItemEnchantmentSlot|nocaption=1}}
+:;enabled:{{apitype|boolean}}

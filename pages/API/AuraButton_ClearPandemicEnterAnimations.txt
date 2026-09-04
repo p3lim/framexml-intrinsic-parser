@@ -1,2 +1,2 @@
 {{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
-{{apisig|AuraButton:ClearAuraBorder()}}
+{{apisig|AuraButton:ClearPandemicEnterAnimations()}}
