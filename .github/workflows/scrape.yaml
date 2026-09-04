@@ -53,6 +53,7 @@ jobs:
 
       - name: Parse and build pages
         run: |
+          rm -rf pages/*
           python main.py
 
       - name: Create pull request
