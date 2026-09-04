@@ -339,6 +339,15 @@ METHOD_SIGNATURE_MAP = {
       "texture": "Texture",
       "options": "Structure:CustomAuraButtonDispelTypeTextureOptions",
     },
+    "AddPandemicActiveAnimation": {
+      "animationGroup": "AnimationGroup",
+    },
+    "AddPandemicEnterAnimation": {
+      "animationGroup": "AnimationGroup",
+    },
+    "AddPandemicLeaveAnimation": {
+      "animationGroup": "AnimationGroup",
+    },
     "AddPandemicRegion": {
       "region": "Region",
     },
@@ -512,6 +521,9 @@ METHOD_SIGNATURE_MAP = {
     "SetAuraSlotCandidateFilters": {
       "slotKey": "string",
       "candidateFilters": "unknown", # TODO: we should create a custom page for this
+    },
+    "SetAuraSlotEnabled": {
+      "slotKey": "string",
     },
     "SetAuraSlotFilterString": {
       "slotKey": "string",
