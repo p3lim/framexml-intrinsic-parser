@@ -15,7 +15,6 @@
 [%- endmacro -%]
 
 {{intrinsicmethod|mixin=[[ mixin ]]}}
-&nbsp;
 [%- if data.signature | length > 0 %]
 [%- if data.returns | length > 0 %]
 {{apisig|[[ data.returns | map(attribute='name') | join(', ') ]] {{=}} [[ intrinsic ]]:[[ name ]]([[ data.signature | map(attribute='name') | join(', ') ]])}}
