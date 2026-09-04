@@ -348,9 +348,6 @@ METHOD_SIGNATURE_MAP = {
     "GetApplicationCount": {
       "applicationCount": "FontString",
     },
-    "GetAuraBorder": { # deprecated
-      "auraBorder": "Texture",
-    },
     "GetDispelTypeText": {
       "dispelTypeText": "FontString",
     },
@@ -372,6 +369,21 @@ METHOD_SIGNATURE_MAP = {
     "GetSpellName": {
       "spellName": "FontString",
     },
+    "RemoveDispelTypeTexture": {
+      "texture": "Texture",
+    },
+    "RemovePandemicActiveAnimation": {
+      "animationGroup": "AnimationGroup",
+    },
+    "RemovePandemicEnterAnimation": {
+      "animationGroup": "AnimationGroup",
+    },
+    "RemovePandemicLeaveAnimation": {
+      "animationGroup": "AnimationGroup",
+    },
+    "RemovePandemicRegion": {
+      "region": "Region",
+    },
     "SetApplicationBar": {
       "statusBar": "StatusBar",
       "options": "Structure:CustomAuraButtonApplicationBarOptions",
@@ -380,9 +392,9 @@ METHOD_SIGNATURE_MAP = {
       "fontString": "FontString",
       "options": "Structure:CustomAuraButtonApplicationCountOptions",
     },
-    "SetAuraBorder": { # deprecated
-      "texture": "Texture",
-      "options": "Structure:CustomAuraButtonDispelTypeTextureOptions",
+    "SetCasterName": {
+      "fontString": "FontString",
+      "options": "Structure:CustomAuraButtonCasterNameOptions",
     },
     "SetDispelTypeText": {
       "fontString": "FontString",
@@ -444,6 +456,9 @@ METHOD_SIGNATURE_MAP = {
       "frameIndex": "number",
       "auraFrame": "AuraButton",
     },
+    "GetAuraSlotFrame": {
+      "slotKey": "string",
+    },
     "GetAuraGroupFrameCount": {
       "groupKey": "string",
       "auraFrameCount": "number",
@@ -451,12 +466,27 @@ METHOD_SIGNATURE_MAP = {
     "GetAuraProcessingPolicy": {
       "auraProcessingPolicy": "FType:CustomAuraContainerAuraProcessingPolicy",
     },
+    "GetItemEnchantmentFrame": {
+      "itemEnchantmentSlot": "Structure:AuraContainerItemEnchantmentSlot",
+    },
     "HasAuraGroup": {
       "groupKey": "string",
+    },
+    "IsAuraGroupEnabled": {
+      "groupKey": "string",
+    },
+    "IsAuraSlotEnabled": {
+      "slotKey": "string",
+    },
+    "IsItemEnchantmentEnabled": {
+      "itemEnchantmentSlot": "Structure:AuraContainerItemEnchantmentSlot",
     },
     "SetAuraGroupCandidateFilters": {
       "groupKey": "string",
       "candidateFilters": "unknown", # TODO: we should create a custom page for this
+    },
+    "SetAuraGroupEnabled": {
+      "groupKey": "string",
     },
     "SetAuraGroupFilterString": {
       "groupKey": "string",
@@ -491,6 +521,9 @@ METHOD_SIGNATURE_MAP = {
       "slotKey": "string",
       "sortMethod": "FType:AuraContainerSortMethod",
       "sortDirection": "FType:AuraContainerSortDirection",
+    },
+    "SetItemEnchantmentEnabled": {
+      "itemEnchantmentSlot": "Structure:AuraContainerItemEnchantmentSlot",
     },
     "SetItemEnchantmentLayout": {
       "layoutOptions": "FType:CustomAuraContainerItemEnchantmentLayoutDefaultOptions",
