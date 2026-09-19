@@ -1,4 +1,4 @@
-{{wowapitype}}
+{{wowapitype}} [[Category:FrameXML types]]
 
 <onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
 |+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerItemEnchantmentDefaultOptions}}
