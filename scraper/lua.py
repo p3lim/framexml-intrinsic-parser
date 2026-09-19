@@ -335,6 +335,12 @@ def get_lua_tables(sources: list[Path]) -> dict[str, Table]:
 # custom mapping of method signature, since we can't scrape this info (reliably)
 METHOD_SIGNATURE_MAP = {
   "CustomAuraButtonSharedMixin": {
+    "AddAuraAssignedAnimation": {
+      "animationGroup": "AnimationGroup",
+    },
+    "AddAuraShownAnimation": {
+      "animationGroup": "AnimationGroup",
+    },
     "AddDispelTypeTexture": {
       "texture": "Texture",
       "options": "Structure:CustomAuraButtonDispelTypeTextureOptions",
@@ -377,6 +383,12 @@ METHOD_SIGNATURE_MAP = {
     },
     "GetSpellName": {
       "spellName": "FontString",
+    },
+    "RemoveAuraAssignedAnimation": {
+      "animationGroup": "AnimationGroup",
+    },
+    "RemoveAuraShownAnimation": {
+      "animationGroup": "AnimationGroup",
     },
     "RemoveDispelTypeTexture": {
       "texture": "Texture",

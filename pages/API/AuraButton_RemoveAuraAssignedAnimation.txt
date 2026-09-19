@@ -2,4 +2,4 @@
 {{apisig|AuraButton:RemoveAuraAssignedAnimation(animationGroup)}}
 
 ==Arguments==
-:;animationGroup:{{apitype|unknown}}
+:;animationGroup:{{apitype|AnimationGroup}}

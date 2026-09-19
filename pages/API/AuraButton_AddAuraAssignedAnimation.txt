@@ -2,4 +2,4 @@
 {{apisig|AuraButton:AddAuraAssignedAnimation(animationGroup)}}
 
 ==Arguments==
-:;animationGroup:{{apitype|unknown}}
+:;animationGroup:{{apitype|AnimationGroup}}
