@@ -112,7 +112,7 @@ def main() -> None:
 
     dump = XmlDump(f.name, revisions="latest")
     for entry in dump.parse():
-      title = urllib.parse.quote(entry.title.replace(" ", "_"))
+      title = entry.title.replace(" ", "_")
 
       # ensure someone else didn't alter the page
       if entry.username != username and entry.username != "P3lim": # my user will do too
