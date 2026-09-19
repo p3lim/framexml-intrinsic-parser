@@ -13,6 +13,9 @@ This runs on an interval through GitHub workflows once a week (the day after PTR
 This iterates through `pages/` and uploads them to [warcraft.wiki.gg](https://warcraft.wiki.gg).
 
 Unlike the scraping this is run manually, but will be automated at some point.
+
+Upload log: <https://warcraft.wiki.gg/wiki/Special:Log/P3limBot?limit=500>
+
 ## Runtime dependencies
 
 - [Python](https://www.python.org) 3.12 or newer
