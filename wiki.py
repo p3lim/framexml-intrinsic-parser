@@ -23,10 +23,7 @@ class Family(pywikibot.family.FandomFamily):
   domain = "warcraft.wiki.gg"
   codes = {"en"}
 
-# track pages that won't be uploaded
-changed = []
-
-def upload(page, name: str, file: Path) -> None:
+def upload(page, name: str, file: Path) -> bool:
   # print(f"Processing {name}...", file=sys.stderr)
   with open(file) as f:
     content = f.read()
@@ -34,19 +31,18 @@ def upload(page, name: str, file: Path) -> None:
 
     if page.exists() and hasattr(page, "_text") and page._text == content:
       # there are no changes, bail
-      return
+      return False
 
     # check if there were actually any changes
     diff = difflib.unified_diff(page.text.splitlines(keepends=True), content.splitlines(keepends=True))
     if len("".join(diff)) == 0:
-      return
-
-    # track changed pages
-    changed.append(name)
+      return False
 
     print(f"Uploading {name}...", file=sys.stderr)
     page.text = content
     page.save(summary=SUMMARY, watch="nochange", bot=True)
+
+  return True
 
 def login(user: str, bot: str, pw: str) -> pywikibot.Site:
   # configure user directly for the family
@@ -127,6 +123,9 @@ def main() -> None:
   # keep a set of the names of pages we process
   page_names = set()
 
+  # track pages that won't be uploaded
+  changed = []
+
   print("Processing pages...", file=sys.stderr)
   for file in Path("pages").rglob("*.txt"):
     # get the file name without the file extension suffix, and do replacements
@@ -140,12 +139,14 @@ def main() -> None:
     page_names.add(name)
 
     # get (cached) page reference and call for an upload
-    if name in pages:
-      if name not in blocked:
-        upload(pages[name], name, file)
-    else:
-      page = pywikibot.Page(site, name)
-      upload(page, name, file)
+    if name not in blocked:
+      if name in pages:
+          if upload(pages[name], name, file):
+            changed.append(name)
+      else:
+        page = pywikibot.Page(site, name)
+        if upload(page, name, file):
+          changed.append(name)
 
   # delete temporary password file when done
   Path(pywikibot.config.password_file).unlink()
