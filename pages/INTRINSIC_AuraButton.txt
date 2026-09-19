@@ -36,6 +36,8 @@ This data object has these [[forbidden aspect]]s attached to it, which will rest
 : {{apilink|t=Function|AuraButton:SetTooltipAnchorPoint|arg=point, offsetX, offsetY}}
 : {{apilink|t=Function|AuraButton:ShouldHideTooltipInCombat|ret=tooltipHideInCombat}}<section end=IntrinsicMethods/>
 ------ <span style="font-size: 110%;">Methods inherited from {{tlygo|CustomAuraButtonTemplate}}:</span>
+: {{apilink|t=Function|AuraButton:AddAuraAssignedAnimation|arg=animationGroup}}
+: {{apilink|t=Function|AuraButton:AddAuraShownAnimation|arg=animationGroup}}
 : {{apilink|t=Function|AuraButton:AddDispelTypeTexture|arg=texture, options}}
 : {{apilink|t=Function|AuraButton:AddPandemicActiveAnimation|arg=animationGroup}}
 : {{apilink|t=Function|AuraButton:AddPandemicEnterAnimation|arg=animationGroup}}
@@ -43,6 +45,8 @@ This data object has these [[forbidden aspect]]s attached to it, which will rest
 : {{apilink|t=Function|AuraButton:AddPandemicRegion|arg=region}}
 : {{apilink|t=Function|AuraButton:ClearApplicationBar}}
 : {{apilink|t=Function|AuraButton:ClearApplicationCount}}
+: {{apilink|t=Function|AuraButton:ClearAuraAssignedAnimations}}
+: {{apilink|t=Function|AuraButton:ClearAuraShownAnimations}}
 : {{apilink|t=Function|AuraButton:ClearCasterName}}
 : {{apilink|t=Function|AuraButton:ClearDispelTypeText}}
 : {{apilink|t=Function|AuraButton:ClearDispelTypeTextures}}
@@ -66,6 +70,8 @@ This data object has these [[forbidden aspect]]s attached to it, which will rest
 : {{apilink|t=Function|AuraButton:GetDurationText|ret=durationText}}
 : {{apilink|t=Function|AuraButton:GetIcon|ret=icon}}
 : {{apilink|t=Function|AuraButton:GetSpellName|ret=spellName}}
+: {{apilink|t=Function|AuraButton:RemoveAuraAssignedAnimation|arg=animationGroup}}
+: {{apilink|t=Function|AuraButton:RemoveAuraShownAnimation|arg=animationGroup}}
 : {{apilink|t=Function|AuraButton:RemoveDispelTypeTexture|arg=texture}}
 : {{apilink|t=Function|AuraButton:RemovePandemicActiveAnimation|arg=animationGroup}}
 : {{apilink|t=Function|AuraButton:RemovePandemicEnterAnimation|arg=animationGroup}}
