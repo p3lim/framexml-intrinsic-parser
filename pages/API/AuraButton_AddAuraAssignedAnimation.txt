@@ -1,0 +1,5 @@
+{{intrinsicmethod|mixin=CustomAuraButtonSharedMixin}}
+{{apisig|AuraButton:AddAuraAssignedAnimation(animationGroup)}}
+
+==Arguments==
+:;animationGroup:{{apitype|unknown}}
