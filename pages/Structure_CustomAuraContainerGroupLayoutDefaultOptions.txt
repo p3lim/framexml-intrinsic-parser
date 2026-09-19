@@ -1,10 +1,8 @@
-{{framexmltype}}
+{{wowapitype}}
 
 <onlyinclude>{| class="sortable darktable zebra" {{apitable.style}}
-|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerItemEnchantmentLayoutDefaultOptions}}
+|+ {{apitable.captionstyle}} | {{#if:{{{nocaption|}}}||CustomAuraContainerGroupLayoutDefaultOptions}}
 ! Field !! Type !! Description
-|-
-| {{apiname|placement}} || {{apitype|CustomAuraContainerItemEnchantmentPlacement?|default=CustomAuraContainerItemEnchantmentPlacement.BeforeAuraGroups}} || Where item enchantment frames are inserted relative to aura groups.
 |-
 | {{apiname|elementSpacing}} || {{apitype|number?|default=0}} || 
 |-
@@ -22,3 +20,7 @@
 |-
 | {{apiname|layoutIndex}} || {{apitype|number?}} || 
 |}</onlyinclude>
+==Details==
+Default per-filter layout settings for a group's contribution to the shared
+flow layout. These control spacing, gaps, row breaks, and optional element
+size overrides for that filter's visible frames.

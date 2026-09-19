@@ -3,4 +3,4 @@
 
 ==Arguments==
 :;policy:{{apitype|CustomAuraContainerAuraProcessingPolicy}} {{:FrameXML_types/CustomAuraContainerAuraProcessingPolicy|nocaption=1}}
-:;options:{{apitype|CustomAuraContainerProcessAuraPolicyDefaultOptions}} {{:FrameXML_types/CustomAuraContainerProcessAuraPolicyDefaultOptions|nocaption=1}}
+:;options:{{apitype|CustomAuraContainerProcessAuraPolicyDefaultOptions}} {{:Structure_CustomAuraContainerProcessAuraPolicyDefaultOptions|nocaption=1}}

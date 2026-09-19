@@ -2,4 +2,4 @@
 {{apisig|AuraContainer:SetItemEnchantmentLayout(layoutOptions)}}
 
 ==Arguments==
-:;layoutOptions:{{apitype|CustomAuraContainerItemEnchantmentLayoutDefaultOptions}} {{:FrameXML_types/CustomAuraContainerItemEnchantmentLayoutDefaultOptions|nocaption=1}}
+:;layoutOptions:{{apitype|CustomAuraContainerItemEnchantmentLayoutDefaultOptions}} {{:Structure_CustomAuraContainerItemEnchantmentLayoutDefaultOptions|nocaption=1}}

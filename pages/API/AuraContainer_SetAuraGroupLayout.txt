@@ -3,4 +3,4 @@
 
 ==Arguments==
 :;groupKey:{{apitype|string}}
-:;layoutOptions:{{apitype|CustomAuraContainerGroupLayoutDefaultOptions}} {{:FrameXML_types/CustomAuraContainerGroupLayoutDefaultOptions|nocaption=1}}
+:;layoutOptions:{{apitype|CustomAuraContainerGroupLayoutDefaultOptions}} {{:Structure_CustomAuraContainerGroupLayoutDefaultOptions|nocaption=1}}

@@ -449,12 +449,12 @@ METHOD_SIGNATURE_MAP = {
     "AddAuraGroup": {
       "groupKey": "string",
       "filterString": "Type:AuraFilters",
-      "options": "FType:CustomAuraContainerGroupDefaultOptions",
+      "options": "Structure:CustomAuraContainerGroupDefaultOptions",
     },
     "AddAuraSlot": {
       "slotKey": "string",
       "filterString": "Type:AuraFilters",
-      "options": "FType:CustomAuraContainerSlotDefaultOptions",
+      "options": "Structure:CustomAuraContainerSlotDefaultOptions",
     },
     "AddItemEnchantment": {
       "itemEnchantmentSlot": "Structure:AuraContainerItemEnchantmentSlot",
@@ -503,7 +503,7 @@ METHOD_SIGNATURE_MAP = {
     },
     "SetAuraGroupLayout": {
       "groupKey": "string",
-      "layoutOptions": "FType:CustomAuraContainerGroupLayoutDefaultOptions",
+      "layoutOptions": "Structure:CustomAuraContainerGroupLayoutDefaultOptions",
     },
     "SetAuraGroupMaxFrameCount": {
       "groupKey": "string",
@@ -516,7 +516,7 @@ METHOD_SIGNATURE_MAP = {
     },
     "SetAuraProcessingPolicy": {
       "policy": "FType:CustomAuraContainerAuraProcessingPolicy",
-      "options": "FType:CustomAuraContainerProcessAuraPolicyDefaultOptions",
+      "options": "Structure:CustomAuraContainerProcessAuraPolicyDefaultOptions",
     },
     "SetAuraSlotCandidateFilters": {
       "slotKey": "string",
@@ -538,7 +538,7 @@ METHOD_SIGNATURE_MAP = {
       "itemEnchantmentSlot": "Structure:AuraContainerItemEnchantmentSlot",
     },
     "SetItemEnchantmentLayout": {
-      "layoutOptions": "FType:CustomAuraContainerItemEnchantmentLayoutDefaultOptions",
+      "layoutOptions": "Structure:CustomAuraContainerItemEnchantmentLayoutDefaultOptions",
     },
     "SetItemEnchantmentSortMethod": {
       "sortMethod": "FType:AuraContainerItemEnchantmentSortMethod",
