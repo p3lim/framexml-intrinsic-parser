@@ -11,6 +11,7 @@ from pywikibot.xmlreader import XmlDump
 
 SUMMARY = "Automated upload"
 CATEGORIES = [
+  # https://warcraft.wiki.gg/wiki/Category:API_types
   "Intrinsic frames",
   "Intrinsic methods",
   "FrameXML types",
@@ -80,6 +81,7 @@ def main() -> None:
       pages[page.title().replace(" ", "_")] = page
 
   print(f"Found {len(pages.keys())} pages to export, exporting...")
+  # https://warcraft.wiki.gg/wiki/Special:Export
   res = http.request(
     site=site,
     uri="/wiki/Special:Export",
