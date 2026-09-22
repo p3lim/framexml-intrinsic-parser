@@ -7,9 +7,6 @@ from jinja2 import Environment, FileSystemLoader
 
 from scraper import get_xml_templates, get_xml_intrinsics, get_lua_tables, Table
 
-SOURCE_DIR = Path("wow-ui-source/Interface/AddOns")
-PAGES_DIR = Path("pages")
-
 # there are a _lot_ of templates based on intrinsics, and most of them have little value
 TEMPLATES_TO_KEEP = [
   "CustomAuraButtonTemplate",
@@ -44,13 +41,19 @@ def get_inherited_mixins(tables: dict[str, Table], origins: list[str]) -> list[s
 
   return mixins
 
-def main() -> None:
-  if not SOURCE_DIR.exists() or not SOURCE_DIR.is_dir():
-    print(f"Error: directory not found: {SOURCE_DIR}", file=sys.stderr)
+def main(src_path: Path | None = None) -> None:
+  if src_path is None:
+    src_path = Path("wow-ui-source")
+
+  base_name = src_path.name
+  src_path = src_path / Path("Interface/AddOns")
+
+  if not src_path.exists() or not src_path.is_dir():
+    print(f"Error: directory not found: {src_path}", file=sys.stderr)
     sys.exit(1)
 
   # scrape XML intrinsics, and get a list of files they were found in
-  intrinsics, intrinsic_files = get_xml_intrinsics(SOURCE_DIR)
+  intrinsics, intrinsic_files = get_xml_intrinsics(src_path)
   intrinsics_dict = {
     intrinsic["name"]: {k: v for k, v in intrinsic.items() if k != "name"}
     for intrinsic in [dict(intrinsic) for intrinsic in intrinsics]
@@ -58,7 +61,7 @@ def main() -> None:
 
   # use the list of intrinsics files to get their upper directories,
   # stripping the base prefix for easier manipulation and appending
-  intrinsic_paths = [Path(*Path(*path.parts[path.parts.index("wow-ui-source"):]).parts[3:4]) for path in intrinsic_files]
+  intrinsic_paths = [Path(*Path(*path.parts[path.parts.index(base_name):]).parts[3:4]) for path in intrinsic_files]
 
   # add extra paths we'll need for building inheritance
   intrinsic_paths.append(Path('Blizzard_SharedXMLBase'))
@@ -67,7 +70,7 @@ def main() -> None:
 
   # add prefix the prefix back to all the paths
   for index, path in enumerate(intrinsic_paths):
-    intrinsic_paths[index] = SOURCE_DIR / path
+    intrinsic_paths[index] = src_path / path
 
   # ensure we have unique paths
   intrinsic_paths = set(intrinsic_paths)
@@ -182,7 +185,7 @@ def main() -> None:
   # write pages to file
   for page, text in pages.items():
     # define the full (relative) path of the file to write to
-    path = (PAGES_DIR / page)
+    path = (Path("pages") / page)
     path = path.with_suffix(path.suffix + ".txt")
 
     # ensure the directory for the path exists
@@ -205,4 +208,7 @@ def main() -> None:
   # }, indent=2, sort_keys=True))
 
 if __name__ == "__main__":
-  main()
+  if len(sys.argv) > 1:
+    main(Path(sys.argv[1]))
+  else:
+    main()
