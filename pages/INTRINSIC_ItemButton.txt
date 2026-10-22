@@ -51,7 +51,6 @@ CreateFrame("ItemButton")
 |- class="mw-collapsible" id="mw-customcollapsible-methods"
 |
 {{:UIOBJECT_Frame|method}}
-{{:UIOBJECT_Region|method}}
 {{:UIOBJECT_ScriptRegion|method}}
 {{:UIOBJECT_ScriptRegionResizing|method}}
 {{:UIOBJECT_AnimatableObject|method}}

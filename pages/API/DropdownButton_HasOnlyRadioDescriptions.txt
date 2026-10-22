@@ -1,0 +1,5 @@
+{{intrinsicmethod|mixin=DropdownButtonMixin}}
+{{apisig|hasOnlyRadioDescriptions {{=}} DropdownButton:HasOnlyRadioDescriptions()}}
+
+==Returns==
+:;hasOnlyRadioDescriptions:{{apitype|boolean}}
