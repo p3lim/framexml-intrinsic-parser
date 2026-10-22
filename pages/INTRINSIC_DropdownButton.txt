@@ -30,6 +30,7 @@ CreateFrame("DropdownButton")
 : {{apilink|t=Function|DropdownButton:HandlesGlobalMouseEvent|arg=buttonName, event|ret=unknown}}
 : {{apilink|t=Function|DropdownButton:HasAnyRadioDescriptions|ret=hasAnyRadioDescriptions}}
 : {{apilink|t=Function|DropdownButton:HasElements|ret=hasElements}}
+: {{apilink|t=Function|DropdownButton:HasOnlyRadioDescriptions|ret=hasOnlyRadioDescriptions}}
 : {{apilink|t=Function|DropdownButton:HasRegistrantsForEvent|arg=event|ret=hasRegistrantsForEvent}}
 : {{apilink|t=Function|DropdownButton:HasStickyFocus|ret=hasStickyFocus}}
 : {{apilink|t=Function|DropdownButton:Increment}}
@@ -67,7 +68,6 @@ CreateFrame("DropdownButton")
 |- class="mw-collapsible" id="mw-customcollapsible-methods"
 |
 {{:UIOBJECT_Frame|method}}
-{{:UIOBJECT_Region|method}}
 {{:UIOBJECT_ScriptRegion|method}}
 {{:UIOBJECT_ScriptRegionResizing|method}}
 {{:UIOBJECT_AnimatableObject|method}}

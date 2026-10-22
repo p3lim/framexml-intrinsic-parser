@@ -93,7 +93,6 @@ This data object has these [[forbidden aspect]]s attached to it, which will rest
 |- class="mw-collapsible" id="mw-customcollapsible-methods"
 |
 {{:UIOBJECT_Frame|method}}
-{{:UIOBJECT_Region|method}}
 {{:UIOBJECT_ScriptRegion|method}}
 {{:UIOBJECT_ScriptRegionResizing|method}}
 {{:UIOBJECT_AnimatableObject|method}}
